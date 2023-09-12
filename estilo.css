@@ -272,11 +272,8 @@ body {
 .contenido {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   position: absolute;
-  /*Se define sobre section 2*/
-  top: 120px;
-  left: 60px;
 }
 
 .cajaArticle {
@@ -426,7 +423,7 @@ p {
 }
 
 .cajaLog img {
-  width: 12%;
+  width: 10%;
 }
 
 .cajaLugar {
