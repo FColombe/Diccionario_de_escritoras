@@ -593,6 +593,7 @@ p {
 }
 
 
+
 /*VISTA MOBILE        ______________________________________________________________________________________________________________________________________________________*/
 
 @media screen and (max-width: 550px) {
@@ -698,7 +699,7 @@ p {
   }
 
   .estiloCita {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .corchete {
@@ -777,7 +778,7 @@ p {
   }
 
   .contenedor {
-    max-height: 100vh;
+    max-height: 85vh;
     grid-template-rows: 0.5fr 5fr 0fr 0.6fr;
   }
 
@@ -801,141 +802,131 @@ p {
     padding-bottom: 1px;
   }
 
-  .footer {
-    font-size: 0.6rem;
-  }
-
-  .aside {
-    border-radius: 10px;
-    padding-left: 4px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    width: 115px;
-    height: 30px;
-    top: -35%;
-    left: 56%;
-    margin-bottom: 20px;
-  }
-
-  .estiloAside {
-    border-radius: 7px;
-    font-size: 0.75rem;
-    letter-spacing: 1px;
-    padding-left: 3px;
-    padding-right: 6px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-  }
-
   .main {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 1.5fr;
-    grid-template-areas:
-      "section1"
-      "section2";
     min-height: 120vh;
   }
-
+  
+  .cajaSeccion1 {
+    margin-top: 40px;
+    margin-bottom: 7px;
+  }
+  
   .imagenP {
-    margin-top: 6%;
+    margin-bottom: 40px;
   }
-
+  
   .imagenP img {
-    margin-top: 3%;
-    margin-bottom: 3%;
-    width: 190px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 220px;
   }
-
+  
   .borde {
-    width: 201px;
-    height: 201px;
+    width: 230px;
+    height: 230px;
     border-width: 2px;
   }
-
-
+  
   .barra {
-    width: 20px;
-    height: 600px;
-    border-radius: 6px;
-    top: 10%;
-    left: 1.8%;
+    width: 25px;
+    height: 850px;
+    left: 8px;
   }
-
+  
   .barra2 {
-    width: 22px;
-    height: 175px;
-    border-radius: 6px;
-    top: 16%;
-    left: 8.5%;
+    width: 30px;
+    height: 210px;
+    border-radius: 10px;
+    top: 10%;
+    left: 40px;
   }
-
+  
+  .circuloRosa {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .cajaCircRosa {
+    top: 15%;
+    right: 30px;
+  }
+  
+  .section2 {
+    width: 85%;
+  }
+  
+  .contenido {
+    flex-direction: column;
+    top: 120px;
+    left: 60px;
+  }
+  
+  .cajaArticle {
+    width: 300px;
+    height: 290px;
+    border-radius: 18px;
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 0px;
+    margin-top: -90px;
+  }
+  
+  .video {
+    width: 300px;
+    margin-top: 40px;
+    margin-left: 0px;
+    transform: rotate(0deg);
+  }
+  
+  .video video {
+    border-radius: 18px;
+  }
+  
+  .caja2C {
+    position: absolute;
+    top: 560px;
+    left: 25px;
+  }
+  
+  .aside {
+    border-radius: 12px;
+    width: 35%;
+    height: auto;
+    padding-left: 4px;
+    padding-right: 8px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    bottom: 30px;
+    right: -220px;
+  }
+  
+  .estiloAside {
+    border-radius: 7px;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
 
   .section2 {
-    grid-template-columns: 0.7fr 5fr 0.3fr 0.3fr 0.3fr;
-    grid-template-rows: 0.2fr 0.5fr 7fr 0.5fr 1fr 0.4fr 0.5fr;
-    grid-template-areas:
-      "vacio1 vacio1 vacio1 vacio1 vacio1"
-      "vacio2 vacio2 vacio6 columna3 vacio7"
-      "vacio3 centro vacio6 columna3 vacio7"
-      "vacio5 vacio5 vacio5 columna3 vacio7"
-      "travesaño1 travesaño1 travesaño1 columna3 travesaño"
-      "vacio8 vacio8 vacio8 columna3 vacio9"
-      "vacio10 vacio10 vacio10 vacio10 vacio10";
-    width: 100%;
+    grid-template-columns: 0.4fr 0.8fr 4.5fr 1.2fr 0.1fr 0.3fr 0.2fr;
+    grid-template-rows: 0.2fr 0.3fr 0.6fr 1.3fr 4.3fr 0.7fr 0.7fr 0.2fr 0.3fr;
+    width: 100vw;
   }
 
+  .columna2 {
+    border-radius: 14px;
+    border-bottom-left-radius: 0px;
+  }
+  
   .columna1 {
-    border-radius: 20px;
-  }
-
-  .vacio4 {
-    border-top-right-radius: 20px;
+    border-radius: 14px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
   }
 
   .columna3 {
-    border-radius: 7px;
+    border-radius: 8px;
   }
-
-  .centro {
-    border-radius: 20px;
-  }
-
-  .contenido {
-    flex-direction: column;
-    align-items: center;
-    top: 3.5%;
-    left: 1px
-  }
-
-  .cajaArticle {
-    width: 250px;
-    height: 255px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-left: -5px;
-  }
-
-  .video {
-    width: 245px;
-    height: auto;
-    margin-top: 33px;
-    margin-left: -5px;
-  }
-
-  .video video {
-    border-radius: 10px;
-  }
+  
 }
 
-
-
-
-
-
-
-
-
-
-
-
+  
