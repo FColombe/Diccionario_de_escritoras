@@ -276,18 +276,18 @@ body {
   align-items: center;
   position: absolute;
   width: 100%;
-  height: 80%;
+  height: 85%;
 }
 
 .cajaArticle {
   background-color: rgba(229, 129, 190);
-  width: 30%;
-  height: 65%;
+  width: 32%;
+  height: 68%;
   border-radius: 20px;
   padding-top: 30px;
   padding-left: 65px;
   padding-right: 65px;
-  margin-top: -65px;
+  margin-top: -70px;
   display: flex;
   flex-direction: column;
 }
@@ -296,7 +296,7 @@ body {
   width: 35%;
   height: auto;
   margin-top: 70px;
-  margin-left: 70px;
+  margin-left: 90px;
   transform: rotate(4.5deg);
 }
 
@@ -324,7 +324,7 @@ body {
   padding-top: 11px;
   padding-bottom: 10px;
   position: relative;
-  bottom: 50%;
+  bottom: 100%;
   right: -65%;
 }
 
