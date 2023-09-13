@@ -324,8 +324,8 @@ body {
   padding-top: 11px;
   padding-bottom: 10px;
   position: relative;
-  bottom: 100%;
-  right: -65%;
+  bottom: 300%;
+  right: -60%;
 }
 
 .estiloAside {
