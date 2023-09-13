@@ -276,13 +276,13 @@ body {
   align-items: center;
   position: absolute;
   width: 100%;
-  height: 70%;
+  height: 90%;
 }
 
 .cajaArticle {
   background-color: rgba(229, 129, 190);
-  width: 30%;
-  height: 60%;
+  width: 35%;
+  height: 75%;
   border-radius: 20px;
   padding-top: 25px;
   padding-left: 57px;
@@ -294,7 +294,7 @@ body {
 }
 
 .video {
-  width: 30%;
+  width: 35%;
   height: auto;
   margin-top: 90px;
   margin-left: 50px;
