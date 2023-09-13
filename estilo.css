@@ -281,21 +281,22 @@ body {
 
 .cajaArticle {
   background-color: rgba(229, 129, 190);
-  width: 32%;
+  width: 30%;
   height: 68%;
   border-radius: 20px;
-  padding-top: 30px;
-  padding-left: 65px;
-  padding-right: 65px;
-  margin-top: -70px;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: -80px;
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
 }
 
 .video {
-  width: 35%;
+  width: 33%;
   height: auto;
-  margin-top: 70px;
+  margin-top: 60px;
   margin-left: 90px;
   transform: rotate(4.5deg);
 }
@@ -324,7 +325,7 @@ body {
   padding-top: 11px;
   padding-bottom: 10px;
   position: relative;
-  bottom: 300%;
+  bottom: 250%;
   right: -60%;
 }
 
@@ -373,6 +374,10 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.titHeader a:hover{
+  text-shadow: 1px 1px 2px rgba(254, 210, 219);
 }
 
 .nave {
@@ -425,7 +430,7 @@ p {
 }
 
 .cajaLog img {
-  width: 10%;
+  width: 50px;
 }
 
 .cajaLugar {
@@ -554,7 +559,6 @@ p {
 }
 
 .cajaFlyer {
-
   position: absolute;
   left: 55%;
   top: 6%;
@@ -583,8 +587,8 @@ p {
 
 .cajaCLoque {
   position: absolute;
-  top: 4000px;
-  right: 30px;
+  bottom: -250%;
+  right: 50px;
 }
 
 .estiloArt2 {
