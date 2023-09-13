@@ -276,18 +276,17 @@ body {
   align-items: center;
   position: absolute;
   width: 100%;
-  height: 90%;
+  height: 80%;
 }
 
 .cajaArticle {
   background-color: rgba(229, 129, 190);
-  width: 35%;
-  height: 75%;
+  width: 30%;
+  height: 65%;
   border-radius: 20px;
-  padding-top: 25px;
-  padding-left: 57px;
-  padding-right: 57px;
-  margin-right: 100px;
+  padding-top: 30px;
+  padding-left: 65px;
+  padding-right: 65px;
   margin-top: -65px;
   display: flex;
   flex-direction: column;
@@ -296,7 +295,7 @@ body {
 .video {
   width: 35%;
   height: auto;
-  margin-top: 90px;
+  margin-top: 70px;
   margin-left: 50px;
   transform: rotate(5deg);
 }
@@ -325,8 +324,8 @@ body {
   padding-top: 11px;
   padding-bottom: 10px;
   position: relative;
-  bottom: 50px;
-  right: -770px;
+  bottom: 10%;
+  right: -70%;
 }
 
 .estiloAside {
