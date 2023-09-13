@@ -550,11 +550,11 @@ p {
 }
 
 .padd {
-  padding-right: 500px;
+  margin-right: 50%;
 }
 
 .cajaFlyer {
-  width: 42%;
+
   position: absolute;
   left: 55%;
   top: 6%;
