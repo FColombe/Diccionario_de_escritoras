@@ -77,6 +77,7 @@ body {
   background-color: rgba(229, 129, 190);
   border-radius: 50%;
 }
+
 /*----------*/
 
 .footer {
@@ -294,11 +295,11 @@ body {
 }
 
 .video {
-  width: 33%;
+  width: 35%;
   height: auto;
-  margin-top: 60px;
+  margin-top: 55px;
   margin-left: 90px;
-  transform: rotate(4.5deg);
+  transform: rotate(4deg);
 }
 
 .video video {
@@ -325,7 +326,7 @@ body {
   padding-top: 11px;
   padding-bottom: 10px;
   position: relative;
-  bottom: 250%;
+  bottom: 220%;
   right: -60%;
 }
 
@@ -376,7 +377,7 @@ p {
   align-items: center;
 }
 
-.titHeader a:hover{
+.titHeader a:hover {
   text-shadow: 1px 1px 2px rgba(254, 210, 219);
 }
 
@@ -555,10 +556,11 @@ p {
 }
 
 .padd {
-  margin-right: 50%;
+  padding-right: 50%;
 }
 
 .cajaFlyer {
+  width: 30%;
   position: absolute;
   left: 55%;
   top: 6%;
@@ -567,8 +569,8 @@ p {
 
 .cajaLoque {
   margin-top: 80px;
-  margin-bottom: 85px;
-  margin-left: 85px;
+  margin-bottom: 95px;
+  margin-left: 7%;
 }
 
 .cajaArt2 {
@@ -582,17 +584,33 @@ p {
 .cajaArt2ubicacion {
   position: absolute;
   top: 18%;
-  left: 57%;
+  left: 62%;
 }
 
 .cajaCLoque {
   position: absolute;
-  bottom: -250%;
+  bottom: -300%;
   right: 50px;
 }
 
 .estiloArt2 {
   font-size: 20px;
+}
+
+.cajaTaller {
+  background-color: rgba(229, 129, 190);
+  border-radius: 20px;
+  width: 43%;
+  height: 70%;
+  padding: 75px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-left: 5.5%;
+  margin-right: 7%;
+}
+
+.cajaFlyerTaller {
+  width: 40%;
 }
 
 
@@ -808,34 +826,34 @@ p {
   .main {
     min-height: 120vh;
   }
-  
+
   .cajaSeccion1 {
     margin-top: 40px;
     margin-bottom: 7px;
   }
-  
+
   .imagenP {
     margin-bottom: 40px;
   }
-  
+
   .imagenP img {
     margin-top: 0;
     margin-bottom: 0;
     width: 220px;
   }
-  
+
   .borde {
     width: 230px;
     height: 230px;
     border-width: 2px;
   }
-  
+
   .barra {
     width: 25px;
     height: 850px;
     left: 8px;
   }
-  
+
   .barra2 {
     width: 30px;
     height: 210px;
@@ -843,27 +861,27 @@ p {
     top: 10%;
     left: 40px;
   }
-  
+
   .circuloRosa {
     width: 30px;
     height: 30px;
   }
-  
+
   .cajaCircRosa {
     top: 15%;
     right: 30px;
   }
-  
+
   .section2 {
     width: 85%;
   }
-  
+
   .contenido {
     flex-direction: column;
     top: 120px;
     left: 60px;
   }
-  
+
   .cajaArticle {
     width: 300px;
     height: 290px;
@@ -873,24 +891,24 @@ p {
     margin-left: 0px;
     margin-top: -90px;
   }
-  
+
   .video {
     width: 300px;
     margin-top: 40px;
     margin-left: 0px;
     transform: rotate(0deg);
   }
-  
+
   .video video {
     border-radius: 18px;
   }
-  
+
   .caja2C {
     position: absolute;
     top: 560px;
     left: 25px;
   }
-  
+
   .aside {
     border-radius: 12px;
     width: 35%;
@@ -902,7 +920,7 @@ p {
     bottom: 30px;
     right: -220px;
   }
-  
+
   .estiloAside {
     border-radius: 7px;
     font-size: 12px;
@@ -919,7 +937,7 @@ p {
     border-radius: 14px;
     border-bottom-left-radius: 0px;
   }
-  
+
   .columna1 {
     border-radius: 14px;
     border-top-right-radius: 0px;
@@ -929,7 +947,5 @@ p {
   .columna3 {
     border-radius: 8px;
   }
-  
-}
 
-  
+}
