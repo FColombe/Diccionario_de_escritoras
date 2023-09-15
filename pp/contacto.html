@@ -34,40 +34,57 @@
     <main class="row">
         <section class="col-12">
             <div>
-                <div class="borde"></div>
-                <img src="../img/2_imagen_principal.png" class="img-fluid" alt="Logo">
+                <div class="barra2"></div>
+                <div class="display-block-flex cajaCircRosa">
+                    <div class="circuloRosa shadow me-0 mb-5 ms-lg-0 mb-lg-5"></div>
+                    <div class="circuloRosa shadow ms-0 me-0 mb-4 mt-3 ms-lg-0 me-lg-0 mt-lg-5 mb-lg-5"></div>
+                    <div class="circuloRosa shadow ms-0 mt-4 ms-lg-0 mt-lg-5"></div>
+                </div>
+                <div class="imagenP">
+                    <div class="borde"></div>
+                    <img src="../img/2_imagen_principal.png" alt="Logo">
+                </div>
             </div>
         </section>
         <section class="row">
-            <div class="col-4">
-                <img src="../img/trazo.png" class="img-fluid" alt="trazo">
+            <div class="col-12 d-flex align-items-center justify-content-center w-lg-25 estiloCita cajaCitaCiclos">
+                <div class="corchete me-lg-2">
+                    {
+                </div>
+                <div class="text-center text-lg-end">
+                    <div class="pb-lg-1">
+                        estoy encadenada al email al email al email
+                    </div>
+                    <div>
+                        Ceci y Fer (poeta y revolucionaria)
+                    </div>
+                </div>
+                <div class="corchete">
+                    }
+                </div>
             </div>
-            <div class="col-4">
-                estoy encadenada al email al email al email
-            </div>
-            <div class="col-4">
-                <img src="../img/trazo.png" class="img-fluid" alt="trazo">
-            </div>
-            <div class="col-12">
-                <h1>
+            <div class="row m-0 p-0">
+                <h1 class="estiloArt1">
                     Te leemos
                 </h1>
-                <form>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Tu nombre</label>
-                        <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Tu email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.
+                <form class="row m-0 p-0 mb-lg-4">
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                            <label for="nombre" class="form-label">Tu nombre</label>
+                            <input type="text" class="form-control" id="nombre" aria-describedby="emailHelp">
                         </div>
+                        <div>
+                            <label for="exampleInputEmail1" class="form-label">Tu email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.
+                            </div>
+                        </div> 
                     </div>
-                    <div class="mb-3">
-                        <label for="mensaje">Mensaje</label>
-                        <textarea class="form-control"></textarea>
+                    <div class="col-lg-6 mb-lg-3">
+                        <label for="mensaje" class="form-label">Mensaje</label>
+                        <textarea class="form-control h-75"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary">Enviar</button>
+                    <button type="submit" class="btn rounded-5 boton mt-lg-5">Enviar</button>
                 </form>
             </div>
         </section>

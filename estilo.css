@@ -299,7 +299,6 @@ body {
   height: auto;
   margin-top: 55px;
   margin-left: 90px;
-  transform: rotate(4deg);
 }
 
 .video video {
@@ -607,12 +606,31 @@ p {
   padding-right: 80px;
   margin-left: 5.5%;
   margin-right: 7%;
+  margin-bottom: 8%;
 }
 
 .cajaFlyerTaller {
   width: 40%;
 }
 
+.cajaModalidad{ 
+  width: 35%;
+  margin-top: -31%;
+  margin-left: 58%;
+  margin-bottom: 8%;
+}
+
+.cajaModalidad a:hover {
+  text-shadow: 1px 1px 2px rgb(134, 127, 128)}
+
+.boton{
+  text-align: center;
+  background-color: rgb(236, 190, 219);
+  width: 15%;
+  padding: 10px;
+  margin-left: 42%;
+  margin-bottom: 5%;
+}
 
 
 /*VISTA MOBILE        ______________________________________________________________________________________________________________________________________________________*/
