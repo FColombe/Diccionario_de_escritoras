@@ -581,7 +581,7 @@ p {
   border-radius: 18px;
   width: 13%;
   padding: 12px;
-  margin-left: 63%;
+  margin-left: 63%; 
 }
 
 .boton a{
@@ -646,12 +646,6 @@ p {
   line-height: 2rem;
 }
 
-.estiloForm button{
-  font-family: "Give You Glory", cursive;
-  font-size: 22px;
-  letter-spacing: 3px;
-}
-
 .estiloForm button:hover{
   background-color: rgb(236, 190, 219);
   font-weight: bold;
@@ -662,7 +656,7 @@ p {
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
   position: relative;
-  top: -40%;
+  top: -7%;
   padding: 25px;
   padding-left: 150px;
   margin-top: 20px;
@@ -670,19 +664,22 @@ p {
 }
 
 .barraUb{
-  background-color: rgba(254, 210, 219, 0.9);
-  width: 55px;
   height: 65%;
   position: absolute;
-  top: 105%;
+  top: 35%;
   left: 30px;
 }
 
 .cajaCitaC{
   position: relative;
-  left:55%;
+  left:50%;
+  top: -25px;
 }
 
+.barraHorizontal4 {
+  height: 500px;
+  background-color: rgb(252, 235, 161);
+}
 
 
 /*VISTA MOBILE        ______________________________________________________________________________________________________________________________________________________*/
