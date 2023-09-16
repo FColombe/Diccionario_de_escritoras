@@ -567,7 +567,7 @@ p {
 
 .cajaModalidad{ 
   width: 35%;
-  margin-top: -18%;
+  margin-top: -10%;
   margin-left: 58%;
   margin-bottom: 8%;
 }
@@ -617,19 +617,19 @@ p {
 
 .cajaCD{
   position: absolute;
-  top: 155%;
+  top: 150%;
   left: 15%;
 }
 
 .cajaCircRosaT{
   position: absolute;
-  top: 32%;
+  top: 43%;
   right: 150px;
 }
 
 .barra2T{
   position: absolute;
-  top: 25%;
+  top: 38%;
   left: 120px;
 }
 
@@ -648,7 +648,7 @@ p {
 
 .estiloForm button{
   font-family: "Give You Glory", cursive;
-  font-size: 24px;
+  font-size: 22px;
   letter-spacing: 3px;
 }
 
@@ -658,25 +658,29 @@ p {
 }
 
 .cajaTe{
-  background-color: rgb(243, 226, 93, 0.6);
+  background-color: rgb(243, 226, 93);
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
   position: relative;
   top: -40%;
   padding: 25px;
-  padding-left: 120px;
-  margin-top: 10px;
+  padding-left: 150px;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 .barraUb{
+  background-color: rgba(254, 210, 219, 0.9);
+  width: 55px;
+  height: 65%;
   position: absolute;
-  top: 30%;
-  left: 90px;
+  top: 105%;
+  left: 30px;
 }
 
 .cajaCitaC{
   position: relative;
-  left:60%;
+  left:55%;
 }
 
 
