@@ -20,69 +20,8 @@ body {
 }
 
 /*CLASES PROPIAS DEL INDEX - USO DE GRID*/
-.contenedor {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 0.3fr 3fr 0.2fr 0.5fr;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "header header header"
-    "main main main"
-    "aside aside aside"
-    "footer footer footer";
-}
 
-.header {
-  grid-area: header;
-  background-color: rgba(229, 129, 190);
-  border-color: rgba(229, 129, 190);
-  border-bottom-color: rgba(254, 210, 219, 0.6);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
 
-/*DUPLICADO - dsp usar .nave y sacar esto*/
-.na {
-  background-color: rgba(254, 210, 219, 0.7);
-  width: 100vw;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.na li {
-  padding: 10px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.na li a {
-  display: inline-block;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 1.5rem;
-  padding: 10px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.na li a:hover {
-  font-weight: bold;
-  background-color: rgba(229, 129, 190);
-  border-radius: 50%;
-}
-
-/*----------*/
-
-.footer {
-  grid-area: footer;
-}
 
 .main {
   display: grid;
@@ -93,7 +32,6 @@ body {
   grid-template-areas:
     "section1"
     "section2";
-  grid-area: main;
   min-height: 190vh;
 }
 
@@ -315,7 +253,6 @@ body {
 
 /*ASIDE*/
 .aside {
-  grid-area: aside;
   background-color: rgba(229, 129, 190, 0.9);
   border-radius: 20px;
   width: 20%;
@@ -568,7 +505,7 @@ p {
 }
 
 .cajaLoque {
-  margin-top: 150px;
+  margin-top: 180px;
   margin-bottom: 110px;
   margin-left: 7%;
 }
@@ -588,25 +525,26 @@ p {
 }
 .cajaBorde{
   background-color: transparent;
-  border: rgba(229, 129, 190) solid 3px;
+  border: rgba(229, 129, 190) solid 5px;
   border-radius: 20px;
   border-top: transparent;
   border-left: transparent;
-  width: 520px;
+  width: 550px;
   height: 350px;
   position: absolute;
   bottom: -10%;
+  right: 40px;
 }
 
 .cajaCLoque {
   position: absolute;
-  bottom: -300%;
+  bottom: -270%;
   right: 50px;
 }
 
 .cajaCCF{
   position: relative;
-  top: -630px;
+  top: -610px;
   left: 5%;
 }
 
@@ -628,7 +566,7 @@ p {
 }
 
 .cajaFlyerTaller {
-  width: 40%;
+  width: 45%;
 }
 
 .cajaModalidad{ 
