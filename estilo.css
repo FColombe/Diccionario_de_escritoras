@@ -235,8 +235,8 @@ body {
 .video {
   width: 35%;
   height: auto;
-  margin-top: 55px;
-  margin-left: 90px;
+  margin-top: 45px;
+  margin-left: 80px;
 }
 
 .video video {
@@ -262,8 +262,8 @@ body {
   padding-top: 11px;
   padding-bottom: 10px;
   position: relative;
-  bottom: 220%;
-  right: -60%;
+  top: -200px;
+  left: 55%;
 }
 
 .estiloAside {
