@@ -543,8 +543,9 @@ p {
 }
 
 .cajaCCF{
+  width: 60%;
   position: relative;
-  top: -610px;
+  top: -620px;
   left: 5%;
 }
 
@@ -566,12 +567,12 @@ p {
 }
 
 .cajaFlyerTaller {
-  width: 45%;
+  width: 35%;
 }
 
 .cajaModalidad{ 
   width: 35%;
-  margin-top: -15%;
+  margin-top: -32%;
   margin-left: 58%;
   margin-bottom: 8%;
 }
@@ -588,6 +589,17 @@ p {
   margin-bottom: 5%;
 }
 
+.boton a:active{
+  background-color: rgba(229, 129, 190);
+  padding: 3px;
+}
+
+.cajaCCD{
+  position: absolute;
+  top: 360px;
+  left: 10%;
+}
+
 .cajaCircRosaT{
   position: absolute;
   top: 25%;
@@ -601,8 +613,9 @@ p {
 }
 
 .cajaCitaT {
-  position: relative;
-  left: 60%;
+  position: absolute;
+  top: 250px;
+  left: 35%;
 }
 
 .estiloForm{
@@ -617,6 +630,12 @@ p {
   left: 18%;
   top: -50%
 }
+
+.cajaCitaC{
+  position: relative;
+  left:60%;
+}
+
 
 
 /*VISTA MOBILE        ______________________________________________________________________________________________________________________________________________________*/
