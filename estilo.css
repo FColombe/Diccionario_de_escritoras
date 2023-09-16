@@ -418,7 +418,7 @@ p {
 
 .cajaCCA {
   position: absolute;
-  top: 1930px;
+  top: 1950px;
   left: 100px;
 }
 
@@ -487,6 +487,13 @@ p {
   top: -150px
 }
 
+.barraHorizontal3 {
+  height: 500px;
+  background-color: rgb(252, 235, 161);
+  border-radius: 18px;
+  padding-left: 100px;
+}
+
 .calesita {
   margin-top: -940px;
   margin-bottom: 7%;
@@ -522,19 +529,6 @@ p {
   position: absolute;
   top: 17%;
   left: 62%;
-}
-
-.cajaBorde{
-  background-color: transparent;
-  border: rgba(229, 129, 190) solid 5px;
-  border-radius: 20px;
-  border-top: transparent;
-  border-left: transparent;
-  width: 550px;
-  height: 350px;
-  position: absolute;
-  bottom: -9%;
-  right: 25px;
 }
 
 .cajaCLoque {
