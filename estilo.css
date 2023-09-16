@@ -573,7 +573,7 @@ p {
 
 .cajaModalidad{ 
   width: 35%;
-  margin-top: -32%;
+  margin-top: -12%;
   margin-left: 58%;
   margin-bottom: 8%;
 }
@@ -585,10 +585,10 @@ p {
   text-align: center;
   background-color: rgba(229, 129, 190);
   border-radius: 18px;
-  width: 16%;
+  width: 13%;
   padding: 12px;
   margin-left: 63%;
-  margin-bottom: 5%;
+  margin-bottom: 4%;
 }
 
 .boton a{
@@ -624,7 +624,7 @@ p {
 
 .cajaCD{
   position: absolute;
-  top: 175%;
+  top: 155%;
   left: 15%;
 }
 
