@@ -700,6 +700,7 @@ p {
   top: -120px;
   width: 40%;
   height: 725px;
+  z-index: 2;
 }
 
 .cajaCitQ{
@@ -716,7 +717,7 @@ p {
 
 .imagenL{
   width: 500px;
-  margin-right: 50px;
+  margin-right: 80px;
   margin-bottom: 50px;
 }
 
@@ -728,8 +729,54 @@ p {
 .cajaLectoras{
   position: relative;
   top: -320px;
-  left: 50px;
 }
+
+.cajaAmigxs{
+  background-color: transparent;
+  border-radius: 20px;
+  border:  rgba(254, 210, 219) solid 5px;
+  width: 80%;
+  position: relative;
+  top: -480px;
+  left: 10%;
+}
+
+.cajaPuerta{
+  background-color: rgb(236, 190, 219);
+  border-radius: 20px;
+  width: 50%;
+  padding-left: 60px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  margin-left: -47px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+
+.cajaBruma{
+  background-color: rgb(236, 190, 219);
+  border-radius: 20px;
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 60px;
+  padding-bottom: 30px;
+  position: absolute;
+  left:54%;
+  top: 32%
+}
+
+.cuerpo{
+  max-height: 275vh;
+}
+
+.cajaCCQ2{
+  width: 40%;
+  position: absolute;
+  top: 8%;
+  left: 48%;
+}
+
+
 /*VISTA MOBILE        ______________________________________________________________________________________________________________________________________________________*/
 
 @media screen and (max-width: 550px) {
