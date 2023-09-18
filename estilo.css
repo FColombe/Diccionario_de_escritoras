@@ -536,7 +536,7 @@ p {
   right: 50px;
 }
 
-.cajaCCF{
+.cajaCCF {
   width: 60%;
   position: relative;
   top: -750px;
@@ -564,69 +564,70 @@ p {
   width: 35%;
 }
 
-.cajaModalidad{ 
+.cajaModalidad {
   width: 35%;
   margin-top: -11%;
   margin-left: 58%;
-  margin-bottom: 8%;
+  margin-bottom: 12%;
 }
 
 .cajaModalidad a {
-  text-shadow: 1px 1px 2px rgb(134, 127, 128)}
+  text-shadow: 1px 1px 2px rgb(134, 127, 128)
+}
 
-.boton{
+.boton {
   text-align: center;
   background-color: rgba(229, 129, 190);
   border-radius: 18px;
   width: 13%;
   padding: 12px;
-  margin-left: 63%; 
+  margin-left: 55%;
+  margin-bottom: -150px;
 }
 
-.boton a{
+.boton a {
   background-color: rgb(236, 190, 219);
   border-radius: 12px;
-  padding: 3px;
+  padding: 5px;
   padding-right: 12px;
   padding-left: 6px;
   margin-left: -12px;
 }
 
-.boton a:hover{
+.boton a:hover {
   font-weight: bold;
 }
 
-.ubBarra{
+.ubBarra {
   position: relative;
   top: -200px
-  
 }
 
-.cajaZ{
+.cajaZ {
   position: relative;
   z-index: 2;
   margin-bottom: -300px;
 }
 
-.cajaCCD{
+.cajaCCD {
   position: absolute;
   top: 360px;
   left: 13%;
 }
 
-.cajaCD{
+.cajaCD {
   position: absolute;
   top: 145%;
   left: 15%;
 }
 
-.cajaCircRosaT{
+.cajaCircRosaT {
   position: absolute;
   top: 43%;
   right: 150px;
 }
 
-.barra2T{
+.barra2T {
   position: absolute;
   top: 38%;
   left: 120px;
@@ -638,19 +639,19 @@ p {
   left: 40%;
 }
 
-.estiloForm{
+.estiloForm {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 23px;
   font-style: normal;
   line-height: 2rem;
 }
 
-.estiloForm button:hover{
+.estiloForm button:hover {
   background-color: rgb(236, 190, 219);
   font-weight: bold;
 }
 
-.cajaTe{
+.cajaTe {
   background-color: rgb(243, 226, 93);
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
@@ -662,14 +663,14 @@ p {
   margin-bottom: 15px;
 }
 
-.barraUb{
+.barraUb {
   height: 65%;
   position: absolute;
   top: 35%;
   left: 30px;
 }
 
-.cajaCitaC{
+.cajaCitaC {
   position: relative;
   left: 54%;
   top: -25px;
@@ -688,14 +689,14 @@ p {
   padding-bottom: 25px;
   padding-top: 25px;
   position: relative;
-  top: -200px;
+  top: -150px;
   z-index: 2;
   margin-left: 8%;
   margin-right: 7%;
 
 }
 
-.cajaVig{
+.cajaVig {
   position: relative;
   top: -120px;
   width: 40%;
@@ -703,19 +704,19 @@ p {
   z-index: 2;
 }
 
-.cajaCitQ{
+.cajaCitQ {
   position: relative;
-    left: 58%;
-    top: 100px;
+  left: 60%;
+  top: 100px;
 }
 
-.cajaCCQ{
+.cajaCCQ {
   position: absolute;
   top: 330px;
-  left: 13%;
+  left: 15%;
 }
 
-.imagenL{
+.imagenL {
   width: 500px;
   margin-right: 80px;
   margin-bottom: 50px;
@@ -726,22 +727,22 @@ p {
   top: -250px;
 }
 
-.cajaLectoras{
+.cajaLectoras {
   position: relative;
-  top: -320px;
+  top: -280px;
 }
 
-.cajaAmigxs{
+.cajaAmigxs {
   background-color: transparent;
   border-radius: 20px;
-  border:  rgba(254, 210, 219) solid 5px;
+  border: rgba(254, 210, 219) solid 5px;
   width: 80%;
   position: relative;
-  top: -480px;
+  top: -440px;
   left: 10%;
 }
 
-.cajaPuerta{
+.cajaPuerta {
   background-color: rgb(236, 190, 219);
   border-radius: 20px;
   width: 50%;
@@ -753,7 +754,7 @@ p {
   margin-bottom: 70px;
 }
 
-.cajaBruma{
+.cajaBruma {
   background-color: rgb(236, 190, 219);
   border-radius: 20px;
   width: 50%;
@@ -761,15 +762,15 @@ p {
   padding-right: 60px;
   padding-bottom: 30px;
   position: absolute;
-  left:54%;
+  left: 54%;
   top: 32%
 }
 
-.cuerpo{
-  max-height: 275vh;
+.cuerpo {
+  max-height: 270vh;
 }
 
-.cajaCCQ2{
+.cajaCCQ2 {
   width: 40%;
   position: absolute;
   top: 8%;
