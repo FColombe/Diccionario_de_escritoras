@@ -20,9 +20,6 @@ body {
 }
 
 /*CLASES PROPIAS DEL INDEX - USO DE GRID*/
-
-
-
 .main {
   display: grid;
   grid-template-columns: 1fr;
@@ -152,6 +149,7 @@ body {
   z-index: 10;
 }
 
+
 .barra {
   width: 60px;
   height: 1500px;
@@ -220,23 +218,23 @@ body {
 
 .cajaArticle {
   background-color: rgba(229, 129, 190);
-  width: 30%;
+  width: 32%;
   height: 68%;
   border-radius: 20px;
   padding-top: 40px;
   padding-left: 80px;
   padding-right: 80px;
   margin-top: -80px;
-  margin-right: 65px;
+  margin-right: 100px;
   margin-left: -150px;
   display: flex;
   flex-direction: column;
 }
 
 .video {
-  width: 35%;
+  width: 33%;
   height: auto;
-  margin-top: 45px;
+  margin-top: 50px;
 }
 
 .video video {
@@ -249,7 +247,6 @@ body {
   top: 95%;
   left: 170px;
 }
-
 
 /*ASIDE*/
 .aside {
@@ -351,12 +348,9 @@ p {
   align-items: center;
 }
 
-.enlace {
-  width: 22%;
-}
 
 .cajaIg img {
-  width: 100%;
+  width: 200px;
 }
 
 .cajaLog {
@@ -369,6 +363,7 @@ p {
 .cajaLog img {
   width: 50px;
   align-self: flex-end;
+  margin-left: -15px;
 }
 
 .cajaLugar {
@@ -707,10 +702,12 @@ p {
 }
 
 .cajaCitQ {
+  width: 500px;
   position: relative;
   left: 60%;
   top: 100px;
 }
+
 
 .cajaCCQ {
   position: absolute;
@@ -718,10 +715,16 @@ p {
   left: 15%;
 }
 
+.cajaContenidoL{
+  width: 40%;
+  margin-left: 8%;
+}
+
 .imagenL {
-  width: 500px;
-  margin-right: 80px;
+  width: 15%;
   margin-bottom: 50px;
+  margin-right: 10%;
+  transform: rotate(-6deg);
 }
 
 .barraQ {
@@ -769,7 +772,7 @@ p {
 }
 
 .cuerpo {
-  max-height: 110vh;
+  max-height: 140vh;
 }
 
 .cajaCCQ2 {
