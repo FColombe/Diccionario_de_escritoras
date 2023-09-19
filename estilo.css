@@ -340,17 +340,18 @@ p {
   font-weight: normal;
   font-size: 18px;
 }
+.cajaFooter a {font-size: 20px;}
 
 .cajaIg {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: baseline;
 }
 
 
 .cajaIg img {
-  width: 200px;
+  width: 100px;
 }
 
 .cajaLog {
