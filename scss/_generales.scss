@@ -25,3 +25,24 @@ p {
     font-weight: normal;
     font-size: 23px;
 }
+
+.circuloAmarillo {
+    background-color: rgb(243, 226, 93, 0.6);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.circuloFucsia {
+    background-color: rgba(229, 129, 190, 0.8);
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+
+.circuloRosa {
+    width: 65px;
+    height: 65px;
+    background-color: rgba(254, 210, 219, 0.9);
+    border-radius: 50%;
+}

@@ -1,23 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-a {
-    text-decoration: none;
-    color: rgb(87, 77, 79);
-}
-
-li {
-    list-style-type: none;
-}
-
-body {
-    background-color: rgb(247, 240, 170);
-    max-height: 100vh;
-    max-width: 100%;
-}
 
 /*CLASES PROPIAS DEL INDEX - USO DE GRID*/
 .main {
@@ -177,11 +158,7 @@ body {
     border-radius: 50%;
 }
 
-.cajaCircRosa {
-    position: absolute;
-    top: 15%;
-    right: 100px;
-}
+
 
 /*SECTION 2*/
 .section2 {
@@ -282,101 +259,8 @@ body {
 }
 
 /*ACÁ YA USO BOOTSTRAP - PARA TODAS LAS PP _______________________________________________________________________________________________________________________*/
-p {
-    padding-bottom: 6px;
-    padding-top: 4px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 23px;
-    font-style: normal;
-    line-height: 2rem;
-    text-align: justify;
-}
-
-.cajaHeader {
-    background-color: rgba(229, 129, 190);
-    border-color: rgba(229, 129, 190);
-    border-bottom-color: rgba(254, 210, 219, 0.6);
-}
-
-.titHeader {
-    font-family: 'Happy Monkey', cursive;
-    color: rgb(87, 77, 79);
-    font-weight: normal;
-    font-size: 60px;
-    letter-spacing: 3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.titHeader a:hover {
-    text-shadow: 1px 1px 2px rgba(254, 210, 219);
-}
-
-.nave {
-    background-color: rgba(254, 210, 219, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nave li a {
-    display: inline-block;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 25px;
-}
-
-.nave li a:hover {
-    font-weight: bold;
-    background-color: rgba(229, 129, 190);
-    border-radius: 50%;
-}
-
-.cajaFooter {
-    background-color: rgb(201, 236, 151);
-    font-family: "Josefin Sans", sans-serif;
-    color: rgb(87, 77, 79);
-    font-weight: normal;
-    font-size: 18px;
-}
-
-.cajaFooter a {
-    font-size: 20px;
-}
-
-.cajaIg {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: baseline;
-}
 
 
-.cajaIg img {
-    width: 100px;
-}
-
-.cajaLog {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.cajaLog img {
-    width: 50px;
-    align-self: flex-end;
-    margin-left: -15px;
-}
-
-.cajaLugar {
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .estiloArt1 {
     font-family: 'Happy Monkey', cursive;
@@ -694,7 +578,6 @@ p {
     z-index: 2;
     margin-left: 8%;
     margin-right: 7%;
-
 }
 
 .cajaVig {
