@@ -1,0 +1,11 @@
+{
+  "name": "diccionario_de_escritoras",
+  "version": "1.0.0",
+  "description": "Sitio web Diccionarix de escritoras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

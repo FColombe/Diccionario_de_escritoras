@@ -1,0 +1,62 @@
+.cajaFooter {
+    background-color: rgb(201, 236, 151);
+    height: 150px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+
+    .cajaIg {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+        div {
+            img {
+                width: 100px;
+                margin-bottom: 23px;
+            }
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 46px;
+        }
+    }
+
+    .cajaLugar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 72px;
+
+        p {
+            font-size: 15px;
+            margin-bottom: -3.5px;
+        }
+    }
+
+    .cajaLog {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: flex-end;
+        margin-left: -35px;
+
+        div {
+            margin-right: 15px;
+            margin-bottom: 46px;
+            a{
+                font-size: 18px;
+            }
+        }
+
+        div {
+            img {
+                width: 85px;
+                margin-bottom: 25px;
+            }
+        }
+    }
+
+}

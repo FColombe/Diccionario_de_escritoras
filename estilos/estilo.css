@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(87, 77, 79);
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: rgb(247, 240, 170);
+  max-height: 100vh;
+  max-width: 100%;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(87, 77, 79);
+  font-weight: normal;
+  font-size: 23px;
+}
+
+.cajaHeader {
+  background-color: rgb(229, 129, 190);
+  border-color: rgb(229, 129, 190);
+  border-bottom-color: rgba(254, 210, 219, 0.6);
+}
+.cajaHeader .titHeader {
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: normal;
+  font-size: 60px;
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cajaHeader .titHeader:hover {
+  text-shadow: 1px 1px 2px rgb(254, 210, 219);
+}
+.cajaHeader .nave {
+  background-color: rgba(254, 210, 219, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cajaHeader .nave li {
+  display: inline-block;
+}
+.cajaHeader .nave li a {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 25px;
+}
+.cajaHeader .nave li a:hover {
+  font-weight: bold;
+  background-color: rgb(229, 129, 190);
+  border-radius: 50%;
+}
+
+.cajaFooter {
+  background-color: rgb(201, 236, 151);
+  height: 150px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+}
+.cajaFooter .cajaIg {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.cajaFooter .cajaIg div img {
+  width: 100px;
+  margin-bottom: 23px;
+}
+.cajaFooter .cajaIg p {
+  font-size: 18px;
+  margin-bottom: 46px;
+}
+.cajaFooter .cajaLugar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 72px;
+}
+.cajaFooter .cajaLugar p {
+  font-size: 15px;
+  margin-bottom: -3.5px;
+}
+.cajaFooter .cajaLog {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: -35px;
+}
+.cajaFooter .cajaLog div {
+  margin-right: 15px;
+  margin-bottom: 46px;
+}
+.cajaFooter .cajaLog div a {
+  font-size: 18px;
+}
+.cajaFooter .cajaLog div img {
+  width: 85px;
+  margin-bottom: 25px;
+}
+
+/*# sourceMappingURL=estilo.css.map */
