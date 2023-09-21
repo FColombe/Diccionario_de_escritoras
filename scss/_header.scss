@@ -1,8 +1,8 @@
 .cajaHeader {
     background-color: $fucsia;
     border-color: $fucsia;
-    ;
     border-bottom-color: $rosaClaro;
+    
 
     .titHeader {
         font-family: $tipografiaTitulos;
@@ -12,6 +12,7 @@
         letter-spacing: 3px;
         text-shadow: 1px 1px 2px $rosa;
         @include flexColCenter;
+        margin-top: -20px;
 
         &:hover {
             font-weight: bold;

@@ -78,6 +78,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: -20px;
 }
 .cajaHeader .titHeader:hover {
   font-weight: bold;
