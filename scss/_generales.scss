@@ -4,45 +4,61 @@
     box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(87, 77, 79);
-}
-
-li {
-    list-style-type: none;
-}
-
 body {
     background-color: rgb(247, 240, 170);
     max-height: 100vh;
     max-width: 100%;
 }
 
-p {
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(87, 77, 79);
-    font-weight: normal;
-    font-size: 23px;
+a {
+    text-decoration: none;
+    color: $colorTexto;
 }
 
+li {
+    list-style-type: none;
+}
+
+p {
+    font-family: $tipografiaParrafos;
+    color: $colorTexto;
+    font-weight: normal;
+    text-align: start;
+}
+
+
+
+
 .circuloAmarillo {
-    background-color: rgb(243, 226, 93, 0.6);
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
+    background-color: $amarilloClaro;
+    @include dimensionC;
 }
 
 .circuloFucsia {
     background-color: rgba(229, 129, 190, 0.8);
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
+    @include dimensionC;
 }
 
 .circuloRosa {
-    width: 65px;
-    height: 65px;
     background-color: rgba(254, 210, 219, 0.9);
-    border-radius: 50%;
+    @include dimensionC;
 }
+
+.barra {
+    width: 60px;
+    height: 1100px;
+    background-color: $amarilloOscuro;
+    border-radius: 18px;
+}
+
+.barra2 {
+    width: 65px;
+    height: 400px;
+    background-color: $amarilloClaro;
+    border-radius: 18px;
+}
+
+
+
+
+

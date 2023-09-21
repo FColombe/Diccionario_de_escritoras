@@ -1,7 +1,7 @@
 .cajaFooter {
-    background-color: rgb(201, 236, 151);
+    background-color: $verde;
     height: 150px;
-    font-family: "Josefin Sans", sans-serif;
+    font-family: $tipografiaParrafos;
     font-weight: bold;
 
     .cajaIg {
@@ -24,10 +24,7 @@
     }
 
     .cajaLugar {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include flexColCenter;
         margin-top: 72px;
 
         p {
@@ -46,7 +43,8 @@
         div {
             margin-right: 15px;
             margin-bottom: 46px;
-            a{
+
+            a {
                 font-size: 18px;
             }
         }

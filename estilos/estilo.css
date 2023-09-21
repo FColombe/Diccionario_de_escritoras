@@ -1,7 +1,14 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(247, 240, 170);
+  max-height: 100vh;
+  max-width: 100%;
 }
 
 a {
@@ -13,17 +20,11 @@ li {
   list-style-type: none;
 }
 
-body {
-  background-color: rgb(247, 240, 170);
-  max-height: 100vh;
-  max-width: 100%;
-}
-
 p {
   font-family: "Josefin Sans", sans-serif;
   color: rgb(87, 77, 79);
   font-weight: normal;
-  font-size: 23px;
+  text-align: start;
 }
 
 .circuloAmarillo {
@@ -41,16 +42,30 @@ p {
 }
 
 .circuloRosa {
+  background-color: rgba(254, 210, 219, 0.9);
   width: 65px;
   height: 65px;
-  background-color: rgba(254, 210, 219, 0.9);
   border-radius: 50%;
+}
+
+.barra {
+  width: 60px;
+  height: 1100px;
+  background-color: rgb(252, 235, 161);
+  border-radius: 18px;
+}
+
+.barra2 {
+  width: 65px;
+  height: 400px;
+  background-color: rgba(243, 226, 93, 0.6);
+  border-radius: 18px;
 }
 
 .cajaHeader {
   background-color: rgb(229, 129, 190);
   border-color: rgb(229, 129, 190);
-  border-bottom-color: rgba(254, 210, 219, 0.6);
+  border-bottom-color: rgba(254, 210, 219, 0.9);
 }
 .cajaHeader .titHeader {
   font-family: "Happy Monkey", cursive;
@@ -58,17 +73,19 @@ p {
   font-weight: normal;
   font-size: 60px;
   letter-spacing: 3px;
+  text-shadow: 1px 1px 2px rgb(236, 190, 219);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .cajaHeader .titHeader:hover {
-  text-shadow: 1px 1px 2px rgb(254, 210, 219);
+  font-weight: bold;
 }
 .cajaHeader .nave {
-  background-color: rgba(254, 210, 219, 0.7);
+  background-color: rgba(254, 210, 219, 0.9);
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -149,19 +166,11 @@ p {
   position: relative;
 }
 .grilla1 .section1 .barra {
-  width: 60px;
-  height: 1500px;
-  background-color: rgb(252, 235, 161);
-  border-radius: 18px;
   position: absolute;
-  top: 6%;
-  left: 40px;
+  top: 5%;
+  left: 20px;
 }
 .grilla1 .section1 .barra2 {
-  width: 65px;
-  height: 400px;
-  background-color: rgba(243, 226, 93, 0.6);
-  border-radius: 18px;
   position: absolute;
   top: 12%;
   left: 120px;
@@ -175,12 +184,12 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
   align-items: center;
   margin-top: 70px;
 }
 .grilla1 .section1 .cajaSeccion1 .imagenP {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
@@ -200,46 +209,179 @@ p {
   width: 425px;
 }
 .grilla1 .section1 .cajaSeccion1 div {
-  width: 200px;
+  width: 600px;
 }
-.grilla1 .section1 .cajaSeccion1 div p .estiloCita {
+.grilla1 .section1 .cajaSeccion1 div .corchete {
   font-family: "Give You Glory", cursive;
-  color: rgb(87, 77, 79);
-  font-weight: normal;
-  font-size: 18px;
-  letter-spacing: 2px;
-  text-align: left;
-  width: 300px;
-}
-.grilla1 .section1 .cajaSeccion1 div p .corchete {
-  font-size: 70px;
   color: rgb(229, 129, 190);
-  padding-left: 0px;
-  padding-right: 5px;
+  width: 50px;
+  font-size: 90px;
+  margin-right: 8px;
+  margin-bottom: 30px;
 }
-.grilla1 .section1 .cajaSeccion1 div div p .estiloCita {
+.grilla1 .section1 .cajaSeccion1 div p {
   font-family: "Give You Glory", cursive;
   color: rgb(87, 77, 79);
   font-weight: normal;
-  font-size: 18px;
+  line-height: 30px;
   letter-spacing: 2px;
-  text-align: left;
-  width: 300px;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 0px;
 }
-.grilla1 .section1 .cajaSeccion1 div p .estiloCita {
-  font-family: "Give You Glory", cursive;
+.grilla1 .section2 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.7fr 4.8fr 0.7fr 0.2fr 0.3fr 0.3fr;
+  grid-template-rows: 0.2fr 0.3fr 0.6fr 1.3fr 4.3fr 0.7fr 0.4fr 0.4fr 0.4fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "vacio1 vacio1 vacio1 vacio1 vacio1 vacio1 vacio1" "vacio2 vacio2 vacio2 columna2 vacio6 vacio11 vacio7" "vacio2 vacio2 vacio2 columna2 vacio6 columna3 vacio7" "vacio3 columna1 vacio4 columna2 vacio6 columna3 vacio7" "vacio3 columna1 centro columna2 vacio6 columna3 vacio7" "vacio5 vacio5 vacio5 vacio5 vacio5 columna3 vacio7" "travesaño1 travesaño1 travesaño1 travesaño1 travesaño1 columna3 travesaño" "vacio8 vacio8 vacio8 vacio8 vacio8 columna3 vacio9" "vacio10 vacio10 vacio10 vacio10 vacio10 vacio10 vacio10";
+  grid-area: section2;
+  position: relative;
+  width: 100%;
+  height: 95%;
+}
+.grilla1 .section2 .caja2C {
+  position: absolute;
+  top: 75.5%;
+  left: 65%;
+}
+.grilla1 .section2 .contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 85%;
+}
+.grilla1 .section2 .contenido .cajaArticle {
+  background-color: rgb(229, 129, 190);
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  display: flex;
+  flex-direction: column;
+  width: 39%;
+  height: 68%;
+  margin-top: -80px;
+  margin-right: 5%;
+  margin-left: 4%;
+}
+.grilla1 .section2 .contenido .cajaArticle h1 {
+  font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
-  font-weight: normal;
-  font-size: 18px;
-  letter-spacing: 2px;
-  text-align: left;
-  width: 300px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 28px;
 }
-.grilla1 .section1 .cajaSeccion1 div p .corchete {
-  font-size: 70px;
-  color: rgb(229, 129, 190);
-  padding-left: 0px;
-  padding-right: 5px;
+.grilla1 .section2 .contenido .cajaArticle p {
+  font-size: 25px;
+}
+.grilla1 .section2 .contenido .video {
+  width: 41%;
+  height: auto;
+}
+.grilla1 .section2 .contenido .video video {
+  width: 100%;
+  border-radius: 20px;
+}
+.grilla1 .section2 .vacio1 {
+  grid-area: vacio1;
+}
+.grilla1 .section2 .vacio2 {
+  grid-area: vacio2;
+}
+.grilla1 .section2 .vacio3 {
+  grid-area: vacio3;
+}
+.grilla1 .section2 .columna2 {
+  grid-area: columna2;
+  background-color: rgb(236, 190, 219);
+  border-radius: 20px;
+  border-bottom-left-radius: 0px;
+}
+.grilla1 .section2 .columna1 {
+  grid-area: columna1;
+  background-color: rgb(236, 190, 219);
+  border-radius: 20px;
+  border-bottom-right-radius: 0px;
+}
+.grilla1 .section2 .vacio4 {
+  grid-area: vacio4;
+  background-color: rgba(243, 226, 93, 0.6);
+}
+.grilla1 .section2 .centro {
+  grid-area: centro;
+  background-color: rgb(236, 190, 219);
+}
+.grilla1 .section2 .vacio5 {
+  grid-area: vacio5;
+}
+.grilla1 .section2 .travesano1 {
+  grid-area: travesaño1;
+  background-color: rgb(252, 235, 161);
+}
+.grilla1 .section2 .vacio6 {
+  grid-area: vacio6;
+}
+.grilla1 .section2 .travesano {
+  grid-area: travesaño;
+  background-color: rgb(252, 235, 161);
+}
+.grilla1 .section2 .vacio7 {
+  grid-area: vacio7;
+}
+.grilla1 .section2 .vacio8 {
+  grid-area: vacio8;
+}
+.grilla1 .section2 .vacio9 {
+  grid-area: vacio9;
+}
+.grilla1 .section2 .vacio10 {
+  grid-area: vacio10;
+}
+.grilla1 .section2 .columna3 {
+  grid-area: columna3;
+  background-color: rgba(243, 226, 93, 0.6);
+  border-radius: 20px;
+}
+.grilla1 .section2 .vacio11 {
+  grid-area: vacio11;
+}
+
+.aside {
+  background-color: rgb(229, 129, 190);
+  border-radius: 20px;
+  width: 20%;
+  height: auto;
+  padding-left: 8px;
+  padding-right: 25px;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  position: relative;
+  top: -120px;
+  left: 40%;
+}
+.aside .estiloAside {
+  background-color: rgba(254, 210, 219, 0.9);
+  border-radius: 15px;
+  font-family: "Give You Glory", cursive;
+  font-size: 25px;
+  font-weight: normal;
+  color: rgb(87, 77, 79);
+  letter-spacing: 2.6px;
+  padding-left: 4px;
+  padding-right: 6px;
+  padding-top: 5px;
+  margin-bottom: 0px;
+}
+.aside .estiloAside:hover {
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilo.css.map */

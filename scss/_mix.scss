@@ -1,0 +1,55 @@
+@mixin flexRowCenter () {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexColCenter() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin cajaTextoFucsia() {
+    background-color: $fucsia;
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+@mixin estiloTitulos{
+        font-family: $tipografiaTitulos;
+        color: $colorTexto;
+        font-weight: bold;
+        letter-spacing: 3px;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        padding-left: 25px;
+    }
+
+
+@mixin corchete () {
+    font-family: $tipografiaSecundaria;
+    color: $fucsia;
+    width: 50px;
+}
+
+@mixin estiloCita {
+    font-family: $tipografiaSecundaria;
+    color: $colorTexto;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+@mixin dimensionC{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
