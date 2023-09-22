@@ -35,7 +35,7 @@ p {
 }
 
 .circuloFucsia {
-  background-color: rgba(229, 129, 190, 0.8);
+  background-color: rgb(229, 129, 190);
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -60,6 +60,11 @@ p {
   height: 400px;
   background-color: rgba(243, 226, 93, 0.6);
   border-radius: 18px;
+}
+
+.barraHorizontal {
+  background-color: rgb(252, 235, 161);
+  height: 320px;
 }
 
 .cajaHeader {
@@ -260,15 +265,16 @@ p {
   background-color: rgb(229, 129, 190);
   border-radius: 20px;
   padding-top: 30px;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
   display: flex;
   flex-direction: column;
-  width: 39%;
+  width: 36%;
   height: 68%;
   margin-top: -80px;
-  margin-right: 5%;
-  margin-left: 4%;
+  margin-right: 4.5%;
+  margin-left: 3.5%;
 }
 .grilla1 .section2 .contenido .cajaArticle h1 {
   font-family: "Happy Monkey", cursive;
@@ -284,7 +290,7 @@ p {
   font-size: 25px;
 }
 .grilla1 .section2 .contenido .video {
-  width: 41%;
+  width: 39%;
   height: auto;
 }
 .grilla1 .section2 .contenido .video video {
@@ -383,6 +389,216 @@ p {
 }
 .aside .estiloAside:hover {
   font-weight: bold;
+}
+
+main {
+  min-height: 300vh;
+}
+main .cajaCitaQ {
+  width: 520px;
+  position: relative;
+  left: 60%;
+  top: 100px;
+  z-index: 1;
+}
+main .cajaCitaQ .corchete {
+  font-family: "Give You Glory", cursive;
+  color: rgb(229, 129, 190);
+  width: 50px;
+  font-size: 90px;
+  margin-right: 15px;
+}
+main .cajaCitaQ p {
+  font-family: "Give You Glory", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: 2px;
+  font-size: 18px;
+  text-align: start;
+  margin-bottom: -5px;
+}
+main div {
+  margin-top: 130px;
+}
+main .ubCA {
+  position: absolute;
+  top: 330px;
+  left: 15%;
+}
+main section {
+  margin: 0;
+  padding: 0;
+}
+main section .cajaManifiesto {
+  background-color: rgb(236, 190, 219);
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  position: relative;
+  top: -150px;
+  z-index: 2;
+  margin-left: 8%;
+  margin-right: 7%;
+}
+main section .cajaManifiesto h1 {
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 28px;
+  padding-bottom: 0px;
+}
+main section .cajaManifiesto h2 {
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 28px;
+  padding-top: 15px;
+}
+main section .cajaManifiesto p {
+  font-size: 24px;
+}
+main section .cajaVig {
+  position: relative;
+  top: -120px;
+  width: 40%;
+  height: 725px;
+  z-index: 2;
+}
+main div {
+  position: relative;
+  top: -250px;
+}
+main .cajaLectoras {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -280px;
+}
+main .cajaLectoras .imgL {
+  width: 15%;
+  margin-bottom: 50px;
+  margin-right: 10%;
+  transform: rotate(-6deg);
+}
+main .cajaLectoras .lectoras {
+  background-color: rgb(229, 129, 190);
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+}
+main .cajaLectoras .lectoras h2 {
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 28px;
+  padding-top: 15px;
+}
+main .cajaLectoras .lectoras p {
+  font-size: 24px;
+}
+main div {
+  position: relative;
+  top: -250px;
+}
+main .cajaAmigxs {
+  background-color: transparent;
+  border-radius: 20px;
+  border: rgb(236, 190, 219) solid 5px;
+  width: 80%;
+  position: relative;
+  top: -440px;
+  left: 10%;
+}
+main .cajaAmigxs .ubCF {
+  width: 40%;
+  position: absolute;
+  top: 8%;
+  left: 48%;
+}
+main .cajaAmigxs h2 {
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 28px;
+  padding-top: 15px;
+}
+main .cajaAmigxs .cajaPuerta {
+  background-color: rgba(254, 210, 219, 0.9);
+  border-radius: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 75px;
+  padding-right: 75px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: -47px;
+  margin-top: 60px;
+  margin-bottom: 70px;
+}
+main .cajaAmigxs .cajaPuerta a {
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 22px;
+  padding-top: 15px;
+}
+main .cajaAmigxs .cajaBruma {
+  background-color: rgba(254, 210, 219, 0.9);
+  border-radius: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 75px;
+  padding-right: 75px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  position: absolute;
+  left: 54%;
+  top: 32%;
+}
+main .cajaAmigxs .cajaBruma a {
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 22px;
+  padding-top: 15px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

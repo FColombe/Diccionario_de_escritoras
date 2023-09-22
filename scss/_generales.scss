@@ -35,12 +35,12 @@ p {
 }
 
 .circuloFucsia {
-    background-color: rgba(229, 129, 190, 0.8);
+    background-color: $fucsia;
     @include dimensionC;
 }
 
 .circuloRosa {
-    background-color: rgba(254, 210, 219, 0.9);
+    background-color: $rosaClaro;
     @include dimensionC;
 }
 
@@ -58,7 +58,7 @@ p {
     border-radius: 18px;
 }
 
-
-
-
-
+.barraHorizontal {
+    background-color: $amarilloOscuro;
+    height: 320px;
+}
