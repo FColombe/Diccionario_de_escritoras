@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link rel="stylesheet" href="../estilos/estilo.css">
+    <link rel="stylesheet" href="../estilos/estilo.css">
     <link rel="shortcut icon" href="../img/1_favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +25,12 @@
         <nav class="m-0 p-0">
             <ul class="nave m-0 p-0 shadow">
                 <li class="p-1 me-2 ms-0 p-lg-2 me-lg-5 ms-lg-0"><a href="../index.html">inicio</a></li>
-                <li class="p-1 me-2 ms-0 p-lg-2 me-lg-5 ms-lg-0"><a href="../pp/quienesSomos.html">¿quiénes somos?</a></li>
-                <li class="p-1 me-2 ms-2 p-lg-2 me-lg-5 ms-lg-5"><a href="../pp/ciclo.html" >ciclos</a></li>
+                <li class="p-1 me-2 ms-0 p-lg-2 me-lg-5 ms-lg-0"><a href="../pp/quienesSomos.html">¿quiénes somos?</a>
+                </li>
+                <li class="p-1 me-2 ms-2 p-lg-2 me-lg-5 ms-lg-5"><a href="../pp/ciclo.html">ciclos</a></li>
                 <li class="p-1 me-2 ms-2 p-lg-2 me-lg-5 ms-lg-5"><a href="../pp/talleres.html">talleres</a></li>
-                <li class="p-1 me-0 ms-2 p-lg-2 me-lg-0 ms-lg-5"><a href="../pp/contacto.html" class="fw-bold">contacto</a></li>
+                <li class="p-1 me-0 ms-2 p-lg-2 me-lg-0 ms-lg-5"><a href="../pp/contacto.html"
+                        class="fw-bold">contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -50,12 +52,12 @@
             <div class="d-flex align-items-center justify-content-end cajaCitaC">
                 <p class="corchete">
                     {
-                    </p>
+                </p>
                 <div>
                     <p>
                         estoy encadenada al email al email al email
                     </p>
-                    <p>
+                    <p class="text-end">
                         Ceci y Fer (poeta y revolucionaria)
                     </p>
                 </div>
@@ -64,30 +66,31 @@
                 </p>
             </div>
         </section>
+        <div class="barraHorizontal7"></div>
         <section class="col-12 m-0 p-0">
-            <div class="barraHorizontal7"> 
-                <h1 class="cajaTe shadow">
-                    Te leemos
-                </h1>
-                <form class="row m-0 p-0 estiloForm">
-                    <div class="col-lg-6 d-block-flex">
-                        <div class="mb-4 w-50 mx-auto" style="width: 200px;">
-                            <label for="nombre" class="form-label">Tu nombre</label>
-                            <input type="text" class="form-control rounded-3" id="nombre" aria-describedby="emailHelp">
+            <h1 class="cajaTe shadow">
+                Te leemos
+            </h1>
+            <form class="row m-0 p-0 estiloForm">
+                <div class="col-lg-6 d-block-flex">
+                    <div class="mb-4 w-50 mx-auto" style="width: 200px;">
+                        <label for="nombre" class="form-label">Tu nombre</label>
+                        <input type="text" class="form-control rounded-3" id="nombre" aria-describedby="emailHelp">
+                    </div>
+                    <div class="w-50 mx-auto" style="width: 200px;">
+                        <label for="exampleInputEmail1" class="form-label mt-lg-4">Tu email</label>
+                        <input type="email" class="form-control rounded-3" id="exampleInputEmail1"
+                            aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text tamano">No compartiremos tu correo electrónico con nadie más.
                         </div>
-                        <div class="w-50 mx-auto" style="width: 200px;">
-                            <label for="exampleInputEmail1" class="form-label">Tu email</label>
-                            <input type="email" class="form-control rounded-3" id="exampleInputEmail1" aria-describedby="emailHelp">
-                            <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie más.
-                            </div>
-                        </div> 
                     </div>
-                    <div class="col-lg-6 mb-lg-3">
-                        <label for="mensaje" class="form-label ms-lg-3">Mensaje</label>
-                        <textarea class="form-control h-75 w-75 rounded-5"></textarea>
-                    </div>
-                    <button type="submit" class="btn rounded-5 botonC">Enviar</button>
-                </form>
+                </div>
+                <div class="col-lg-6 mb-lg-3">
+                    <label for="mensaje" class="form-label ms-lg-3">Mensaje</label>
+                    <textarea class="form-control h-75 w-75 rounded-5"></textarea>
+                </div>
+                <button type="submit" class="btn botonC mx-auto" style="width: 200px;">Enviar</button>
+            </form>
             </div>
         </section>
     </main>
@@ -122,4 +125,5 @@
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
 </body>
+
 </html>

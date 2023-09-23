@@ -28,7 +28,7 @@ p {
 }
 
 .circuloAmarillo {
-  background-color: rgba(243, 226, 93, 0.6);
+  background-color: rgb(243, 226, 93);
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -58,7 +58,7 @@ p {
 .barra2 {
   width: 65px;
   height: 400px;
-  background-color: rgba(243, 226, 93, 0.6);
+  background-color: rgb(243, 226, 93);
   border-radius: 18px;
 }
 
@@ -326,14 +326,14 @@ p {
 }
 .grilla1 .section2 .travesano1 {
   grid-area: travesaño1;
-  background-color: rgba(243, 226, 93, 0.6);
+  background-color: rgb(243, 226, 93);
 }
 .grilla1 .section2 .vacio6 {
   grid-area: vacio6;
 }
 .grilla1 .section2 .travesano {
   grid-area: travesaño;
-  background-color: rgba(243, 226, 93, 0.6);
+  background-color: rgb(243, 226, 93);
 }
 .grilla1 .section2 .vacio7 {
   grid-area: vacio7;
@@ -891,7 +891,7 @@ p {
   text-align: center;
   background-color: rgb(229, 129, 190);
   border-radius: 18px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .botonT a {
   background-color: rgba(254, 210, 219, 0.9);
@@ -933,20 +933,20 @@ p {
 
 .barra {
   position: absolute;
-  top: 5%;
-  left: 20px;
+  top: 30%;
+  left: 30px;
 }
 
 .barra2 {
   position: absolute;
-  top: 12%;
-  left: 120px;
+  top: 38%;
+  left: 130px;
 }
 
 .ubCR {
   position: absolute;
-  top: 15%;
-  right: 100px;
+  top: 42%;
+  right: 130px;
 }
 
 .imagenC {
@@ -954,7 +954,8 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-bottom: 50px;
+  margin-top: 45px;
+  margin-bottom: 90px;
 }
 .imagenC .borde {
   background-color: transparent;
@@ -973,6 +974,7 @@ p {
 
 .cajaCitaC {
   width: 600px;
+  margin-left: 50%;
 }
 .cajaCitaC p {
   font-family: "Give You Glory", cursive;
@@ -981,7 +983,7 @@ p {
   line-height: 30px;
   letter-spacing: 2px;
   font-size: 20px;
-  width: 280px;
+  width: 470px;
 }
 .cajaCitaC .corchete {
   font-family: "Give You Glory", cursive;
@@ -994,19 +996,15 @@ p {
   background-color: rgb(252, 235, 161);
   height: 320px;
   position: relative;
-  top: 35%;
+  top: 110px;
 }
 
 .cajaTe {
-  background-color: rgba(243, 226, 93, 0.6);
+  background-color: rgb(243, 226, 93);
   border-top-right-radius: 18px;
   border-bottom-right-radius: 18px;
-  position: relative;
-  top: -7%;
   padding: 25px;
-  padding-left: 150px;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  width: 55%;
   font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
   font-weight: bold;
@@ -1014,6 +1012,11 @@ p {
   padding-top: 30px;
   padding-bottom: 40px;
   padding-left: 25px;
+  font-size: 32px;
+  position: relative;
+  padding-left: 135px;
+  margin-top: -245px;
+  margin-bottom: 60px;
 }
 
 .estiloForm {
@@ -1021,17 +1024,22 @@ p {
   color: rgb(87, 77, 79);
   font-weight: normal;
   text-align: start;
-  font-size: 23px;
+  font-size: 22px;
+  height: 400px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.estiloForm .tamano {
+  font-size: 14px;
 }
 .estiloForm .botonC {
   text-align: center;
   background-color: rgb(229, 129, 190);
   border-radius: 18px;
-  font-size: 16px;
+  font-size: 18px;
   padding: 5px;
-  padding-right: 12px;
-  padding-left: 6px;
-  margin-left: -12px;
+  width: 100px;
+  height: 40px;
 }
 .estiloForm .botonC:hover {
   background-color: rgb(236, 190, 219);

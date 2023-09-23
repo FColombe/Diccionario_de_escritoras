@@ -1,24 +1,25 @@
 .barra {
     position: absolute;
-    top: 5%;
-    left: 20px;
+    top: 30%;
+    left: 30px;
 }
 
 .barra2 {
     position: absolute;
-    top: 12%;
-    left: 120px;
+    top: 38%;
+    left: 130px;
 }
 
 .ubCR {
     position: absolute;
-    top: 15%;
-    right: 100px;
+    top: 42%;
+    right: 130px;
 }
 
 .imagenC {
     @include flexRowCenter;
-    margin-bottom: 50px;
+    margin-top: 45px;
+    margin-bottom: 90px;
 
     .borde {
         @include bordeVerde;
@@ -31,14 +32,14 @@
     }
 }
 
-
 .cajaCitaC {
     width: 600px;
+    margin-left: 50%;
 
     p {
         @include estiloCita;
         font-size: 20px;
-        width: 280px;
+        width: 470px;
     }
 
     .corchete {
@@ -49,33 +50,40 @@
 
 .barraHorizontal7 {
     @include barraH;
-    top: 35%;
+    top: 110px;
 }
 
 .cajaTe {
     background-color: $amarilloOscuro;
     border-top-right-radius: 18px;
     border-bottom-right-radius: 18px;
-    position: relative;
-    top: -7%;
     padding: 25px;
-    padding-left: 150px;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    width: 55%;
     @include estiloTitulos;
+    font-size: 32px;
+    position: relative;
+    padding-left: 135px;
+    margin-top: -245px;
+    margin-bottom: 60px;
 }
 
 .estiloForm {
     @include estiloParrafo;
-    font-size: 23px;
+    font-size: 22px;
+    height: 400px;
+    position: relative;
+    margin-bottom: 100px;
+
+    .tamano{
+        font-size: 14px;
+    }
 
     .botonC {
         @include boton;
         padding: 5px;
-        padding-right: 12px;
-        padding-left: 6px;
-        margin-left: -12px;
-
+        width: 100px;
+        height: 40px;
+        
         &:hover {
             background-color: $rosa;
             font-weight: bold;
