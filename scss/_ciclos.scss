@@ -23,13 +23,11 @@
 .cajaCitaCiclos {
     width: 520px;
 
-
     p {
         @include estiloCita;
         font-size: 20px;
         width: 280px;
     }
-
 
     .corchete {
         @include corchete;

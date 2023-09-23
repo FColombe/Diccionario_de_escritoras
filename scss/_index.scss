@@ -40,13 +40,7 @@
                 margin-bottom: 50px;
 
                 .borde {
-                    background-color: transparent;
-                    width: 460px;
-                    height: 460px;
-                    border: solid $verde 5px;
-                    border-radius: 50%;
-                    position: absolute;
-                    z-index: 10;
+                    @include bordeVerde;
                 }
 
                 img {

@@ -55,6 +55,13 @@
     padding-left: 25px;
 }
 
+@mixin estiloParrafo{
+    font-family: $tipografiaParrafos;
+    color: $colorTexto;
+    font-weight: normal;
+    text-align: start;
+}
+
 @mixin corchete () {
     font-family: $tipografiaSecundaria;
     color: $fucsia;
@@ -76,7 +83,7 @@
 }
 
 @mixin barraH {
-    background-color: $amarilloOscuro;
+    background-color: $amarilloClaro;
     height: 320px;
     position: relative;
 }
@@ -86,4 +93,14 @@
     background-color: $fucsia;
     border-radius: 18px;
     font-size: 16px;
+}
+
+@mixin bordeVerde {
+    background-color: transparent;
+    width: 460px;
+    height: 460px;
+    border: solid $verde 5px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
 }

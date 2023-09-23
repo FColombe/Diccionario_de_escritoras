@@ -1,0 +1,84 @@
+.barra {
+    position: absolute;
+    top: 5%;
+    left: 20px;
+}
+
+.barra2 {
+    position: absolute;
+    top: 12%;
+    left: 120px;
+}
+
+.ubCR {
+    position: absolute;
+    top: 15%;
+    right: 100px;
+}
+
+.imagenC {
+    @include flexRowCenter;
+    margin-bottom: 50px;
+
+    .borde {
+        @include bordeVerde;
+    }
+
+    img {
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 425px;
+    }
+}
+
+
+.cajaCitaC {
+    width: 600px;
+
+    p {
+        @include estiloCita;
+        font-size: 20px;
+        width: 280px;
+    }
+
+    .corchete {
+        @include corchete;
+        font-size: 90px;
+    }
+}
+
+.barraHorizontal7 {
+    @include barraH;
+    top: 35%;
+}
+
+.cajaTe {
+    background-color: $amarilloOscuro;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    position: relative;
+    top: -7%;
+    padding: 25px;
+    padding-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    @include estiloTitulos;
+}
+
+.estiloForm {
+    @include estiloParrafo;
+    font-size: 23px;
+
+    .botonC {
+        @include boton;
+        padding: 5px;
+        padding-right: 12px;
+        padding-left: 6px;
+        margin-left: -12px;
+
+        &:hover {
+            background-color: $rosa;
+            font-weight: bold;
+        }
+    }
+}

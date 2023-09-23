@@ -20,15 +20,12 @@ li {
 }
 
 p {
-    font-family: $tipografiaParrafos;
-    color: $colorTexto;
-    font-weight: normal;
-    text-align: start;
+    @include estiloParrafo;
 }
 
 
 .circuloAmarillo {
-    background-color: $amarilloClaro;
+    background-color: $amarilloOscuro;
     @include dimensionC;
 }
 
@@ -45,14 +42,14 @@ p {
 .barra {
     width: 60px;
     height: 1100px;
-    background-color: $amarilloOscuro;
+    background-color: $amarilloClaro;
     border-radius: 18px;
 }
 
 .barra2 {
     width: 65px;
     height: 400px;
-    background-color: $amarilloClaro;
+    background-color: $amarilloOscuro;
     border-radius: 18px;
 }
 
