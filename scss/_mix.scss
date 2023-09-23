@@ -80,3 +80,10 @@
     height: 320px;
     position: relative;
 }
+
+@mixin boton {
+    text-align: center;
+    background-color: $fucsia;
+    border-radius: 18px;
+    font-size: 16px;
+}
