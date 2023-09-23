@@ -62,11 +62,6 @@ p {
   border-radius: 18px;
 }
 
-.barraHorizontal {
-  background-color: rgb(252, 235, 161);
-  height: 320px;
-}
-
 .cajaHeader {
   background-color: rgb(229, 129, 190);
   border-color: rgb(229, 129, 190);
@@ -391,24 +386,21 @@ p {
   font-weight: bold;
 }
 
-main {
-  min-height: 300vh;
-}
-main .cajaCitaQ {
+.cajaCitaQ {
   width: 520px;
   position: relative;
   left: 60%;
   top: 100px;
   z-index: 1;
 }
-main .cajaCitaQ .corchete {
+.cajaCitaQ .corchete {
   font-family: "Give You Glory", cursive;
   color: rgb(229, 129, 190);
   width: 50px;
   font-size: 90px;
   margin-right: 15px;
 }
-main .cajaCitaQ p {
+.cajaCitaQ p {
   font-family: "Give You Glory", cursive;
   color: rgb(87, 77, 79);
   font-weight: normal;
@@ -418,19 +410,21 @@ main .cajaCitaQ p {
   text-align: start;
   margin-bottom: -5px;
 }
-main div {
-  margin-top: 130px;
+
+.barraHorizontal1 {
+  background-color: rgb(252, 235, 161);
+  height: 320px;
+  position: relative;
+  top: 25px;
 }
-main .ubCA {
+
+.ubCA {
   position: absolute;
   top: 330px;
   left: 15%;
 }
-main section {
-  margin: 0;
-  padding: 0;
-}
-main section .cajaManifiesto {
+
+.cajaManifiesto {
   background-color: rgb(236, 190, 219);
   border-radius: 20px;
   padding-top: 30px;
@@ -446,7 +440,7 @@ main section .cajaManifiesto {
   margin-left: 8%;
   margin-right: 7%;
 }
-main section .cajaManifiesto h1 {
+.cajaManifiesto h1 {
   font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
   font-weight: bold;
@@ -457,7 +451,7 @@ main section .cajaManifiesto h1 {
   font-size: 28px;
   padding-bottom: 0px;
 }
-main section .cajaManifiesto h2 {
+.cajaManifiesto h2 {
   font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
   font-weight: bold;
@@ -468,21 +462,26 @@ main section .cajaManifiesto h2 {
   font-size: 28px;
   padding-top: 15px;
 }
-main section .cajaManifiesto p {
+.cajaManifiesto p {
   font-size: 24px;
 }
-main section .cajaVig {
+
+.cajaVig {
   position: relative;
   top: -120px;
   width: 40%;
   height: 725px;
   z-index: 2;
 }
-main div {
+
+.barraHorizontal2 {
+  background-color: rgb(252, 235, 161);
+  height: 320px;
   position: relative;
   top: -250px;
 }
-main .cajaLectoras {
+
+.cajaLectoras {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -490,13 +489,13 @@ main .cajaLectoras {
   position: relative;
   top: -280px;
 }
-main .cajaLectoras .imgL {
+.cajaLectoras .imgL {
   width: 15%;
   margin-bottom: 50px;
   margin-right: 10%;
   transform: rotate(-6deg);
 }
-main .cajaLectoras .lectoras {
+.cajaLectoras .lectoras {
   background-color: rgb(229, 129, 190);
   border-radius: 20px;
   padding-top: 30px;
@@ -506,7 +505,7 @@ main .cajaLectoras .lectoras {
   display: flex;
   flex-direction: column;
 }
-main .cajaLectoras .lectoras h2 {
+.cajaLectoras .lectoras h2 {
   font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
   font-weight: bold;
@@ -517,14 +516,18 @@ main .cajaLectoras .lectoras h2 {
   font-size: 28px;
   padding-top: 15px;
 }
-main .cajaLectoras .lectoras p {
+.cajaLectoras .lectoras p {
   font-size: 24px;
 }
-main div {
+
+.barraHorizontal3 {
+  background-color: rgb(252, 235, 161);
+  height: 320px;
   position: relative;
   top: -250px;
 }
-main .cajaAmigxs {
+
+.cajaAmigxs {
   background-color: transparent;
   border-radius: 20px;
   border: rgb(236, 190, 219) solid 5px;
@@ -533,13 +536,13 @@ main .cajaAmigxs {
   top: -440px;
   left: 10%;
 }
-main .cajaAmigxs .ubCF {
+.cajaAmigxs .ubCF {
   width: 40%;
   position: absolute;
   top: 8%;
   left: 48%;
 }
-main .cajaAmigxs h2 {
+.cajaAmigxs h2 {
   font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
   font-weight: bold;
@@ -550,7 +553,7 @@ main .cajaAmigxs h2 {
   font-size: 28px;
   padding-top: 15px;
 }
-main .cajaAmigxs .cajaPuerta {
+.cajaAmigxs .cajaPuerta {
   background-color: rgba(254, 210, 219, 0.9);
   border-radius: 20px;
   padding-top: 25px;
@@ -564,7 +567,7 @@ main .cajaAmigxs .cajaPuerta {
   margin-top: 60px;
   margin-bottom: 70px;
 }
-main .cajaAmigxs .cajaPuerta a {
+.cajaAmigxs .cajaPuerta .amigxs {
   font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
   font-weight: bold;
@@ -575,7 +578,7 @@ main .cajaAmigxs .cajaPuerta a {
   font-size: 22px;
   padding-top: 15px;
 }
-main .cajaAmigxs .cajaBruma {
+.cajaAmigxs .cajaBruma {
   background-color: rgba(254, 210, 219, 0.9);
   border-radius: 20px;
   padding-top: 25px;
@@ -589,7 +592,7 @@ main .cajaAmigxs .cajaBruma {
   left: 54%;
   top: 32%;
 }
-main .cajaAmigxs .cajaBruma a {
+.cajaAmigxs .cajaBruma .amigxs {
   font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
   font-weight: bold;
@@ -599,6 +602,71 @@ main .cajaAmigxs .cajaBruma a {
   padding-left: 25px;
   font-size: 22px;
   padding-top: 15px;
+}
+
+.barraHorizontal4 {
+  background-color: rgb(252, 235, 161);
+  height: 320px;
+  position: relative;
+  top: 50px;
+}
+
+.ubCA1 {
+  position: absolute;
+  top: 330px;
+  left: 15%;
+}
+
+.cajaH1 {
+  background-color: rgba(243, 226, 93, 0.6);
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  position: relative;
+  top: -210px;
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 28px;
+}
+
+.cajaCitaCiclos {
+  width: 520px;
+  position: relative;
+  left: 100px;
+  top: -60px;
+}
+.cajaCitaCiclos p {
+  font-family: "Give You Glory", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: 2px;
+  font-size: 20px;
+  width: 280px;
+}
+.cajaCitaCiclos .corchete {
+  font-family: "Give You Glory", cursive;
+  color: rgb(229, 129, 190);
+  width: 50px;
+  font-size: 90px;
+}
+
+.cajaAmiga {
+  background-color: rgb(236, 190, 219);
+  border-radius: 20px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: -80px;
+  margin-right: 100px;
+  margin-left: -150px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,47 @@
+.barraHorizontal4 {
+    @include barraH;
+    top: 50px;
+}
+
+.ubCA1 {
+    position: absolute;
+    top: 330px;
+    left: 15%;
+}
+
+.cajaH1 {
+    background-color: $amarilloClaro;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    position: relative;
+    top: -210px;
+
+    @include estiloTitulos;
+    font-size: 28px;
+}
+
+.cajaCitaCiclos {
+    width: 520px;
+    position: relative;
+    left: 100px;
+    top: -60px;
+
+    p{
+        @include estiloCita;
+        font-size: 20px;
+        width: 280px;
+    }
+    
+
+    .corchete {
+        @include corchete;
+        font-size: 90px;
+    }
+}
+
+.cajaAmiga{
+    @include cajaTextoRosa;
+    margin-top: -80px;
+    margin-right: 100px;
+    margin-left: -150px;
+}

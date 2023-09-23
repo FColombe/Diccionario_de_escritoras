@@ -45,18 +45,15 @@
     flex-direction: column;
 }
 
-
-
-@mixin estiloTitulos{
-        font-family: $tipografiaTitulos;
-        color: $colorTexto;
-        font-weight: bold;
-        letter-spacing: 3px;
-        padding-top: 30px;
-        padding-bottom: 40px;
-        padding-left: 25px;
-    }
-
+@mixin estiloTitulos {
+    font-family: $tipografiaTitulos;
+    color: $colorTexto;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+}
 
 @mixin corchete () {
     font-family: $tipografiaSecundaria;
@@ -72,8 +69,14 @@
     letter-spacing: 2px;
 }
 
-@mixin dimensionC{
+@mixin dimensionC {
     width: 65px;
     height: 65px;
     border-radius: 50%;
+}
+
+@mixin barraH {
+    background-color: $amarilloOscuro;
+    height: 320px;
+    position: relative;
 }

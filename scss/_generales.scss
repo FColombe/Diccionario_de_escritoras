@@ -27,8 +27,6 @@ p {
 }
 
 
-
-
 .circuloAmarillo {
     background-color: $amarilloClaro;
     @include dimensionC;
@@ -58,7 +56,3 @@ p {
     border-radius: 18px;
 }
 
-.barraHorizontal {
-    background-color: $amarilloOscuro;
-    height: 320px;
-}
