@@ -260,7 +260,7 @@ p {
   background-color: rgb(229, 129, 190);
   border-radius: 20px;
   padding-top: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
   padding-left: 80px;
   padding-right: 80px;
   display: flex;
@@ -499,7 +499,7 @@ p {
   background-color: rgb(229, 129, 190);
   border-radius: 20px;
   padding-top: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
   padding-left: 80px;
   padding-right: 80px;
   display: flex;
@@ -708,7 +708,7 @@ p {
   background-color: rgb(229, 129, 190);
   border-radius: 20px;
   padding-top: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
   padding-left: 80px;
   padding-right: 80px;
   display: flex;
@@ -818,20 +818,20 @@ p {
   background-color: rgb(252, 235, 161);
   height: 320px;
   position: relative;
-  top: 50px;
+  top: 75px;
 }
 
 .ubCA2 {
   position: absolute;
-  top: 360px;
+  top: 340px;
   left: 13%;
 }
 
 .cajaCitaT {
   position: absolute;
-  top: 250px;
-  left: 40%;
-  width: 520px;
+  top: 340px;
+  left: 47.5%;
+  width: 600px;
 }
 .cajaCitaT p {
   font-family: "Give You Glory", cursive;
@@ -840,20 +840,23 @@ p {
   line-height: 30px;
   letter-spacing: 2px;
   font-size: 18px;
-  width: 280px;
+  text-align: end;
+  width: 370px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 .cajaCitaT .corchete {
   font-family: "Give You Glory", cursive;
   color: rgb(229, 129, 190);
   width: 50px;
-  font-size: 90px;
+  font-size: 95px;
 }
 
 .cajaTaller {
   background-color: rgb(229, 129, 190);
   border-radius: 20px;
   padding-top: 30px;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
   padding-left: 80px;
   padding-right: 80px;
   display: flex;
@@ -863,6 +866,8 @@ p {
   margin-left: 5.5%;
   margin-right: 7%;
   margin-bottom: 8%;
+  position: relative;
+  z-index: 2;
 }
 .cajaTaller h1 {
   font-family: "Happy Monkey", cursive;
@@ -879,56 +884,70 @@ p {
 }
 
 .cajaFlyerTaller {
-  width: 35%;
-}
-
-.botonT {
-  font-family: "Give You Glory", cursive;
-  color: rgb(87, 77, 79);
-  font-weight: normal;
-  line-height: 30px;
-  letter-spacing: 2px;
-  text-align: center;
-  background-color: rgb(229, 129, 190);
-  border-radius: 18px;
-  font-size: 18px;
-}
-.botonT a {
-  background-color: rgba(254, 210, 219, 0.9);
-  border-radius: 12px;
-  padding: 5px;
-  padding-right: 12px;
-  padding-left: 6px;
-  margin-left: -12px;
-}
-.botonT a:hover {
-  font-weight: bold;
-}
-
-.cajaModalidad {
-  width: 35%;
-  margin-top: -11%;
-  margin-left: 58%;
-  margin-bottom: 10%;
-}
-.cajaModalidad p {
-  font-size: 25px;
-}
-.cajaModalidad a {
-  text-shadow: 1px 1px 2px rgb(87, 77, 79);
+  width: 37%;
+  position: relative;
+  z-index: 2;
+  top: 30px;
 }
 
 .barraHorizontal6 {
   background-color: rgb(252, 235, 161);
   height: 320px;
   position: relative;
-  top: 35%;
+  top: -260px;
+  margin-bottom: -120px;
+}
+
+.cajaModalidad {
+  width: 35%;
+  position: relative;
+  z-index: 2;
+  margin-top: -30%;
+  margin-left: 58%;
+  margin-bottom: 25px;
+}
+.cajaModalidad p {
+  font-size: 25px;
+}
+.cajaModalidad a {
+  text-shadow: 1px 1px 2px rgb(87, 77, 79);
+  font-size: 25px;
+}
+
+.botonT {
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(87, 77, 79);
+  font-weight: normal;
+  text-align: start;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgb(229, 129, 190);
+  border-radius: 16px;
+  padding: 5px;
+  width: 190px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  left: 67%;
+  top: -158px;
+}
+.botonT a {
+  background-color: rgba(254, 210, 219, 0.9);
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.botonT a:hover {
+  font-weight: bold;
 }
 
 .ubCF4 {
   position: absolute;
-  top: 145%;
-  left: 15%;
+  top: 155%;
+  left: 13%;
 }
 
 .barra {
@@ -1033,10 +1052,10 @@ p {
   font-size: 14px;
 }
 .estiloForm .botonC {
+  font-size: 18px;
   text-align: center;
   background-color: rgb(229, 129, 190);
-  border-radius: 18px;
-  font-size: 18px;
+  border-radius: 16px;
   padding: 5px;
   width: 100px;
   height: 40px;
