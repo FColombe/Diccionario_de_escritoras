@@ -764,9 +764,8 @@ p {
 
 .cajaLoque {
   position: relative;
-  top: -50px;
-  margin-bottom: 110px;
-  margin-left: 7%;
+  top: -180px;
+  margin-bottom: -100px;
 }
 .cajaLoque h2 {
   font-family: "Happy Monkey", cursive;
@@ -776,8 +775,9 @@ p {
   padding-top: 30px;
   padding-bottom: 40px;
   padding-left: 25px;
-  font-size: 28px;
-  padding-left: 100px;
+  font-size: 38px;
+  padding-left: 250px;
+  padding-bottom: 80px;
 }
 .cajaLoque .cajaLasMas, .cajaLoque .cajaCriticas {
   background-color: rgb(236, 190, 219);
@@ -788,6 +788,8 @@ p {
   padding-right: 80px;
   display: flex;
   flex-direction: column;
+  width: 40%;
+  margin-left: 90px;
 }
 .cajaLoque .cajaLasMas h3, .cajaLoque .cajaCriticas h3 {
   font-family: "Happy Monkey", cursive;
@@ -816,8 +818,9 @@ p {
 .ubCF2 {
   width: 480px;
   position: relative;
-  top: -570px;
-  left: 60px;
+  top: -670px;
+  left: 53%;
+  margin-bottom: -100px;
 }
 
 .ubCF3 {
