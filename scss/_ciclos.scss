@@ -27,7 +27,7 @@
     width: 520px;
     position: relative;
     z-index: 2;
-    left: 50px;
+    left: 100px;
     top: -30px;
 
     p {
@@ -46,9 +46,9 @@
 
 .cajaAmiga {
     @include cajaTextoRosa;
-    width: 620px;
+    width: 40%;
     margin-top: -50px;
-    margin-left: 50px;
+    margin-left: 6%;
     margin-bottom: 230px;
 
     h2 {
@@ -72,7 +72,7 @@
 .cajaJusticia {
     @extend .cajaAmiga;
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 6%;
 }
 
 .barraHlarga {
@@ -107,14 +107,15 @@
 
     p {
         font-size: 24px;
-        padding-right: 400px;
+        padding-right: 450px;
     }
 }
 
 .cajaFlyer {
-    width: 32%;
+    width: 450px;
     transform: rotate(4deg);
     position: absolute;
+    z-index: 2;
     left: 58%;
     margin-top: 25px;
 }
@@ -139,7 +140,7 @@
     .cajaLasMas {
         @include cajaTextoRosa;
         width: 40%;
-        margin-left: 90px;
+        margin-left: 5%;
 
 
         h3 {
@@ -159,7 +160,7 @@
 .ubCF2 {
     width: 480px;
     position: relative;
-    top: -670px;
+    top: -650px;
     left: 53%;
     margin-bottom: -100px;
 }
