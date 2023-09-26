@@ -706,10 +706,10 @@ p {
 }
 
 .cajaCitaCiclos {
-  width: 520px;
+  width: 460px;
   position: relative;
   z-index: 2;
-  left: 100px;
+  left: 12%;
   top: -30px;
 }
 .cajaCitaCiclos p {
@@ -821,8 +821,8 @@ p {
   transform: rotate(4deg);
   position: absolute;
   z-index: 2;
-  left: 58%;
-  margin-top: 25px;
+  left: 60%;
+  margin-top: 20px;
 }
 
 .barraHorizontal5 {
@@ -834,7 +834,7 @@ p {
 
 .cajaLoque {
   position: relative;
-  top: -180px;
+  top: -160px;
   margin-bottom: -100px;
 }
 .cajaLoque h2 {
