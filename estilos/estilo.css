@@ -81,7 +81,7 @@ p {
   margin-top: -20px;
 }
 .cajaHeader .titHeader a:hover {
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-name: brillar;
   animation-iteration-count: infinite;
 }
@@ -91,11 +91,11 @@ p {
     text-shadow: 1px 1px 2px rgb(87, 77, 79);
   }
   50% {
-    color: rgb(236, 190, 219);
-  }
-  100% {
     color: rgb(229, 129, 190);
     text-shadow: 1px 1px 2px rgb(229, 129, 190);
+  }
+  100% {
+    color: rgb(236, 190, 219);
   }
 }
 .cajaHeader .nave {
@@ -329,9 +329,6 @@ p {
   width: 100%;
   border-radius: 20px;
 }
-.grilla1 .section2 .vacio1 {
-  grid-area: vacio1;
-}
 .grilla1 .section2 .vacio2 {
   grid-area: vacio2;
 }
@@ -383,9 +380,6 @@ p {
   border-radius: 0px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-}
-.grilla1 .section2 .vacio11 {
-  grid-area: vacio11;
 }
 
 .cuerpo {

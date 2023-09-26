@@ -15,7 +15,7 @@
 
         a{
             &:hover {
-                animation-duration: 2s;
+                animation-duration: 1s;
                 animation-name: brillar;
                 animation-iteration-count: infinite;
             }
@@ -26,12 +26,12 @@
                     text-shadow: 1px 1px 2px $colorTexto;}
     
                 50%{
-                    color:$rosa;
+                    color: $fucsia;
+                    text-shadow: 1px 1px 2px $fucsia;                    
                 }
     
                 100% {
-                    color: $fucsia;
-                    text-shadow: 1px 1px 2px $fucsia;
+                    color:$rosa;                    
                 }
             }
         }

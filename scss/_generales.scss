@@ -23,8 +23,6 @@ p {
     @include estiloParrafo;
 }
 
-
-
 .circuloAmarillo {
     background-color: $amarilloOscuro;
     @include dimensionC;
