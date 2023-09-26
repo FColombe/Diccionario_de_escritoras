@@ -190,15 +190,17 @@
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
     width: 50%;
-    height: 100px;
+    height: 90px;
     position: absolute;
-    top: 370%;
+    top: 3130px;
     left: 50%;
 
     .estiloAside {
         width: 80%;
         background-color: $rosa;
         border-radius: 18px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
         font-family: $tipografiaSecundaria;
         font-size: 30px;
         font-weight: normal;
@@ -207,7 +209,7 @@
         letter-spacing: 2.6px;
         text-align: center;
         padding: 5px;
-        margin-top: 10px;
+        margin-top: 15px;
         margin-left: 140px;
 
         &:hover {
@@ -218,6 +220,6 @@
 
 .ubCA {
     position: absolute;
-    top: 372%;
+    top: 3150px;
     left: 10%;
 }

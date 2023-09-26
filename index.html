@@ -14,6 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Bubblegum+Sans&family=Give+You+Glory&family=Josefin+Sans:wght@300&family=Vibes&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Diccionarix de escritoras</title>
 </head>
 
@@ -37,9 +38,9 @@
     </header>
     <main class="grilla1">
         <section class="section1">
-            <div class="barra"></div>
-            <div class="barra2"></div>
-            <div class="display-block-flex cajaCRosa">
+            <div class="barra" data-aos="fade-right" data-aos-duration="1500"></div>
+            <div class="barra2" data-aos="fade-right" data-aos-duration="2000"></div>
+            <div class="display-block-flex cajaCRosa" data-aos="fade-down" data-aos-duration="2000">
                 <div class="circuloRosa shadow me-0 mb-5 ms-lg-0 mb-lg-5"></div>
                 <div class="circuloRosa shadow ms-0 me-0 mb-4 mt-3 ms-lg-0 me-lg-0 mt-lg-5 mb-lg-5"></div>
                 <div class="circuloRosa shadow ms-0 mt-4 ms-lg-0 mt-lg-5"></div>
@@ -71,7 +72,7 @@
             </div>
         </section>
         <section class="section2">
-            <div class="d-inline-flex caja2C">
+            <div class="d-inline-flex caja2C" data-aos="fade-down" data-aos-duration="2000">
                 <div class="circuloAmarillo shadow me-4 me-lg-5"></div>
                 <div class="circuloAmarillo shadow ms-1 ms-lg-4"></div>
                 <div class="circuloAmarillo shadow ms-2 ms-lg-5"></div>
@@ -85,9 +86,10 @@
                         El Diccionarix de Escritoras es un proyecto en expansión de lectura feminista.
                     </p>
                     <p class="mb-lg-2">
-                        Nuestro deseo es ir armando en comunidad un archivo de escritoras sudamericanas, ordenado pretenciosamente bajo la lógica del alfabeto.
+                        Nuestro deseo es ir armando en comunidad un archivo de escritoras sudamericanas, ordenado
+                        pretenciosamente bajo la lógica del alfabeto.
                     </p>
-                    <p class="mt-lg-4">
+                    <p class="mt-lg-4 padd">
                         Porque la literatura es más que nada las amigas.
                     </p>
                 </div>
@@ -145,6 +147,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>   AOS.init(); </script>
 </body>
 
 </html>

@@ -73,12 +73,11 @@
     .section2 {
         display: grid;
         grid-template-columns: 0.5fr 0.7fr 4.8fr 0.7fr 0.2fr 0.3fr 0.3fr;
-        grid-template-rows: 0.2fr 0.6fr 1.3fr 2fr 0.6fr 0.4fr;
+        grid-template-rows: 0.4fr 1.7fr 2fr 0.6fr 0.4fr;
         gap: 0px 0px;
         grid-auto-flow: row;
         grid-template-areas:
-            "vacio1 vacio1 vacio1 vacio1 vacio1 vacio1 vacio1"
-            "vacio2 vacio2 vacio2 columna2 vacio6 columna3 vacio7"
+            "vacio2 vacio2 vacio2 vacio2 vacio2 vacio2 vacio2"
             "vacio3 columna1 vacio4 columna2 vacio6 columna3 vacio7"
             "vacio3 columna1 centro columna2 vacio6 columna3 vacio7"
             "vacio5 vacio5 vacio5 vacio5 vacio5 columna3 vacio7"
@@ -87,40 +86,66 @@
         position: relative;
         width: 100%;
         max-height: max-content;
+        margin-top: 80px;
 
         .caja2C {
             position: absolute;
-            top: 70%;
-            left: 57%;
+            top: 67%;
+            left: 12%;
         }
 
         .contenido {
-            @include flexRowCenter;
+            @include flexColCenter;
             position: absolute;
             width: 100%;
             height: 85%;
 
             .cajaArticle {
                 @include cajaTextoFucsia;
-                width: 38%;
-                height: 68%;
-                margin-top: -50px;
-                margin-right: 35px;
+                width: 820px;
+                position: relative;
+                top: 50px;
+                left: -170px;
 
                 h1 {
                     @include estiloTitulos;
-                    font-size: 28px;
+                    font-size: 30px;
                 }
 
                 p {
-                    font-size: 25px;
+                    font-size: 27px;
+                }
+
+                .padd {
+                    padding-right: 320px;
+                    padding-top: 50px;
+                    font-size: 29px;
+                    animation-name: negrita;
+                    animation-iteration-count: 1;
+                    animation-timing-function: ease-out;
+                    animation-fill-mode: both;
+                    animation-duration: 10s;
+                    animation-delay: 1.5s;
+
+                    @keyframes negrita{
+                        0% {
+                            font-weight: normal}
+    
+                        100% {
+                            font-weight: bold;
+                        }
+                    }
+
                 }
             }
 
             .video {
-                width: 43%;
+                width: 630px;
                 height: auto;
-                margin-top: -20px;
+                position: relative;
+                top: -125px;
+                left: 230px;
+
 
                 video {
                     width: 100%;
@@ -146,6 +171,7 @@
             background-color: $rosa;
             border-radius: 20px;
             border-bottom-left-radius: 0px;
+            border-top-left-radius: 0px;
         }
 
         .columna1 {
@@ -153,6 +179,7 @@
             background-color: $rosa;
             border-radius: 20px;
             border-bottom-right-radius: 0px;
+            border-top-right-radius: 0px;
         }
 
         .vacio4 {
@@ -200,4 +227,3 @@
         }
     }
 }
-

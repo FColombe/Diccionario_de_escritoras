@@ -80,8 +80,23 @@ p {
   align-items: center;
   margin-top: -20px;
 }
-.cajaHeader .titHeader:hover {
-  font-weight: bold;
+.cajaHeader .titHeader a:hover {
+  animation-duration: 0.5s;
+  animation-name: brillar;
+  animation-iteration-count: infinite;
+}
+@keyframes brillar {
+  0% {
+    color: rgb(87, 77, 79);
+    text-shadow: 1px 1px 2px rgb(87, 77, 79);
+  }
+  50% {
+    color: rgb(236, 190, 219);
+  }
+  100% {
+    color: rgb(229, 129, 190);
+    text-shadow: 1px 1px 2px rgb(229, 129, 190);
+  }
 }
 .cajaHeader .nave {
   background-color: rgba(254, 210, 219, 0.9);
@@ -233,23 +248,24 @@ p {
 .grilla1 .section2 {
   display: grid;
   grid-template-columns: 0.5fr 0.7fr 4.8fr 0.7fr 0.2fr 0.3fr 0.3fr;
-  grid-template-rows: 0.2fr 0.6fr 1.3fr 2fr 0.6fr 0.4fr;
+  grid-template-rows: 0.4fr 1.7fr 2fr 0.6fr 0.4fr;
   gap: 0px 0px;
   grid-auto-flow: row;
-  grid-template-areas: "vacio1 vacio1 vacio1 vacio1 vacio1 vacio1 vacio1" "vacio2 vacio2 vacio2 columna2 vacio6 columna3 vacio7" "vacio3 columna1 vacio4 columna2 vacio6 columna3 vacio7" "vacio3 columna1 centro columna2 vacio6 columna3 vacio7" "vacio5 vacio5 vacio5 vacio5 vacio5 columna3 vacio7" "travesaño1 travesaño1 travesaño1 travesaño1 travesaño1 columna3 travesaño";
+  grid-template-areas: "vacio2 vacio2 vacio2 vacio2 vacio2 vacio2 vacio2" "vacio3 columna1 vacio4 columna2 vacio6 columna3 vacio7" "vacio3 columna1 centro columna2 vacio6 columna3 vacio7" "vacio5 vacio5 vacio5 vacio5 vacio5 columna3 vacio7" "travesaño1 travesaño1 travesaño1 travesaño1 travesaño1 columna3 travesaño";
   grid-area: section2;
   position: relative;
   width: 100%;
   max-height: max-content;
+  margin-top: 80px;
 }
 .grilla1 .section2 .caja2C {
   position: absolute;
-  top: 70%;
-  left: 57%;
+  top: 67%;
+  left: 12%;
 }
 .grilla1 .section2 .contenido {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -265,10 +281,10 @@ p {
   padding-right: 80px;
   display: flex;
   flex-direction: column;
-  width: 38%;
-  height: 68%;
-  margin-top: -50px;
-  margin-right: 35px;
+  width: 820px;
+  position: relative;
+  top: 50px;
+  left: -170px;
 }
 .grilla1 .section2 .contenido .cajaArticle h1 {
   font-family: "Happy Monkey", cursive;
@@ -278,15 +294,36 @@ p {
   padding-top: 30px;
   padding-bottom: 40px;
   padding-left: 25px;
-  font-size: 28px;
+  font-size: 30px;
 }
 .grilla1 .section2 .contenido .cajaArticle p {
-  font-size: 25px;
+  font-size: 27px;
+}
+.grilla1 .section2 .contenido .cajaArticle .padd {
+  padding-right: 320px;
+  padding-top: 50px;
+  font-size: 29px;
+  animation-name: negrita;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+  animation-duration: 10s;
+  animation-delay: 1.5s;
+}
+@keyframes negrita {
+  0% {
+    font-weight: normal;
+  }
+  100% {
+    font-weight: bold;
+  }
 }
 .grilla1 .section2 .contenido .video {
-  width: 43%;
+  width: 630px;
   height: auto;
-  margin-top: -20px;
+  position: relative;
+  top: -125px;
+  left: 230px;
 }
 .grilla1 .section2 .contenido .video video {
   width: 100%;
@@ -306,12 +343,14 @@ p {
   background-color: rgb(236, 190, 219);
   border-radius: 20px;
   border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
 }
 .grilla1 .section2 .columna1 {
   grid-area: columna1;
   background-color: rgb(236, 190, 219);
   border-radius: 20px;
   border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
 }
 .grilla1 .section2 .vacio4 {
   grid-area: vacio4;
@@ -591,15 +630,17 @@ p {
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   width: 50%;
-  height: 100px;
+  height: 90px;
   position: absolute;
-  top: 370%;
+  top: 3130px;
   left: 50%;
 }
 .aside .estiloAside {
   width: 80%;
   background-color: rgb(236, 190, 219);
   border-radius: 18px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
   font-family: "Give You Glory", cursive;
   font-size: 30px;
   font-weight: normal;
@@ -608,7 +649,7 @@ p {
   letter-spacing: 2.6px;
   text-align: center;
   padding: 5px;
-  margin-top: 10px;
+  margin-top: 15px;
   margin-left: 140px;
 }
 .aside .estiloAside:hover {
@@ -617,7 +658,7 @@ p {
 
 .ubCA {
   position: absolute;
-  top: 372%;
+  top: 3150px;
   left: 10%;
 }
 
@@ -921,7 +962,7 @@ p {
   width: 30%;
   position: relative;
   z-index: 2;
-  top: 30px;
+  top: 20px;
 }
 
 .barraHorizontal6 {
@@ -936,8 +977,8 @@ p {
   width: 35%;
   position: relative;
   z-index: 2;
-  margin-top: -10%;
-  margin-left: 58%;
+  margin-top: -370px;
+  margin-left: 60%;
   margin-bottom: 25px;
 }
 .cajaModalidad p {
@@ -965,7 +1006,7 @@ p {
   position: relative;
   z-index: 2;
   left: 67%;
-  top: -158px;
+  top: -140px;
 }
 .botonT a {
   background-color: rgba(254, 210, 219, 0.9);
@@ -980,7 +1021,7 @@ p {
 
 .ubCF4 {
   position: absolute;
-  top: 100%;
+  top: 1350px;
   left: 13%;
 }
 

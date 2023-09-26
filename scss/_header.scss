@@ -13,8 +13,27 @@
         @include flexColCenter;
         margin-top: -20px;
 
-        &:hover {
-            font-weight: bold;
+        a{
+            &:hover {
+                animation-duration: 0.5s;
+                animation-name: brillar;
+                animation-iteration-count: infinite;
+            }
+    
+            @keyframes brillar {
+                0% {
+                    color: $colorTexto;
+                    text-shadow: 1px 1px 2px $colorTexto;}
+    
+                50%{
+                    color:$rosa;
+                }
+    
+                100% {
+                    color: $fucsia;
+                    text-shadow: 1px 1px 2px $fucsia;
+                }
+            }
         }
     }
 
