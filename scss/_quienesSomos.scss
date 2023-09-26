@@ -1,5 +1,5 @@
 .cuerpo {
-    max-height: 370vh;
+    max-height: 360vh;
 
     .cajaCitaQ {
         width: 520px;
@@ -192,7 +192,7 @@
     width: 50%;
     height: 90px;
     position: absolute;
-    top: 3130px;
+    top: 3100px;
     left: 50%;
 
     .estiloAside {
@@ -211,6 +211,9 @@
         padding: 5px;
         margin-top: 15px;
         margin-left: 140px;
+        animation-duration: 3s;
+        animation-name: aparecer;
+        animation-iteration-count: infinite;
 
         &:hover {
             font-weight: bold;
@@ -218,8 +221,19 @@
     }
 }
 
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
 .ubCA {
     position: absolute;
-    top: 3150px;
+    top: 3110px;
     left: 10%;
 }

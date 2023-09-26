@@ -81,7 +81,7 @@ p {
   margin-top: -20px;
 }
 .cajaHeader .titHeader a:hover {
-  animation-duration: 0.5s;
+  animation-duration: 2s;
   animation-name: brillar;
   animation-iteration-count: infinite;
 }
@@ -284,7 +284,7 @@ p {
   width: 820px;
   position: relative;
   top: 50px;
-  left: -170px;
+  left: -190px;
 }
 .grilla1 .section2 .contenido .cajaArticle h1 {
   font-family: "Happy Monkey", cursive;
@@ -319,11 +319,11 @@ p {
   }
 }
 .grilla1 .section2 .contenido .video {
-  width: 630px;
+  width: 650px;
   height: auto;
   position: relative;
-  top: -125px;
-  left: 230px;
+  top: -130px;
+  left: 275px;
 }
 .grilla1 .section2 .contenido .video video {
   width: 100%;
@@ -389,7 +389,7 @@ p {
 }
 
 .cuerpo {
-  max-height: 370vh;
+  max-height: 360vh;
 }
 .cuerpo .cajaCitaQ {
   width: 520px;
@@ -632,7 +632,7 @@ p {
   width: 50%;
   height: 90px;
   position: absolute;
-  top: 3130px;
+  top: 3100px;
   left: 50%;
 }
 .aside .estiloAside {
@@ -651,14 +651,25 @@ p {
   padding: 5px;
   margin-top: 15px;
   margin-left: 140px;
+  animation-duration: 3s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
 }
 .aside .estiloAside:hover {
   font-weight: bold;
 }
 
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .ubCA {
   position: absolute;
-  top: 3150px;
+  top: 3110px;
   left: 10%;
 }
 
