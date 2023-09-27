@@ -14,12 +14,17 @@
         position: relative;
 
         .barra {
+            @include barraVertical;
             position: absolute;
             top: 5%;
             left: 20px;
         }
 
         .barra2 {
+            width: 65px;
+            height: 400px;
+            background-color: $amarilloOscuro;
+            border-radius: 18px;
             position: absolute;
             top: 12%;
             left: 120px;
@@ -29,6 +34,7 @@
             position: absolute;
             top: 15%;
             right: 100px;
+            animation: bounce2 2s ease infinite;
         }
 
         .cajaSeccion1 {
@@ -127,10 +133,11 @@
                     animation-duration: 10s;
                     animation-delay: 1.5s;
 
-                    @keyframes negrita{
+                    @keyframes negrita {
                         0% {
-                            font-weight: normal}
-    
+                            font-weight: normal
+                        }
+
                         100% {
                             font-weight: bold;
                         }

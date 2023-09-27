@@ -48,20 +48,17 @@ p {
   border-radius: 50%;
 }
 
-.barra {
-  width: 60px;
-  height: 1100px;
-  background-color: rgb(252, 235, 161);
-  border-radius: 18px;
+@keyframes bounce2 {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
 }
-
-.barra2 {
-  width: 65px;
-  height: 400px;
-  background-color: rgb(243, 226, 93);
-  border-radius: 18px;
-}
-
 .cajaHeader {
   background-color: rgb(229, 129, 190);
   border-color: rgb(229, 129, 190);
@@ -81,7 +78,7 @@ p {
   margin-top: -20px;
 }
 .cajaHeader .titHeader a:hover {
-  animation-duration: 1s;
+  animation-duration: 1.5s;
   animation-name: brillar;
   animation-iteration-count: infinite;
 }
@@ -89,10 +86,6 @@ p {
   0% {
     color: rgb(87, 77, 79);
     text-shadow: 1px 1px 2px rgb(87, 77, 79);
-  }
-  50% {
-    color: rgb(229, 129, 190);
-    text-shadow: 1px 1px 2px rgb(229, 129, 190);
   }
   100% {
     color: rgb(236, 190, 219);
@@ -182,11 +175,19 @@ p {
   position: relative;
 }
 .grilla1 .section1 .barra {
+  width: 60px;
+  height: 1100px;
+  background-color: rgb(252, 235, 161);
+  border-radius: 18px;
   position: absolute;
   top: 5%;
   left: 20px;
 }
 .grilla1 .section1 .barra2 {
+  width: 65px;
+  height: 400px;
+  background-color: rgb(243, 226, 93);
+  border-radius: 18px;
   position: absolute;
   top: 12%;
   left: 120px;
@@ -195,6 +196,7 @@ p {
   position: absolute;
   top: 15%;
   right: 100px;
+  animation: bounce2 2s ease infinite;
 }
 .grilla1 .section1 .cajaSeccion1 {
   display: flex;
@@ -383,7 +385,7 @@ p {
 }
 
 .cuerpo {
-  max-height: 360vh;
+  max-height: 355vh;
 }
 .cuerpo .cajaCitaQ {
   width: 520px;
@@ -461,6 +463,7 @@ p {
 }
 .cuerpo .cajaManifiesto p {
   font-size: 24px;
+  text-align: justify;
 }
 .cuerpo .cajaVig {
   position: relative;
@@ -792,7 +795,7 @@ p {
   padding-right: 80px;
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 950px;
 }
 .cajaRayos h2 {
   font-family: "Happy Monkey", cursive;
@@ -807,7 +810,7 @@ p {
 }
 .cajaRayos p {
   font-size: 24px;
-  padding-right: 450px;
+  padding-right: 300px;
 }
 
 .cajaFlyer {
@@ -816,7 +819,7 @@ p {
   position: absolute;
   z-index: 2;
   left: 60%;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .barraHorizontal5 {
@@ -828,7 +831,7 @@ p {
 
 .cajaLoque {
   position: relative;
-  top: -160px;
+  top: -150px;
   margin-bottom: -100px;
 }
 .cajaLoque h2 {
@@ -982,7 +985,7 @@ p {
   width: 35%;
   position: relative;
   z-index: 2;
-  margin-top: -370px;
+  margin-top: -345px;
   margin-left: 60%;
   margin-bottom: 25px;
 }
@@ -999,7 +1002,7 @@ p {
   color: rgb(87, 77, 79);
   font-weight: normal;
   text-align: start;
-  font-size: 18px;
+  font-size: 19px;
   text-align: center;
   background-color: rgb(229, 129, 190);
   border-radius: 16px;
@@ -1011,7 +1014,7 @@ p {
   position: relative;
   z-index: 2;
   left: 67%;
-  top: -140px;
+  top: -125px;
 }
 .botonT a {
   background-color: rgba(254, 210, 219, 0.9);
@@ -1026,26 +1029,20 @@ p {
 
 .ubCF4 {
   position: absolute;
-  top: 1350px;
+  top: 1270px;
   left: 13%;
 }
 
 .barra {
+  width: 60px;
+  height: 1100px;
+  background-color: rgb(252, 235, 161);
+  border-radius: 18px;
+  width: 130px;
+  height: 1000px;
   position: absolute;
-  top: 30%;
+  top: 28%;
   left: 30px;
-}
-
-.barra2 {
-  position: absolute;
-  top: 38%;
-  left: 130px;
-}
-
-.ubCR {
-  position: absolute;
-  top: 42%;
-  right: 130px;
 }
 
 .imagenC {
@@ -1053,8 +1050,12 @@ p {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 45px;
+  width: 450px;
+  margin-top: 100px;
   margin-bottom: 90px;
+  position: relative;
+  left: 60%;
+  z-index: 2;
 }
 .imagenC .borde {
   background-color: transparent;
@@ -1071,9 +1072,32 @@ p {
   width: 425px;
 }
 
+.cajaTe {
+  background-color: rgb(243, 226, 93);
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  padding: 25px;
+  width: 550px;
+  font-family: "Happy Monkey", cursive;
+  color: rgb(87, 77, 79);
+  font-weight: bold;
+  letter-spacing: 3px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  padding-left: 25px;
+  font-size: 32px;
+  padding-left: 135px;
+  position: absolute;
+  z-index: 2;
+  top: 490px;
+}
+
 .cajaCitaC {
   width: 600px;
-  margin-left: 50%;
+  position: relative;
+  z-index: 2;
+  top: -85px;
+  left: 200px;
 }
 .cajaCitaC p {
   font-family: "Give You Glory", cursive;
@@ -1081,6 +1105,7 @@ p {
   font-weight: normal;
   line-height: 30px;
   letter-spacing: 2px;
+  text-align: start;
   font-size: 20px;
   width: 470px;
 }
@@ -1095,27 +1120,15 @@ p {
   background-color: rgb(252, 235, 161);
   height: 320px;
   position: relative;
-  top: 110px;
+  top: -400px;
 }
 
-.cajaTe {
-  background-color: rgb(243, 226, 93);
-  border-top-right-radius: 18px;
-  border-bottom-right-radius: 18px;
-  padding: 25px;
-  width: 55%;
-  font-family: "Happy Monkey", cursive;
-  color: rgb(87, 77, 79);
-  font-weight: bold;
-  letter-spacing: 3px;
-  padding-top: 30px;
-  padding-bottom: 40px;
-  padding-left: 25px;
-  font-size: 32px;
-  position: relative;
-  padding-left: 135px;
-  margin-top: -245px;
-  margin-bottom: 60px;
+.ubCAC {
+  width: 480px;
+  position: absolute;
+  top: 320px;
+  left: 15%;
+  animation: bounce2 2s ease infinite;
 }
 
 .estiloForm {
@@ -1123,16 +1136,28 @@ p {
   color: rgb(87, 77, 79);
   font-weight: normal;
   text-align: start;
-  font-size: 22px;
-  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(254, 210, 219, 0.9);
+  border-radius: 20px;
+  font-size: 24px;
+  width: 90%;
+  height: 490px;
+  margin-top: 130px;
   position: relative;
-  margin-bottom: 100px;
+  top: -310px;
+  left: 5%;
 }
 .estiloForm .tamano {
-  font-size: 14px;
+  font-size: 17px;
+}
+.estiloForm textarea {
+  height: 210px;
 }
 .estiloForm .botonC {
-  font-size: 18px;
+  font-size: 19px;
   text-align: center;
   background-color: rgb(229, 129, 190);
   border-radius: 16px;
@@ -1143,6 +1168,14 @@ p {
 .estiloForm .botonC:hover {
   background-color: rgb(236, 190, 219);
   font-weight: bold;
+}
+
+.ubCFC {
+  width: 480px;
+  position: relative;
+  top: -190px;
+  left: 38%;
+  margin-bottom: -80px;
 }
 
 /*# sourceMappingURL=estilo.css.map */

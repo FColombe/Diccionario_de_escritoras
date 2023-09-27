@@ -89,7 +89,7 @@
 }
 
 @mixin boton {
-    font-size: 18px;
+    font-size: 19px;
     text-align: center;
     background-color: $fucsia;
     border-radius: 16px;
@@ -104,4 +104,11 @@
     border-radius: 50%;
     position: absolute;
     z-index: 10;
+}
+
+@mixin barraVertical{
+    width: 60px;
+    height: 1100px;
+    background-color: $amarilloClaro;
+    border-radius: 18px;
 }

@@ -1,25 +1,20 @@
 .barra {
+    @include barraVertical;
+    width: 130px;
+    height: 1000px;
     position: absolute;
-    top: 30%;
+    top: 28%;
     left: 30px;
-}
-
-.barra2 {
-    position: absolute;
-    top: 38%;
-    left: 130px;
-}
-
-.ubCR {
-    position: absolute;
-    top: 42%;
-    right: 130px;
 }
 
 .imagenC {
     @include flexRowCenter;
-    margin-top: 45px;
+    width: 450px;
+    margin-top: 100px;
     margin-bottom: 90px;
+    position: relative;
+    left: 60%;
+    z-index: 2;
 
     .borde {
         @include bordeVerde;
@@ -32,12 +27,30 @@
     }
 }
 
+.cajaTe {
+    background-color: $amarilloOscuro;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding: 25px;
+    width: 550px;
+    @include estiloTitulos;
+    font-size: 32px;
+    padding-left: 135px;
+    position: absolute;
+    z-index: 2;
+    top:490px;
+}
+
 .cajaCitaC {
     width: 600px;
-    margin-left: 50%;
+    position: relative;
+    z-index: 2;
+    top: -85px;
+    left: 200px;
 
     p {
         @include estiloCita;
+        text-align: start;
         font-size: 20px;
         width: 470px;
     }
@@ -50,42 +63,55 @@
 
 .barraHorizontal7 {
     @include barraH;
-    top: 110px;
+    top: -400px;
 }
 
-.cajaTe {
-    background-color: $amarilloOscuro;
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
-    padding: 25px;
-    width: 55%;
-    @include estiloTitulos;
-    font-size: 32px;
-    position: relative;
-    padding-left: 135px;
-    margin-top: -245px;
-    margin-bottom: 60px;
+.ubCAC {
+    width: 480px;
+    position: absolute;
+    top: 320px;
+    left: 15%;
+    animation: bounce2 2s ease infinite;
 }
 
 .estiloForm {
     @include estiloParrafo;
-    font-size: 22px;
-    height: 400px;
+    @include flexRowCenter;
+    background-color: $rosaClaro;
+    border-radius: 20px;
+    font-size: 24px;
+    width: 90%;
+    height: 490px;
+    margin-top: 130px;
     position: relative;
-    margin-bottom: 100px;
+    top: -310px;
+    left: 5%;
 
-    .tamano{
-        font-size: 14px;
+    .tamano {
+        font-size: 17px;
+    }
+
+    textarea{
+        height: 210px;
     }
 
     .botonC {
         @include boton;
         width: 100px;
         height: 40px;
-        
+
         &:hover {
             background-color: $rosa;
             font-weight: bold;
         }
     }
 }
+
+.ubCFC {
+    width: 480px;
+    position: relative;
+    top: -190px;
+    left: 38%;
+    margin-bottom: -80px;
+}
+
