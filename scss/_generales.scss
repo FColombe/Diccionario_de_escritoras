@@ -39,7 +39,41 @@ p {
 }
 
 @keyframes bounce2 {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-30px);
+    }
+
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .circuloAmarillo {
+        @include dimensionC;
+        width: 35px;
+        height: 35px;
+    }
+
+    .circuloFucsia {
+        @include dimensionC;
+        width: 35px;
+        height: 35px;
+    }
+
+    .circuloRosa {
+        @include dimensionC;
+        width: 35px;
+        height: 35px;
+    }
+
 }

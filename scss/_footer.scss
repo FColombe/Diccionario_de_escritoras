@@ -58,3 +58,71 @@
     }
 
 }
+
+@media screen and (max-width: 500px) {
+    .cajaFooter {
+        height: 130px;
+
+        .cajaIg {
+            width: 80%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            position: relative;
+            top: 13px;
+            left: 5px;
+
+            div {
+                img {
+                    width: 73px;
+                    margin-bottom: 0px;
+                }
+            }
+
+            p {
+                width: 150px;
+                font-size: 16px;
+                font-weight: normal;
+                margin-bottom: 0px;
+            }
+        }
+
+        .cajaLugar {
+            width: 80%;
+            position: relative;
+            top: -98px;
+            left: 52px;
+
+            p {
+                font-size: 15px;
+                margin-bottom: -3.5px;
+            }
+        }
+
+        .cajaLog {
+            width: 180px;
+            height: 70px;
+            flex-direction: column-reverse;
+            justify-content: flex-end;
+            align-items: flex-end;
+            margin-left: 0px;
+            position: relative;
+            top: -196px;
+            left: 60%;
+
+            div {
+                a {
+                    font-size: 14px;
+                    margin-right: -25px;
+                }
+            }
+
+            div {
+                img {
+                    width: 55px;
+                    margin-bottom: 7px;
+                }
+            }
+        }
+    }
+}

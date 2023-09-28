@@ -225,3 +225,148 @@
         }
     }
 }
+
+
+@media screen and (max-width: 500px) {
+    .grilla1 {
+        .section1 {
+            .barra {
+                @include barraVertical;
+                width: 30px;
+                height: 600px;
+                border-radius: 10px;
+                top: 4%;
+                left: 10px;
+            }
+
+            .barra2 {
+                width: 35px;
+                height: 240px;
+                border-radius: 10px;
+                top: 10%;
+                left: 33px;
+            }
+
+            .cajaCRosa {
+                top: 20%;
+                right: 35px;
+            }
+
+            .cajaSeccion1 {
+                margin-top: 40px;
+
+                .imagenP {
+                    margin-bottom: 40px;
+
+                    .borde {
+                        @include bordeVerde;
+                        width: 270px;
+                        height: 270px;
+                        border-width: 2px;
+                    }
+
+                    img {
+                        margin-top: 3%;
+                        margin-bottom: 3%;
+                        width: 256px;
+                    }
+                }
+
+                div {
+                    width: 400px;
+
+                    .corchete {
+                        font-size: 80px;
+                        margin-right: 8px;
+                        margin-bottom: 30px;
+                    }
+
+                    p {
+                        line-height: 20px;
+                        letter-spacing: 1.8px;
+                        font-size: 14px;
+                        margin-bottom: 0px;
+                        text-align: start;
+                    }
+                }
+            }
+        }
+
+        .section2 {
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.3fr 0.7fr 0.9fr 0.2fr;
+            grid-template-areas:
+                "vacio2"
+                "vacio4"
+                "centro"
+                "vacio5"
+                "travesaño1";
+            margin-top: 15px;
+            width: 96%;
+            height: 75vh;
+            margin-left: 2%;
+
+            .caja2C {
+                width: 200px;
+                top: 55%;
+                left: 180px;
+                z-index: 2;
+            }
+
+            .contenido {
+                width: 100%;
+                height: 60%;
+
+                .cajaArticle {
+                    width: 370px;
+                    border-radius: 18px;
+                    padding-top: 10px;
+                    padding-bottom: 25px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    position: relative;
+                    top: 100px;
+                    left: 0;
+
+                    h1 {
+                        @include estiloTitulos;
+                        letter-spacing: 2px;
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        padding-left: 20px;
+                        font-size: 22px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        text-align: justify;
+                    }
+
+                    .padd {
+                        padding-right: 0px;
+                        padding-top: 15px;
+                        font-size: 18px;
+                    }
+                }
+
+                .video {
+                    width: 360px;
+                    position: relative;
+                    top: 150px;
+                    left: 0;
+
+                    video {
+                        border-radius: 18px;
+                    }
+                }
+            }
+
+            .vacio2 {
+                background-color: $amarilloClaro;
+            }
+        }
+    }
+
+
+
+}

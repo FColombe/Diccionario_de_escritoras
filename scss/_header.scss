@@ -13,20 +13,21 @@
         @include flexColCenter;
         margin-top: -20px;
 
-        a{
+        a {
             &:hover {
                 animation-duration: 1.5s;
                 animation-name: brillar;
                 animation-iteration-count: infinite;
             }
-    
+
             @keyframes brillar {
                 0% {
                     color: $colorTexto;
-                    text-shadow: 1px 1px 2px $colorTexto;}
-    
+                    text-shadow: 1px 1px 2px $colorTexto;
+                }
+
                 100% {
-                    color:$rosa;                    
+                    color: $rosa;
                 }
             }
         }
@@ -41,13 +42,37 @@
 
             a {
                 font-family: $tipografiaParrafos;
-                font-size: 25px;
+                font-size: 24px;
 
                 &:hover {
                     font-weight: bold;
                     background-color: $fucsia;
                     border-radius: 50%;
                 }
+            }
+
+        }
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .cajaHeader {
+        .titHeader {
+            font-size: 30px;
+            letter-spacing: 1.2px;
+            text-shadow: 0.5px 0.5px 0.5px $rosa;
+            margin-top: -20px;
+        }
+
+        .nave {
+
+            li {
+
+                a {
+                    font-size: 18px;
+                }
+
             }
         }
     }
