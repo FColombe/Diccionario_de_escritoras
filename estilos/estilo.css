@@ -197,13 +197,14 @@ p {
 
 @media screen and (max-width: 500px) {
   .cajaFooter {
-    height: 130px;
+    height: fit-content;
   }
   .cajaFooter .cajaIg {
-    width: 80%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    width: fit-content;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: center;
     position: relative;
     top: 13px;
     left: 5px;
@@ -213,13 +214,13 @@ p {
     margin-bottom: 0px;
   }
   .cajaFooter .cajaIg p {
-    width: 150px;
+    width: fit-content;
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 0px;
   }
   .cajaFooter .cajaLugar {
-    width: 80%;
+    width: fit-content;
     position: relative;
     top: -98px;
     left: 52px;
@@ -229,8 +230,8 @@ p {
     margin-bottom: -3.5px;
   }
   .cajaFooter .cajaLog {
-    width: 180px;
-    height: 70px;
+    width: fit-content;
+    height: auto;
     flex-direction: column-reverse;
     justify-content: flex-end;
     align-items: flex-end;
@@ -884,6 +885,193 @@ p {
   left: 10%;
 }
 
+@media screen and (max-width: 500px) {
+  .cuerpo {
+    min-height: 400vh;
+  }
+  .cuerpo .cajaCitaQ {
+    width: fit-content;
+    left: 0%;
+    top: 100px;
+  }
+  .cuerpo .cajaCitaQ .corchete {
+    font-size: 80px;
+    margin-right: 15px;
+  }
+  .cuerpo .cajaCitaQ p {
+    font-size: 16px;
+    margin-bottom: -5px;
+  }
+  .cuerpo .ubCA {
+    width: fit-content;
+    top: 230px;
+    left: 15%;
+  }
+  .cuerpo .cajaManifiesto {
+    background-color: rgb(236, 190, 219);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 40px;
+    width: 100%;
+    top: -150px;
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+  .cuerpo .cajaManifiesto h1 {
+    font-size: 24px;
+    padding-bottom: 0px;
+  }
+  .cuerpo .cajaManifiesto h2 {
+    font-size: 24px;
+    padding-top: 15px;
+  }
+  .cuerpo .cajaManifiesto p {
+    font-size: 18px;
+  }
+  .cuerpo .cajaVig {
+    position: relative;
+    top: 0;
+    width: 120%;
+    height: 500px;
+  }
+  .cuerpo .ubCA0 {
+    width: fit-content;
+    position: absolute;
+    z-index: 2;
+    top: 1500px;
+    left: 60%;
+  }
+  .cuerpo .cajaLectoras {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    position: relative;
+    z-index: 2;
+    top: -150px;
+  }
+  .cuerpo .cajaLectoras .imgL {
+    width: 80%;
+    margin-bottom: 40px;
+    margin-left: 0;
+    transform: rotate(-6deg);
+  }
+  .cuerpo .cajaLectoras .lectoras {
+    background-color: rgb(229, 129, 190);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -50px;
+  }
+  .cuerpo .cajaLectoras .lectoras h2 {
+    font-size: 24px;
+    padding-top: 15px;
+  }
+  .cuerpo .cajaLectoras .lectoras p {
+    font-size: 18px;
+    text-align: end;
+  }
+  .cuerpo .cajaAmigxs {
+    width: 90%;
+    position: relative;
+    top: -500px;
+    left: 5%;
+  }
+  .cuerpo .cajaAmigxs .ubCF {
+    width: fit-content;
+    position: absolute;
+    top: 8%;
+    left: 48%;
+  }
+  .cuerpo .cajaAmigxs h2 {
+    font-size: 24px;
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+  .cuerpo .cajaAmigxs .cajaPuerta {
+    background-color: rgb(236, 190, 219);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+  }
+  .cuerpo .cajaAmigxs .cajaPuerta .amigxs {
+    font-size: 22px;
+    padding-top: 10px;
+  }
+  .cuerpo .cajaAmigxs .cajaPuerta p {
+    font-size: 18px;
+    text-align: start;
+  }
+  .cuerpo .cajaAmigxs .cajaBruma {
+    background-color: rgba(254, 210, 219, 0.9);
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 100%;
+    position: relative;
+    left: 0%;
+    top: 50px;
+  }
+  .cuerpo .cajaAmigxs .cajaBruma .amigxs {
+    font-size: 22px;
+    padding-top: 10px;
+    text-align: end;
+  }
+  .cuerpo .cajaAmigxs .cajaBruma p {
+    font-size: 18px;
+    text-align: end;
+  }
+  .aside {
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    height: 50px;
+    position: absolute;
+    top: 4000px;
+    left: 20%;
+  }
+  .aside .estiloAside {
+    border-radius: 14px;
+    font-size: 20px;
+    line-height: 35px;
+    letter-spacing: 2px;
+    padding: 4px;
+    margin-top: 15px;
+    margin-left: 140px;
+  }
+}
 .barraHorizontal4 {
   background-color: rgb(252, 235, 161);
   height: 320px;

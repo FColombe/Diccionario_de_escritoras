@@ -237,3 +237,191 @@
     top: 3110px;
     left: 10%;
 }
+
+
+@media screen and (max-width: 500px) {
+
+    .cuerpo {
+        min-height: 400vh;
+
+        .cajaCitaQ {
+            width: fit-content;
+            left: 0%;
+            top: 100px;
+
+            .corchete {
+                font-size: 80px;
+                margin-right: 15px;
+            }
+
+            p {
+                font-size: 16px;
+                margin-bottom: -5px;
+            }
+        }
+
+        .ubCA {
+            width: fit-content;
+            top: 230px;
+            left: 15%;
+        }
+
+        .cajaManifiesto {
+            @include cajaTextoRosa;   
+                padding-top: 30px;
+                padding-left: 60px;
+                padding-right: 60px;
+            padding-bottom: 40px;
+            width: 100%;
+            top: -150px;
+            margin-left: 0%;
+            margin-right: 0%;
+
+            h1 {
+                font-size: 24px;
+                padding-bottom: 0px;
+            }
+
+            h2 {
+                font-size: 24px;
+                padding-top: 15px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+
+        .cajaVig {
+            position: relative;
+            top: 0;
+            width: 120%;
+            height: 500px;
+        }
+
+        .ubCA0 {
+            width: fit-content;
+            position: absolute;
+            z-index: 2;
+            top: 1500px;
+            left: 60%;
+        }
+
+        .cajaLectoras {
+            @include flexColCenter;
+            flex-direction: column-reverse;
+            position: relative;
+            z-index: 2;
+            top: -150px;
+            
+    
+            .imgL {
+                width: 80%;
+                margin-bottom: 40px;
+                margin-left: 0;
+                transform: rotate(-6deg);
+            }
+    
+            .lectoras {
+                @include cajaTextoFucsia;
+                width: 100%;
+                margin-left: 0px;
+                margin-top: -50px;
+    
+                h2 {
+                    font-size: 24px;
+                    padding-top: 15px;
+                }
+    
+                p {
+                    font-size: 18px;
+                    text-align: end;
+                }
+            }
+        }
+
+        .cajaAmigxs {
+            width: 90%;
+            position: relative;
+            top: -500px;
+            left: 5%;
+    
+            .ubCF {
+                width: fit-content;
+                position: absolute;
+                top: 8%;
+                left: 48%;
+            }
+    
+            h2 {
+                font-size: 24px;
+                padding-top: 50px;
+                padding-left: 20px;
+            }
+    
+            .cajaPuerta {
+                @include cajaTextoRosa;
+                padding-top: 30px;
+                padding-left: 60px;
+                padding-right: 60px;
+                width: 100%;
+                margin-left: -0px;
+                margin-top: 60px;
+                margin-bottom: 70px;
+    
+                .amigxs {
+                    font-size: 22px;
+                    padding-top: 10px;
+                }
+    
+                p {
+                    font-size: 18px;
+                    text-align: start;
+                }
+            }
+    
+            .cajaBruma {
+                @include cajaTextoRosaClaro;
+                padding-top: 30px;
+                padding-left: 60px;
+                padding-right: 60px;
+                width: 100%;
+                position: relative;
+                left: 0%;
+                top: 50px;
+    
+                .amigxs {
+                    font-size: 22px;
+                    padding-top: 10px;
+                    text-align: end;
+                }
+    
+                p {
+                    font-size: 18px;
+                    text-align: end;
+                }
+            }
+    
+        }
+    }
+
+    .aside {
+        border-bottom-left-radius: 16px;
+        border-top-left-radius: 16px;
+        height: 50px;
+        position: absolute;
+        top: 4000px;
+        left: 20%;
+    
+        .estiloAside {
+            border-radius: 14px;
+            font-size: 20px;
+            line-height: 35px;
+            letter-spacing: 2px;
+            padding: 4px;
+            margin-top: 15px;
+            margin-left: 140px;
+            
+        }
+    }
+    }

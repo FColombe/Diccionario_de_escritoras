@@ -61,13 +61,14 @@
 
 @media screen and (max-width: 500px) {
     .cajaFooter {
-        height: 130px;
+        height: fit-content;
 
         .cajaIg {
-            width: 80%;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
+            width: fit-content;
+            height: fit-content;
+            flex-direction: row;
+            justify-content: stretch;
+            align-items: center;
             position: relative;
             top: 13px;
             left: 5px;
@@ -80,7 +81,7 @@
             }
 
             p {
-                width: 150px;
+                width: fit-content;
                 font-size: 16px;
                 font-weight: normal;
                 margin-bottom: 0px;
@@ -88,7 +89,7 @@
         }
 
         .cajaLugar {
-            width: 80%;
+            width: fit-content;
             position: relative;
             top: -98px;
             left: 52px;
@@ -100,8 +101,8 @@
         }
 
         .cajaLog {
-            width: 180px;
-            height: 70px;
+            width: fit-content;
+            height: auto;
             flex-direction: column-reverse;
             justify-content: flex-end;
             align-items: flex-end;
