@@ -91,14 +91,14 @@ p {
   font-family: "Happy Monkey", cursive;
   color: rgb(87, 77, 79);
   font-weight: normal;
-  font-size: 60px;
+  font-size: 65px;
   letter-spacing: 3px;
   text-shadow: 1px 1px 2px rgb(236, 190, 219);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 .cajaHeader .titHeader a:hover {
   animation-duration: 1.5s;
@@ -116,17 +116,13 @@ p {
 }
 .cajaHeader .nave {
   background-color: rgba(254, 210, 219, 0.9);
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
 }
 .cajaHeader .nave li {
   display: inline-block;
 }
 .cajaHeader .nave li a {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 24px;
+  font-size: 27px;
 }
 .cajaHeader .nave li a:hover {
   font-weight: bold;
@@ -136,13 +132,20 @@ p {
 
 @media screen and (max-width: 500px) {
   .cajaHeader .titHeader {
-    font-size: 30px;
-    letter-spacing: 1.2px;
+    font-size: 40px;
+    letter-spacing: 1.1px;
     text-shadow: 0.5px 0.5px 0.5px rgb(236, 190, 219);
-    margin-top: -20px;
+    margin-top: 10px;
+  }
+  .cajaHeader .nave .bordeMenu {
+    border-color: rgb(155, 155, 155);
+  }
+  .cajaHeader .nave .bordeMenu:focus, .cajaHeader .nave .bordeMenu:active, .cajaHeader .nave .bordeMenu-icon:focus {
+    outline: none;
+    box-shadow: none;
   }
   .cajaHeader .nave li a {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 .cajaFooter {
@@ -197,33 +200,36 @@ p {
 
 @media screen and (max-width: 500px) {
   .cajaFooter {
-    height: fit-content;
+    height: 208px;
   }
   .cajaFooter .cajaIg {
     width: fit-content;
-    height: fit-content;
     flex-direction: row;
     justify-content: stretch;
     align-items: center;
     position: relative;
-    top: 13px;
-    left: 5px;
+    top: 50px;
+    left: 0px;
   }
   .cajaFooter .cajaIg div img {
     width: 73px;
     margin-bottom: 0px;
   }
   .cajaFooter .cajaIg p {
-    width: fit-content;
+    width: 150px;
     font-size: 16px;
     font-weight: normal;
     margin-bottom: 0px;
   }
   .cajaFooter .cajaLugar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: fit-content;
     position: relative;
-    top: -98px;
-    left: 52px;
+    top: 68px;
+    left: -53.5%;
   }
   .cajaFooter .cajaLugar p {
     font-size: 15px;
@@ -237,8 +243,8 @@ p {
     align-items: flex-end;
     margin-left: 0px;
     position: relative;
-    top: -196px;
-    left: 60%;
+    top: -20px;
+    left: 70%;
   }
   .cajaFooter .cajaLog div a {
     font-size: 14px;
@@ -246,7 +252,7 @@ p {
   }
   .cajaFooter .cajaLog div img {
     width: 55px;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
   }
 }
 .grilla1 {
@@ -1299,6 +1305,109 @@ p {
   left: 50px;
 }
 
+@media screen and (max-width: 500px) {
+  div .cajaAmiga, div .cajaJusticia {
+    background-color: rgb(236, 190, 219);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: -50px;
+    margin-left: 6%;
+    margin-bottom: 230px;
+  }
+  div .cajaAmiga h2, div .cajaJusticia h2 {
+    font-family: "Happy Monkey", cursive;
+    color: rgb(87, 77, 79);
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    font-size: 28px;
+    padding-top: 15px;
+  }
+  div .cajaAmiga p, div .cajaJusticia p {
+    font-size: 24px;
+  }
+  div .cajaAmiga img, div .cajaJusticia img {
+    width: 95%;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  div .cajaJusticia {
+    background-color: rgb(236, 190, 219);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 6%;
+  }
+  .cajaLoque {
+    position: relative;
+    top: -150px;
+    margin-bottom: -100px;
+  }
+  .cajaLoque h2 {
+    font-family: "Happy Monkey", cursive;
+    color: rgb(87, 77, 79);
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    font-size: 38px;
+    padding-left: 250px;
+    padding-bottom: 80px;
+  }
+  .cajaLoque .cajaLasMas, .cajaLoque .cajaCriticas {
+    background-color: rgb(236, 190, 219);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5%;
+  }
+  .cajaLoque .cajaLasMas h3, .cajaLoque .cajaCriticas h3 {
+    font-family: "Happy Monkey", cursive;
+    color: rgb(87, 77, 79);
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 25px;
+    font-size: 24px;
+  }
+  .cajaLoque .cajaLasMas p, .cajaLoque .cajaCriticas p {
+    font-size: 22px;
+  }
+  .cajaLoque .cajaCriticas {
+    background-color: rgba(254, 210, 219, 0.9);
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 5%;
+  }
+}
 .barraHorizontal5 {
   background-color: rgb(252, 235, 161);
   height: 320px;

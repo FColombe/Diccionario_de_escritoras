@@ -7,11 +7,11 @@
         font-family: $tipografiaTitulos;
         color: $colorTexto;
         font-weight: normal;
-        font-size: 60px;
+        font-size: 65px;
         letter-spacing: 3px;
         text-shadow: 1px 1px 2px $rosa;
         @include flexColCenter;
-        margin-top: -20px;
+        margin-top: -10px;
 
         a {
             &:hover {
@@ -35,14 +35,13 @@
 
     .nave {
         background-color: $rosaClaro;
-        @include flexRowCenter;
 
         li {
             display: inline-block;
 
             a {
                 font-family: $tipografiaParrafos;
-                font-size: 24px;
+                font-size: 27px;
 
                 &:hover {
                     font-weight: bold;
@@ -59,21 +58,30 @@
 @media screen and (max-width: 500px) {
     .cajaHeader {
         .titHeader {
-            font-size: 30px;
-            letter-spacing: 1.2px;
+            font-size: 40px;
+            letter-spacing: 1.1px;
             text-shadow: 0.5px 0.5px 0.5px $rosa;
-            margin-top: -20px;
+            margin-top: 10px;
         }
 
         .nave {
+            .bordeMenu {
+                border-color: rgb(155, 155, 155);
+
+                &:focus,
+                &:active,
+                &-icon:focus {
+                    outline: none;
+                    box-shadow: none;
+                }
+            }
 
             li {
-
                 a {
-                    font-size: 18px;
+                    font-size: 20px;
                 }
-
             }
         }
     }
+
 }
