@@ -57,30 +57,62 @@
 
 @media screen and (max-width: 500px) {
     .cajaHeader {
+
         .titHeader {
-            font-size: 40px;
-            letter-spacing: 1.1px;
+            width: 300px;
+            font-size: 34px;
+            letter-spacing: 1.5px;
             text-shadow: 0.5px 0.5px 0.5px $rosa;
-            margin-top: 10px;
+            text-align: start;
+            position: relative;
+            top: 25px;
+            left: 27px;
+            margin-top: 0;
+            margin-bottom: -20px;
+            
         }
 
         .nave {
-            .bordeMenu {
-                border-color: rgb(155, 155, 155);
+            background-color: transparent;
+            
+                .bordeMenu {
+                    width: fit-content;
+                    background-color: $rosaClaro;
+                    border-color: $colorTexto;
+                    position: relative;
+                    right: -80%;
+                    bottom: 35px;
+                    z-index: 3;
 
-                &:focus,
-                &:active,
-                &-icon:focus {
-                    outline: none;
-                    box-shadow: none;
+                    &:focus,
+                    &:active,
+                    &-icon:focus {
+                        outline: none;
+                        box-shadow: none;
+                    }
+                }
+            .navbar-collapse {
+                background-color: $rosaClaro;
+
+                li {
+                    a {
+                        font-size: 22px;
+                        text-align: end;
+                        padding-right: 45px;
+    
+                        &:hover {
+                            font-weight: bold;
+                            width: 109%;
+                            margin-left: -15px;
+                            padding-left: 15px;
+                            background-color: $fucsia;
+                            border-radius: 0;
+                        }
+                    }
                 }
             }
-
-            li {
-                a {
-                    font-size: 20px;
-                }
-            }
+            
+            
         }
     }
 
