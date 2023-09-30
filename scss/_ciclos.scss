@@ -175,12 +175,56 @@
 }
 
 @media screen and (max-width: 500px) {
+    .barraHorizontal4 {
+        @include barraH;
+        top: 50px;
+    }
+    
+    .ubCA1 {
+        width: fit-content;
+        display: block;
+        position: relative;
+        top: -150px;
+        left: 80%;
+    }
+    
+    .cajaH1 {
+        width: 300px;
+        position: relative;
+        top: -210px;
+        margin-left:  0;
+    
+        @include estiloTitulos;
+        padding-left: 30px;
+        font-size: 24px;
+    }
+    
+    .cajaCitaCiclos {
+        width: fit-content;
+        position: relative;
+        z-index: 2;
+        left: 0%;
+        top: -30px;
+    
+        p {
+            @include estiloCita;
+            font-size: 20px;
+            width: 280px;
+            text-align: center;
+        }
+    
+        .corchete {
+            @include corchete;
+            font-size: 90px;
+            margin-top: 15px;
+        }
+    }
     div {
         .cajaAmiga {
             @include cajaTextoRosa;
             width: 100%;
             margin-top: -50px;
-            margin-left: 6%;
+            margin-left: 0%;
             margin-bottom: 230px;
 
             h2 {
@@ -205,10 +249,53 @@
             @include cajaTextoRosa;
             width: 100%;
             margin-top: 10px;
-            margin-left: 6%;
+            margin-left: 0%;
         }
     }
 
+    .barraHlarga {
+        @include barraH;
+        height: 900px;
+    
+    }
+    
+    .ubCF1 {
+        width: fit-content;
+        position: absolute;
+        top: 2040px;
+        left: 15%;
+    }
+    
+    .calesita {
+        margin-top: -940px;
+        margin-bottom: 180px;
+    }
+    
+    .cajaRayos {
+        @include cajaTextoFucsia;
+        width: 100%;
+    
+    
+        h2 {
+            @include estiloTitulos;
+            font-size: 28px;
+            padding-top: 15px;
+    
+        }
+    
+        p {
+            font-size: 24px;
+            padding-right: 10px;
+        }
+    }
+    
+    .cajaFlyer {
+        width: 350px;
+        transform: rotate(4deg);
+        position: absolute;
+        z-index: 2;
+        left: 0;
+    }
 
     .cajaLoque {
         position: relative;
@@ -225,7 +312,7 @@
         .cajaLasMas {
             @include cajaTextoRosa;
             width: 100%;
-            margin-left: 5%;
+            margin-left: 0%;
     
             h3 {
                 @include estiloTitulos;
@@ -240,10 +327,24 @@
         .cajaCriticas {
             @include cajaTextoRosaClaro;
             width: 100%;
-            margin-left: 5%;
+            margin-left: 0%;
         }
     }
     
+    .ubCF2 {
+        width: fit-content;
+        position: relative;
+        top: -650px;
+        left: 20%;
+        margin-bottom: -100px;
+    }
+    
+    .ubCF3 {
+        width: fit-content;
+        position: absolute;
+        bottom: -265%;
+        left: 50px;
+    }
 }
 
 

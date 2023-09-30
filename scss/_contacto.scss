@@ -38,7 +38,7 @@
     padding-left: 135px;
     position: absolute;
     z-index: 2;
-    top:490px;
+    top: 490px;
 }
 
 .cajaCitaC {
@@ -91,7 +91,7 @@
         font-size: 17px;
     }
 
-    textarea{
+    textarea {
         height: 210px;
     }
 
@@ -115,3 +115,124 @@
     margin-bottom: -80px;
 }
 
+
+@media screen and (max-width: 500px) {
+    .barra {
+        @include barraVertical;
+        width: 130px;
+        height: 1000px;
+        position: relative;
+        top: 28%;
+        left: 30px;
+    }
+
+    .imagenC {
+        width: fit-content;
+        margin-top: 0;
+        margin-bottom: 0;
+        position: relative;
+        left: 0%;
+        z-index: 2;
+
+        .borde {
+            @include bordeVerde;
+            width: 270px;
+            height: 270px;
+            border-width: 2px;
+        }
+
+        img {
+            margin-top: 3%;
+            margin-bottom: 3%;
+            width: 256px;
+        }
+    }
+
+    .cajaTe {
+        background-color: $amarilloOscuro;
+        border-top-right-radius: 18px;
+        border-bottom-right-radius: 18px;
+        padding: 25px;
+        width: 350px;
+        @include estiloTitulos;
+        font-size: 32px;
+        padding-left: 135px;
+        position: absolute;
+        z-index: 2;
+        top: 490px;
+    }
+
+    .cajaCitaC {
+        width: fit-content;
+        position: relative;
+        z-index: 2;
+        top: -85px;
+        left: 0;
+
+        p {
+            @include estiloCita;
+            text-align: start;
+            font-size: 16px;
+            width: 470px;
+        }
+
+        .corchete {
+            @include corchete;
+            font-size: 90px;
+        }
+    }
+
+    .barraHorizontal7 {
+        @include barraH;
+        top: -400px;
+    }
+
+    .ubCAC {
+        width: fit-content;
+        position: absolute;
+        top: 320px;
+        left: 15%;
+        animation: bounce2 2s ease infinite;
+    }
+
+    .estiloForm {
+        @include estiloParrafo;
+        @include flexRowCenter;
+        background-color: $rosaClaro;
+        border-radius: 20px;
+        font-size: 24px;
+        width: 90%;
+        height: 490px;
+        margin-top: 130px;
+        position: relative;
+        top: -310px;
+        left: 5%;
+
+        .tamano {
+            font-size: 17px;
+        }
+
+        textarea {
+            height: 210px;
+        }
+
+        .botonC {
+            @include boton;
+            width: 100px;
+            height: 40px;
+
+            &:hover {
+                background-color: $rosa;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .ubCFC {
+        width: fit-content;
+        position: relative;
+        top: -190px;
+        left: 0%;
+        margin-bottom: -80px;
+    }
+}

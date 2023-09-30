@@ -111,3 +111,106 @@
     top: 1270px;
     left: 13%;
 }
+
+
+@media screen and (max-width: 500px) {
+    .ubCA2 {
+        width: fit-content;
+        position: relative;
+        top: -230px;
+        left: 13%;
+    }
+    
+    .cajaCitaT {
+        position: relative;
+        top: -160px;
+        left: 0;
+        width: fit-content;
+    
+        p {
+            font-size: 16px;
+            text-align: start;
+            width: 300px;
+        }
+    
+        .corchete {
+            font-size: 75px;
+        }
+    }
+    
+    .cajaTaller {
+        width: 100%;
+        height: 70%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 0;
+        position: relative;
+        z-index: 2;
+    
+        h1 {
+            @include estiloTitulos;
+            font-size: 24px;
+        }
+    
+        p {
+            font-size: 18px;
+        }
+    }
+    
+    .cajaFlyerTaller {
+        width: 80%;
+        position: relative;
+        z-index: 2;
+        top: 20px;
+    }
+    
+    .cajaModalidad {
+        width: 100%;
+        position: relative;
+        z-index: 0;
+        top: -100px;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 25px;
+    
+        p {
+            font-size: 20px;
+        }
+    
+        a {
+            text-shadow: 1px 1px 2px $colorTexto;
+            font-size: 20px;
+        }
+    }
+    
+    .botonT {
+        width: 200px;
+        height:50px;
+        display: flex;
+        justify-content: center;
+        position: static;
+        z-index: 0;
+        left: 0;
+        top: 0;
+    
+        a {
+            background-color: $rosaClaro;
+            border-radius: 14px;
+            padding: 5px;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+    }
+    
+    .ubCF4 {
+        width: fit-content;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    
+
+
+}
+
+
