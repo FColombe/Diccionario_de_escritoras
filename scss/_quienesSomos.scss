@@ -29,7 +29,7 @@
 
     .ubCA {
         position: absolute;
-        top: 330px;
+        top: 350px;
         left: 15%;
         animation: bounce2 2s ease infinite;
     }
@@ -73,7 +73,7 @@
     .ubCA0 {
         position: absolute;
         z-index: 2;
-        top: 1600px;
+        top: 1500px;
         left: 60%;
     }
 
@@ -241,12 +241,12 @@
 
 @media screen and (max-width: 500px) {
     .cuerpo {
-        min-height: 400vh;
+        max-height: fit-content;
 
         .cajaCitaQ {
             width: fit-content;
             left: -10px;
-            top: 140px;
+            top: 150px;
 
             .corchete {
                 width: fit-content;
@@ -300,12 +300,12 @@
             position: relative;
             top: -10px;
             width: 120%;
-            height: 550px;
+            height: 580px;
         }
 
         .ubCA0 {
             width: fit-content;
-            top: 1700px;
+            top: 1760px;
             left: 30%;
         }
 
@@ -370,7 +370,7 @@
                 padding-left: 60px;
                 padding-right: 60px;
                 width: 100%;
-                height: 365px;
+                height: 385px;
                 margin-left: -0px;
                 margin-top: 50px;
                 margin-bottom: 0;
@@ -392,7 +392,7 @@
                 padding-left: 60px;
                 padding-right: 60px;
                 width: 100%;
-                height: 280px;
+                height: 290px;
                 position: relative;
                 left: 0%;
                 top: 25px;
