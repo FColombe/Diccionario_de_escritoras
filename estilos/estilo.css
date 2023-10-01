@@ -139,7 +139,7 @@ p {
     text-align: start;
     position: relative;
     top: 25px;
-    left: 27px;
+    left: 23px;
     margin-top: 0;
     margin-bottom: -20px;
   }
@@ -292,6 +292,7 @@ p {
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas: "section1" "section2";
+  max-width: 100%;
   max-height: fit-content;
 }
 .grilla1 .section1 {
@@ -511,7 +512,10 @@ p {
 
 @media screen and (max-width: 500px) {
   .grilla1 {
-    grid-template-rows: 1.1fr 1.4fr;
+    grid-template-rows: 1fr 1.4fr;
+  }
+  .grilla1 .section1 {
+    width: 88%;
   }
   .grilla1 .section1 .barra {
     width: 0;
@@ -534,11 +538,12 @@ p {
   }
   .grilla1 .section1 .cajaSeccion1 {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
   .grilla1 .section1 .cajaSeccion1 .imagenP {
     margin-top: 90px;
     margin-bottom: 60px;
+    margin-left: 10%;
   }
   .grilla1 .section1 .cajaSeccion1 .imagenP .borde {
     background-color: transparent;
@@ -555,19 +560,21 @@ p {
   .grilla1 .section1 .cajaSeccion1 .imagenP img {
     margin-top: 3%;
     margin-bottom: 3%;
+    margin-left: 6%;
     width: 300px;
   }
   .grilla1 .section1 .cajaSeccion1 div {
     width: fit-content;
+    margin-left: 20px;
   }
   .grilla1 .section1 .cajaSeccion1 div .corchete {
     width: fit-content;
-    font-size: 90px;
-    margin-right: 8px;
+    font-size: 95px;
+    margin-right: -23px;
     margin-bottom: 10px;
   }
   .grilla1 .section1 .cajaSeccion1 div p {
-    width: 330px;
+    width: 270px;
     line-height: 25px;
     letter-spacing: 1.8px;
     font-size: 16px;
@@ -575,10 +582,10 @@ p {
     text-align: start;
   }
   .grilla1 .section2 {
+    width: 96%;
     grid-template-columns: 1fr;
     grid-template-rows: 0.3fr 0.7fr 0.9fr 0.2fr;
     grid-template-areas: "vacio2" "vacio4" "centro" "vacio5" "travesaño1";
-    width: 96%;
     height: 75vh;
     margin-top: 0;
     margin-left: 2%;
