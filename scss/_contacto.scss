@@ -92,6 +92,7 @@
     }
 
     textarea {
+        width: 500px;
         height: 210px;
     }
 
@@ -117,113 +118,124 @@
 
 
 @media screen and (max-width: 500px) {
-    .barra {
-        @include barraVertical;
-        width: 130px;
-        height: 1000px;
+    .cuerpoCo {
+        max-height: 1700px;
         position: relative;
-        top: 28%;
-        left: 30px;
-    }
 
-    .imagenC {
-        width: fit-content;
-        margin-top: 0;
-        margin-bottom: 0;
-        position: relative;
-        left: 0%;
-        z-index: 2;
-
-        .borde {
-            @include bordeVerde;
-            width: 270px;
-            height: 270px;
-            border-width: 2px;
+        .barra {
+            @include barraVertical;
+            width: 130px;
+            height: 400px;
+            position: relative;
+            top: 4%;
+            left: 30px;
         }
 
-        img {
-            margin-top: 3%;
-            margin-bottom: 3%;
-            width: 256px;
-        }
-    }
+        .imagenC {
+            width: fit-content;
+            margin-top: 0;
+            margin-bottom: 0;
+            top: -120px;
+            left: 20%;
 
-    .cajaTe {
-        background-color: $amarilloOscuro;
-        border-top-right-radius: 18px;
-        border-bottom-right-radius: 18px;
-        padding: 25px;
-        width: 350px;
-        @include estiloTitulos;
-        font-size: 32px;
-        padding-left: 135px;
-        position: absolute;
-        z-index: 2;
-        top: 490px;
-    }
+            .borde {
+                @include bordeVerde;
+                width: 270px;
+                height: 270px;
+                border-width: 2px;
+            }
 
-    .cajaCitaC {
-        width: fit-content;
-        position: relative;
-        z-index: 2;
-        top: -85px;
-        left: 0;
-
-        p {
-            @include estiloCita;
-            text-align: start;
-            font-size: 16px;
-            width: 470px;
+            img {
+                margin-top: 3%;
+                margin-bottom: 3%;
+                width: 256px;
+            }
         }
 
-        .corchete {
-            @include corchete;
-            font-size: 90px;
-        }
-    }
-
-    .barraHorizontal7 {
-        @include barraH;
-        top: -400px;
-    }
-
-    .ubCAC {
-        width: fit-content;
-        position: absolute;
-        top: 320px;
-        left: 15%;
-        animation: bounce2 2s ease infinite;
-    }
-
-    .estiloForm {
-        @include estiloParrafo;
-        @include flexRowCenter;
-        background-color: $rosaClaro;
-        border-radius: 20px;
-        font-size: 24px;
-        width: 90%;
-        height: 490px;
-        margin-top: 130px;
-        position: relative;
-        top: -310px;
-        left: 5%;
-
-        .tamano {
-            font-size: 17px;
+        .cajaTe {
+            padding: 25px;
+            width: 350px;
+            @include estiloTitulos;
+            font-size: 26px;
+            padding-left: 80px;
+            position: absolute;
+            z-index: 2;
+            top: 120px;
         }
 
-        textarea {
-            height: 210px;
+        .cajaCitaC {
+            width: fit-content;
+            top: -80px;
+            left: 35px;
+
+            p {
+                @include estiloCita;
+                text-align: end;
+                font-size: 16px;
+                width: 300px;
+            }
+
+            .corchete {
+                @include corchete;
+                font-size: 70px;
+                margin-bottom: 65px;
+                margin-right: -50px;
+            }
         }
 
-        .botonC {
-            @include boton;
-            width: 100px;
-            height: 40px;
+        .ubCAC {
+            width: fit-content;
+            position: absolute;
+            top: 50px;
+            left: 50%;
+            animation: bounce2 2s ease infinite;
+        }
 
-            &:hover {
-                background-color: $rosa;
-                font-weight: bold;
+        .estiloForm {
+            font-size: 20px;
+            width: 90%;
+            height: 750px;
+            margin-top: 0px;
+            top: -330px;
+            left: 5%;
+
+            .ubInput {
+                padding-left: 40px;
+
+                .form-label {
+                    margin-top: 30px;
+                }
+
+                .form-control {
+                    width: 300px;
+
+                    &:active,
+                    &:focus {
+                        border-color: $colorTexto;
+                    }
+                }
+
+                .tamano {
+                    font-size: 14px;
+                    width: 250px;
+                    margin-bottom: -50px;
+                }
+
+                textarea {
+                    width: 300px;
+                    height: 210px;
+                }
+            }
+
+            .botonC {
+                @include boton;
+                width: 100px;
+                height: 40px;
+
+                &:hover {
+                    background-color: $rosa;
+                    font-weight: bold;
+                }
             }
         }
     }
@@ -231,8 +243,8 @@
     .ubCFC {
         width: fit-content;
         position: relative;
-        top: -190px;
-        left: 0%;
-        margin-bottom: -80px;
+        top: -90px;
+        left: 35%;
+        margin-bottom: 0px;
     }
 }

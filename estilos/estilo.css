@@ -1396,7 +1396,7 @@ p {
     padding-left: 25px;
     padding-left: 30px;
     padding-bottom: 20px;
-    font-size: 24px;
+    font-size: 23px;
   }
   .cajaCitaCiclos {
     width: fit-content;
@@ -1555,19 +1555,22 @@ p {
     left: 5px;
     top: -430px;
   }
-  .barraHorizontal5 {
+  .altura {
+    max-height: 900px;
+  }
+  .altura .barraHorizontal5 {
     background-color: rgb(252, 235, 161);
     height: 320px;
     position: relative;
     top: 0px;
     left: 0px;
   }
-  .cajaLoque {
+  .altura .cajaLoque {
     position: relative;
     top: -620px;
     margin-bottom: -100px;
   }
-  .cajaLoque h2 {
+  .altura .cajaLoque h2 {
     font-family: "Happy Monkey", cursive;
     color: rgb(87, 77, 79);
     font-weight: bold;
@@ -1579,7 +1582,7 @@ p {
     padding-left: 40px;
     padding-bottom: 80px;
   }
-  .cajaLoque .cajaLasMas, .cajaLoque .cajaCriticas {
+  .altura .cajaLoque .cajaLasMas, .altura .cajaLoque .cajaCriticas {
     background-color: rgb(236, 190, 219);
     border-radius: 20px;
     padding-top: 30px;
@@ -1595,7 +1598,7 @@ p {
     margin-left: 2%;
     margin-bottom: 120px;
   }
-  .cajaLoque .cajaLasMas h3, .cajaLoque .cajaCriticas h3 {
+  .altura .cajaLoque .cajaLasMas h3, .altura .cajaLoque .cajaCriticas h3 {
     font-family: "Happy Monkey", cursive;
     color: rgb(87, 77, 79);
     font-weight: bold;
@@ -1605,10 +1608,10 @@ p {
     padding-left: 25px;
     font-size: 24px;
   }
-  .cajaLoque .cajaLasMas p, .cajaLoque .cajaCriticas p {
+  .altura .cajaLoque .cajaLasMas p, .altura .cajaLoque .cajaCriticas p {
     font-size: 20px;
   }
-  .cajaLoque .cajaCriticas {
+  .altura .cajaLoque .cajaCriticas {
     background-color: rgba(254, 210, 219, 0.9);
     border-radius: 20px;
     padding-top: 25px;
@@ -1626,7 +1629,7 @@ p {
   .ubCF2 {
     width: fit-content;
     position: relative;
-    top: -660px;
+    top: -100px;
     left: 25%;
     margin-bottom: -100px;
   }
@@ -1776,34 +1779,42 @@ p {
 }
 
 @media screen and (max-width: 500px) {
+  .barraHorizontal5 {
+    background-color: rgb(252, 235, 161);
+    height: 320px;
+    position: relative;
+    top: 50px;
+  }
   .ubCA2 {
     width: fit-content;
     position: relative;
-    top: -230px;
+    top: -250px;
     left: 13%;
   }
   .cajaCitaT {
     position: relative;
-    top: -160px;
+    top: -180px;
     left: 0;
     width: fit-content;
   }
   .cajaCitaT p {
     font-size: 16px;
-    text-align: start;
+    margin-left: -10px;
     width: 300px;
   }
   .cajaCitaT .corchete {
-    font-size: 75px;
+    font-size: 70px;
+    margin-bottom: 28px;
   }
   .cajaTaller {
-    width: 100%;
-    height: 70%;
-    margin-left: 0;
+    width: 96%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    margin-left: 2%;
     margin-right: 0;
-    margin-bottom: 0;
-    position: relative;
-    z-index: 2;
+    margin-bottom: 80px;
+    margin-top: -100px;
   }
   .cajaTaller h1 {
     font-family: "Happy Monkey", cursive;
@@ -1814,24 +1825,25 @@ p {
     padding-bottom: 40px;
     padding-left: 25px;
     font-size: 24px;
+    margin-bottom: -5px;
   }
   .cajaTaller p {
-    font-size: 18px;
+    font-size: 20px;
   }
   .cajaFlyerTaller {
-    width: 80%;
-    position: relative;
-    z-index: 2;
-    top: 20px;
+    width: 96%;
+    margin-left: 2%;
+    top: 0px;
   }
   .cajaModalidad {
-    width: 100%;
+    width: fit-content;
     position: relative;
     z-index: 0;
-    top: -100px;
+    top: -120px;
+    left: 15%;
     margin-top: 0;
     margin-left: 0;
-    margin-bottom: 25px;
+    margin-bottom: 0;
   }
   .cajaModalidad p {
     font-size: 20px;
@@ -1843,12 +1855,8 @@ p {
   .botonT {
     width: 200px;
     height: 50px;
-    display: flex;
-    justify-content: center;
-    position: static;
-    z-index: 0;
-    left: 0;
-    top: 0;
+    left: 100px;
+    top: -70px;
   }
   .botonT a {
     background-color: rgba(254, 210, 219, 0.9);
@@ -1860,8 +1868,9 @@ p {
   .ubCF4 {
     width: fit-content;
     position: relative;
-    top: 0;
-    left: 0;
+    top: -20px;
+    left: 50%;
+    margin-bottom: 30px;
   }
 }
 .barra {
@@ -1985,6 +1994,7 @@ p {
   font-size: 17px;
 }
 .estiloForm textarea {
+  width: 500px;
   height: 210px;
 }
 .estiloForm .botonC {
@@ -2010,26 +2020,29 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-  .barra {
+  .cuerpoCo {
+    max-height: 1700px;
+    position: relative;
+  }
+  .cuerpoCo .barra {
     width: 60px;
     height: 1100px;
     background-color: rgb(252, 235, 161);
     border-radius: 18px;
     width: 130px;
-    height: 1000px;
+    height: 400px;
     position: relative;
-    top: 28%;
+    top: 4%;
     left: 30px;
   }
-  .imagenC {
+  .cuerpoCo .imagenC {
     width: fit-content;
     margin-top: 0;
     margin-bottom: 0;
-    position: relative;
-    left: 0%;
-    z-index: 2;
+    top: -120px;
+    left: 20%;
   }
-  .imagenC .borde {
+  .cuerpoCo .imagenC .borde {
     background-color: transparent;
     width: 460px;
     height: 460px;
@@ -2041,15 +2054,12 @@ p {
     height: 270px;
     border-width: 2px;
   }
-  .imagenC img {
+  .cuerpoCo .imagenC img {
     margin-top: 3%;
     margin-bottom: 3%;
     width: 256px;
   }
-  .cajaTe {
-    background-color: rgb(243, 226, 93);
-    border-top-right-radius: 18px;
-    border-bottom-right-radius: 18px;
+  .cuerpoCo .cajaTe {
     padding: 25px;
     width: 350px;
     font-family: "Happy Monkey", cursive;
@@ -2059,74 +2069,72 @@ p {
     padding-top: 30px;
     padding-bottom: 40px;
     padding-left: 25px;
-    font-size: 32px;
-    padding-left: 135px;
+    font-size: 26px;
+    padding-left: 80px;
     position: absolute;
     z-index: 2;
-    top: 490px;
+    top: 120px;
   }
-  .cajaCitaC {
+  .cuerpoCo .cajaCitaC {
     width: fit-content;
-    position: relative;
-    z-index: 2;
-    top: -85px;
-    left: 0;
+    top: -80px;
+    left: 35px;
   }
-  .cajaCitaC p {
+  .cuerpoCo .cajaCitaC p {
     font-family: "Give You Glory", cursive;
     color: rgb(87, 77, 79);
     font-weight: normal;
     line-height: 30px;
     letter-spacing: 2px;
-    text-align: start;
+    text-align: end;
     font-size: 16px;
-    width: 470px;
+    width: 300px;
   }
-  .cajaCitaC .corchete {
+  .cuerpoCo .cajaCitaC .corchete {
     font-family: "Give You Glory", cursive;
     color: rgb(229, 129, 190);
     width: 50px;
-    font-size: 90px;
+    font-size: 70px;
+    margin-bottom: 65px;
+    margin-right: -50px;
   }
-  .barraHorizontal7 {
-    background-color: rgb(252, 235, 161);
-    height: 320px;
-    position: relative;
-    top: -400px;
-  }
-  .ubCAC {
+  .cuerpoCo .ubCAC {
     width: fit-content;
     position: absolute;
-    top: 320px;
-    left: 15%;
+    top: 50px;
+    left: 50%;
     animation: bounce2 2s ease infinite;
   }
-  .estiloForm {
-    font-family: "Josefin Sans", sans-serif;
-    color: rgb(87, 77, 79);
-    font-weight: normal;
-    text-align: start;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(254, 210, 219, 0.9);
-    border-radius: 20px;
-    font-size: 24px;
+  .cuerpoCo .estiloForm {
+    font-size: 20px;
     width: 90%;
-    height: 490px;
-    margin-top: 130px;
-    position: relative;
-    top: -310px;
+    height: 750px;
+    margin-top: 0px;
+    top: -330px;
     left: 5%;
   }
-  .estiloForm .tamano {
-    font-size: 17px;
+  .cuerpoCo .estiloForm .ubInput {
+    padding-left: 40px;
   }
-  .estiloForm textarea {
+  .cuerpoCo .estiloForm .ubInput .form-label {
+    margin-top: 30px;
+  }
+  .cuerpoCo .estiloForm .ubInput .form-control {
+    width: 300px;
+  }
+  .cuerpoCo .estiloForm .ubInput .form-control:active, .cuerpoCo .estiloForm .ubInput .form-control:focus {
+    border-color: rgb(87, 77, 79);
+  }
+  .cuerpoCo .estiloForm .ubInput .tamano {
+    font-size: 14px;
+    width: 250px;
+    margin-bottom: -50px;
+  }
+  .cuerpoCo .estiloForm .ubInput textarea {
+    width: 300px;
     height: 210px;
   }
-  .estiloForm .botonC {
+  .cuerpoCo .estiloForm .botonC {
     font-size: 19px;
     text-align: center;
     background-color: rgb(229, 129, 190);
@@ -2135,16 +2143,16 @@ p {
     width: 100px;
     height: 40px;
   }
-  .estiloForm .botonC:hover {
+  .cuerpoCo .estiloForm .botonC:hover {
     background-color: rgb(236, 190, 219);
     font-weight: bold;
   }
   .ubCFC {
     width: fit-content;
     position: relative;
-    top: -190px;
-    left: 0%;
-    margin-bottom: -80px;
+    top: -90px;
+    left: 35%;
+    margin-bottom: 0px;
   }
 }
 

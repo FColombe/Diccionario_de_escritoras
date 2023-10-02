@@ -191,7 +191,7 @@
         @include estiloTitulos;
         padding-left: 30px;
         padding-bottom: 20px;
-        font-size: 24px;
+        font-size: 23px;
     }
 
     .cajaCitaCiclos {
@@ -317,6 +317,7 @@
         }
     }
 
+
     .cajaFlyer {
         width: 380px;
         transform: rotate(-4deg);
@@ -326,57 +327,61 @@
         top: -430px;
     }
 
-    .barraHorizontal5 {
-        @include barraH;
-        top: 0px;
-        left: 0px;
-    }
+    .altura {
+        max-height: 900px;
 
-    .cajaLoque {
-        position: relative;
-        top: -620px;
-        margin-bottom: -100px;
-
-        h2 {
-            @include estiloTitulos;
-            font-size: 28px;
-            padding-left: 40px;
-            padding-bottom: 80px;
+        .barraHorizontal5 {
+            @include barraH;
+            top: 0px;
+            left: 0px;
         }
 
-        .cajaLasMas {
-            @include cajaTextoRosa;
-            width: 96%;
-            padding-left: 50px;
-            padding-right: 50px;
-            padding-bottom: 40px;
-            margin-left: 2%;
-            margin-bottom: 120px;
+        .cajaLoque {
+            position: relative;
+            top: -620px;
+            margin-bottom: -100px;
 
-            h3 {
+            h2 {
                 @include estiloTitulos;
-                font-size: 24px;
+                font-size: 28px;
+                padding-left: 40px;
+                padding-bottom: 80px;
             }
 
-            p {
-                font-size: 20px;
-            }
-        }
+            .cajaLasMas {
+                @include cajaTextoRosa;
+                width: 96%;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 40px;
+                margin-left: 2%;
+                margin-bottom: 120px;
 
-        .cajaCriticas {
-            @include cajaTextoRosaClaro;
-            width: 96%;
-            padding-left: 50px;
-            padding-right: 50px;
-            padding-bottom: 40px;
-            margin-left: 2%;
+                h3 {
+                    @include estiloTitulos;
+                    font-size: 24px;
+                }
+
+                p {
+                    font-size: 20px;
+                }
+            }
+
+            .cajaCriticas {
+                @include cajaTextoRosaClaro;
+                width: 96%;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-bottom: 40px;
+                margin-left: 2%;
+            }
         }
     }
 
     .ubCF2 {
         width: fit-content;
         position: relative;
-        top: -660px;
+        top: -100px;
         left: 25%;
         margin-bottom: -100px;
     }
