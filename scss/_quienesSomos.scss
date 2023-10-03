@@ -64,10 +64,13 @@
 
     .cajaVig {
         position: relative;
-        top: -50px;
-        width: 40%;
-        height: 725px;
         z-index: 2;
+        top: -50px;
+        
+        video{ 
+            
+            width: 500px;
+        }
     }
 
     .ubCA0 {
