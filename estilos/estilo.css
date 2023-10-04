@@ -1669,8 +1669,8 @@ p {
 
 .cajaCitaT {
   position: absolute;
-  top: 340px;
-  left: 20px;
+  top: 45%;
+  left: 50%;
   width: 600px;
 }
 .cajaCitaT p {
@@ -1769,7 +1769,7 @@ p {
   justify-content: center;
   position: relative;
   z-index: 2;
-  left: 20%;
+  left: 18%;
   top: 0px;
 }
 .botonT a {
@@ -1787,7 +1787,7 @@ p {
 
 .ubCF4 {
   position: absolute;
-  top: 1350px;
+  top: 1300px;
   left: 13%;
 }
 
@@ -1852,7 +1852,6 @@ p {
   }
   .cajaModalidad {
     width: fit-content;
-    position: relative;
     z-index: 0;
     top: -120px;
     left: 15%;
@@ -1864,7 +1863,6 @@ p {
     font-size: 20px;
   }
   .cajaModalidad a {
-    text-shadow: 1px 1px 2px rgb(87, 77, 79);
     font-size: 20px;
   }
   .botonT {
@@ -1875,11 +1873,7 @@ p {
     top: 210%;
   }
   .botonT a {
-    background-color: rgba(254, 210, 219, 0.9);
     border-radius: 14px;
-    padding: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
   }
   .ubCF4 {
     width: fit-content;
@@ -1888,6 +1882,30 @@ p {
     left: 50%;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .cajaCitaT {
+    left: 28px;
+    width: 290px;
+  }
+  .cajaCitaT p {
+    margin-left: -27px;
+    width: 250px;
+  }
+  .cajaCitaT .corchete {
+    font-size: 75px;
+    margin-left: 0px;
+    margin-bottom: 38px;
+  }
+  .cajaModalidad {
+    left: 13%;
+  }
+  .cajaModalidad p {
+    font-size: 18px;
+  }
+  .botonT {
+    top: 218%;
   }
 }
 .barra {
