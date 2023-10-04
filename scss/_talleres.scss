@@ -8,10 +8,10 @@
     left: 13%;
 }
 .cajaCitaT {
+    width: 600px;
     position: absolute;
     top: 45%;
     left: 50%;
-    width: 600px;
     p {
         @include estiloCita;
         font-size: 18px;
@@ -67,7 +67,6 @@
         font-size: 25px;
     }
 }
-
 .botonT {
     @include estiloParrafo;
     @include boton;
