@@ -3,52 +3,43 @@
     height: 150px;
     font-family: $tipografiaParrafos;
     font-weight: bold;
-
     .cajaIg {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-end;
-
         div {
             img {
                 width: 100px;
                 margin-bottom: 23px;
             }
         }
-
         p {
             font-size: 18px;
             margin-bottom: 46px;
         }
     }
-
     .cajaLugar {
         @include flexColCenter;
         margin-top: 72px;
-
         p {
             font-size: 15px;
             margin-bottom: -3.5px;
         }
     }
-
     .cajaLog {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: flex-end;
         margin-left: -35px;
-
         div {
             margin-right: 15px;
             margin-bottom: 46px;
-
             a {
                 font-size: 18px;
             }
         }
-
         div {
             img {
                 width: 85px;
@@ -61,24 +52,18 @@
 
 @media screen and (max-width: 500px) {
     .cajaFooter {
-        height: 150px;
-
         .cajaIg {
             width: fit-content;
-            flex-direction: row;
-            justify-content: start;
             align-items: center;
             position: relative;
             top: 18px;
             left: -5px;
-
             div {
                 img {
                     width: 73px;
                     margin-bottom: 0px;
                 }
             }
-
             p {
                 width: 150px;
                 font-size: 16px;
@@ -86,46 +71,48 @@
                 margin-bottom: 0px;
             }
         }
-
         .cajaLugar {
             @include flexRowCenter;
             justify-content: flex-start;
             align-items: flex-start;
             width: fit-content;
             position: relative;
-            top: 40px;
+            top: 38px;
             left: -235px;
-
-            p {
-                font-size: 15px;
-                margin-bottom: -3.5px;
-            }
         }
-
         .cajaLog {
             width: fit-content;
             height: 50px;
             flex-direction: column-reverse;
-            justify-content: flex-end;
-            align-items: flex-end;
             margin-left: 0px;
             position: relative;
-            top: -58px;
-            left: 70%;
-
+            bottom: 60px;
+            right: -75%;
             div {
                 a {
                     font-size: 14px;
                     margin-right: -25px;
                 }
             }
-
             div {
                 img {
                     width: 55px;
                     margin-bottom: 17px;
                 }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .cajaFooter {
+        .cajaLugar {
+            top: -35px;
+            left: 15px;
+        }
+        .cajaLog {
+            bottom: 40px;
+            right: -60px;
         }
     }
 }

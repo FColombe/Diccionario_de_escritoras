@@ -174,6 +174,14 @@ p {
     border-radius: 0;
   }
 }
+@media screen and (max-width: 410px) {
+  .cajaHeader .titHeader {
+    left: 10px;
+  }
+  .cajaHeader .nave .bordeMenu {
+    bottom: 15px;
+  }
+}
 .cajaFooter {
   background-color: rgb(201, 236, 151);
   height: 150px;
@@ -225,13 +233,8 @@ p {
 }
 
 @media screen and (max-width: 500px) {
-  .cajaFooter {
-    height: 150px;
-  }
   .cajaFooter .cajaIg {
     width: fit-content;
-    flex-direction: row;
-    justify-content: start;
     align-items: center;
     position: relative;
     top: 18px;
@@ -256,23 +259,17 @@ p {
     align-items: flex-start;
     width: fit-content;
     position: relative;
-    top: 40px;
+    top: 38px;
     left: -235px;
-  }
-  .cajaFooter .cajaLugar p {
-    font-size: 15px;
-    margin-bottom: -3.5px;
   }
   .cajaFooter .cajaLog {
     width: fit-content;
     height: 50px;
     flex-direction: column-reverse;
-    justify-content: flex-end;
-    align-items: flex-end;
     margin-left: 0px;
     position: relative;
-    top: -58px;
-    left: 70%;
+    bottom: 60px;
+    right: -75%;
   }
   .cajaFooter .cajaLog div a {
     font-size: 14px;
@@ -281,6 +278,16 @@ p {
   .cajaFooter .cajaLog div img {
     width: 55px;
     margin-bottom: 17px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .cajaFooter .cajaLugar {
+    top: -35px;
+    left: 15px;
+  }
+  .cajaFooter .cajaLog {
+    bottom: 40px;
+    right: -60px;
   }
 }
 .grilla1 {
@@ -735,15 +742,18 @@ p {
 }
 .cuerpo .cajaVig {
   position: relative;
-  top: -50px;
-  width: 40%;
-  height: 725px;
   z-index: 2;
+  width: fit-content;
+  top: -70px;
+}
+.cuerpo .cajaVig video {
+  width: 550px;
+  border-radius: 20px;
 }
 .cuerpo .ubCA0 {
   position: absolute;
   z-index: 2;
-  top: 1500px;
+  top: 1690px;
   left: 60%;
 }
 .cuerpo .barraHorizontal2 {
@@ -1263,6 +1273,7 @@ p {
 .calesita {
   margin-top: -940px;
   margin-bottom: 180px;
+  width: 200px;
 }
 
 .cajaRayos {
@@ -1659,7 +1670,7 @@ p {
 .cajaCitaT {
   position: absolute;
   top: 340px;
-  left: 47.5%;
+  left: 20px;
   width: 600px;
 }
 .cajaCitaT p {
@@ -1796,7 +1807,7 @@ p {
   .cajaCitaT {
     position: relative;
     top: -180px;
-    left: 0;
+    left: 20px;
     width: fit-content;
   }
   .cajaCitaT p {
@@ -1806,7 +1817,9 @@ p {
   }
   .cajaCitaT .corchete {
     font-size: 70px;
+    margin-left: 0px;
     margin-bottom: 28px;
+    width: fit-content;
   }
   .cajaTaller {
     width: 96%;
@@ -1857,8 +1870,9 @@ p {
   .botonT {
     width: 200px;
     height: 50px;
-    left: 100px;
-    top: -70px;
+    position: absolute;
+    left: 25%;
+    top: 210%;
   }
   .botonT a {
     background-color: rgba(254, 210, 219, 0.9);
@@ -1872,6 +1886,7 @@ p {
     position: relative;
     top: -20px;
     left: 50%;
+    margin-top: 30px;
     margin-bottom: 30px;
   }
 }
@@ -1991,6 +2006,9 @@ p {
   position: relative;
   top: -310px;
   left: 5%;
+}
+.estiloForm .anchoCentrar {
+  width: 200px;
 }
 .estiloForm .tamano {
   font-size: 17px;

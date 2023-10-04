@@ -12,7 +12,7 @@
 .cajaCitaT {
     position: absolute;
     top: 340px;
-    left: 47.5%;
+    left: 20px;
     width: 600px;
 
     p {
@@ -131,7 +131,7 @@
     .cajaCitaT {
         position: relative;
         top: -180px;
-        left: 0;
+        left: 20px;
         width: fit-content;
     
         p {
@@ -142,7 +142,9 @@
     
         .corchete {
             font-size: 70px;
+            margin-left: 0px;
             margin-bottom: 28px;
+            width: fit-content;
         }
     }
     
@@ -196,9 +198,10 @@
     .botonT {
         width: 200px;
         height:50px;
-        left: 100px;
-        top: -70px;
-    
+        position: absolute;
+        left: 25%;
+        top: 210%;
+
         a {
             background-color: $rosaClaro;
             border-radius: 14px;
@@ -213,6 +216,7 @@
         position: relative;
         top: -20px;
         left: 50%;
+        margin-top: 30px;
         margin-bottom: 30px;
     }
     

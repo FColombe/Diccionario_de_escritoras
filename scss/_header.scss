@@ -2,7 +2,6 @@
     background-color: $fucsia;
     border-color: $fucsia;
     border-bottom-color: $rosaClaro;
-
     .titHeader {
         font-family: $tipografiaTitulos;
         color: $colorTexto;
@@ -12,44 +11,36 @@
         text-shadow: 1px 1px 2px $rosa;
         @include flexColCenter;
         margin-top: -10px;
-
         a {
             &:hover {
                 animation-duration: 1.5s;
                 animation-name: brillar;
                 animation-iteration-count: infinite;
             }
-
             @keyframes brillar {
                 0% {
                     color: $colorTexto;
                     text-shadow: 1px 1px 2px $colorTexto;
                 }
-
                 100% {
                     color: $rosa;
                 }
             }
         }
     }
-
     .nave {
         background-color: $rosaClaro;
-
         li {
             display: inline-block;
-
             a {
                 font-family: $tipografiaParrafos;
                 font-size: 27px;
-
                 &:hover {
                     font-weight: bold;
                     background-color: $fucsia;
                     border-radius: 50%;
                 }
             }
-
         }
     }
 }
@@ -57,7 +48,6 @@
 
 @media screen and (max-width: 500px) {
     .cajaHeader {
-
         .titHeader {
             width: 300px;
             font-size: 34px;
@@ -69,12 +59,9 @@
             left: 23px;
             margin-top: 0;
             margin-bottom: -20px;
-            
         }
-
         .nave {
             background-color: transparent;
-            
                 .bordeMenu {
                     width: fit-content;
                     background-color: $rosaClaro;
@@ -83,7 +70,6 @@
                     right: -80%;
                     bottom: 35px;
                     z-index: 3;
-
                     &:focus,
                     &:active,
                     &-icon:focus {
@@ -93,13 +79,11 @@
                 }
             .navbar-collapse {
                 background-color: $rosaClaro;
-
                 li {
                     a {
                         font-size: 22px;
                         text-align: end;
                         padding-right: 45px;
-    
                         &:hover {
                             font-weight: bold;
                             width: 100%;
@@ -109,9 +93,19 @@
                     }
                 }
             }
-            
-            
         }
     }
+}
 
+@media screen and (max-width: 410px) {
+    .cajaHeader {
+        .titHeader {
+            left: 10px;
+        }
+        .nave {
+            .bordeMenu {
+                    bottom: 15px;
+            }  
+        }
+    }
 }

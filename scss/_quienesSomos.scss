@@ -65,18 +65,19 @@
     .cajaVig {
         position: relative;
         z-index: 2;
-        top: -50px;
+        width: fit-content;
+        top: -70px;
         
         video{ 
-            
-            width: 500px;
+            width: 550px;
+            border-radius: 20px;
         }
     }
 
     .ubCA0 {
         position: absolute;
         z-index: 2;
-        top: 1500px;
+        top: 1690px;
         left: 60%;
     }
 
