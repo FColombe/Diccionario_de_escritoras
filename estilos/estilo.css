@@ -1195,8 +1195,8 @@ p {
   width: 460px;
   position: relative;
   z-index: 2;
-  left: 12%;
-  top: -30px;
+  left: -5%;
+  top: -200px;
 }
 .cajaCitaCiclos p {
   font-family: "Give You Glory", cursive;
@@ -1226,7 +1226,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 40%;
-  margin-top: -50px;
+  margin-top: -100px;
   margin-left: 6%;
   margin-bottom: 230px;
 }
@@ -1252,7 +1252,7 @@ p {
 }
 
 .cajaJusticia {
-  margin-top: 10px;
+  margin-top: -30px;
   margin-left: 6%;
 }
 
@@ -1396,7 +1396,7 @@ p {
     left: 83%;
   }
   .cajaH1 {
-    width: 300px;
+    width: 70%;
     position: relative;
     top: -250px;
     margin-left: -35px;
@@ -1412,10 +1412,10 @@ p {
     font-size: 23px;
   }
   .cajaCitaCiclos {
-    width: fit-content;
+    width: 30%;
     position: relative;
     z-index: 2;
-    left: 10%;
+    left: 0;
     top: -170px;
   }
   .cajaCitaCiclos p {
@@ -1424,8 +1424,8 @@ p {
     font-weight: normal;
     line-height: 30px;
     letter-spacing: 2px;
-    font-size: 18px;
-    width: 250px;
+    font-size: 16px;
+    width: 230px;
     text-align: end;
     margin-bottom: -5px;
   }
@@ -1435,6 +1435,7 @@ p {
     width: 50px;
     font-size: 70px;
     margin-top: 15px;
+    width: fit-content;
   }
   div .cajaAmiga, div .cajaJusticia {
     background-color: rgb(236, 190, 219);
@@ -1448,7 +1449,7 @@ p {
     width: 96%;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: -70px;
+    margin-top: -90px;
     margin-left: 2%;
     margin-bottom: 160px;
   }
@@ -1485,7 +1486,7 @@ p {
     width: 96%;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: 10px;
+    margin-top: -15px;
     margin-left: 2%;
   }
   div .cajaJusticia h2 {
@@ -1514,7 +1515,7 @@ p {
   .ubCF1 {
     width: fit-content;
     position: absolute;
-    top: 1850px;
+    top: 220%;
     left: 25%;
     animation: bounce2 2s ease infinite;
   }
@@ -1540,7 +1541,7 @@ p {
     padding-right: 50px;
     position: relative;
     z-index: 2;
-    top: -450px;
+    top: -460px;
   }
   .cajaRayos h2 {
     font-family: "Happy Monkey", cursive;
@@ -1561,26 +1562,29 @@ p {
     padding-right: 0px;
   }
   .cajaFlyer {
-    width: 380px;
-    transform: rotate(-4deg);
+    width: fit-content;
+    transform: rotate(0deg);
     position: relative;
     z-index: 2;
-    left: 5px;
+    left: 0;
     top: -430px;
   }
+  .cajaFlyer img {
+    width: 300px;
+  }
   .altura {
-    max-height: 900px;
+    max-height: 925px;
   }
   .altura .barraHorizontal5 {
     background-color: rgb(252, 235, 161);
     height: 320px;
     position: relative;
-    top: 0px;
+    top: -290px;
     left: 0px;
   }
   .altura .cajaLoque {
     position: relative;
-    top: -620px;
+    top: -590px;
     margin-bottom: -100px;
   }
   .altura .cajaLoque h2 {
@@ -1642,16 +1646,17 @@ p {
   .ubCF2 {
     width: fit-content;
     position: relative;
-    top: -100px;
+    top: 100px;
     left: 25%;
-    margin-bottom: -100px;
+    margin-bottom: 200px;
   }
   .ubCF3 {
     width: fit-content;
     display: inline-flex;
-    position: absolute;
-    top: 4700px;
-    left: 170px;
+    position: relative;
+    z-index: 2;
+    top: -1240px;
+    left: 0;
   }
 }
 .barraHorizontal5 {
