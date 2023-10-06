@@ -322,11 +322,11 @@
                 "travesaño1";
             margin-top: 20px;
             margin-bottom: -100px;
-            margin-left: 2%;
+            margin-left: 4%;
 
             .caja2C {
                 width: fit-content;
-                top: 55%;
+                top: 57%;
                 left: 45%;
                 z-index: 2;
             }
@@ -336,7 +336,7 @@
                 height: 60%;
 
                 .cajaArticle {
-                    width: 93%;
+                    width: 96%;
                     border-radius: 18px;
                     padding-top: 15px;
                     padding-bottom: 25px;
@@ -344,7 +344,7 @@
                     padding-right: 50px;
                     position: relative;
                     top: 90px;
-                    left: 0;
+                    left: 10px;
 
                     h1 {
                         @include estiloTitulos;
@@ -370,8 +370,8 @@
                 .video {
                     width: 95%;
                     position: relative;
-                    top: 240px;
-                    left: 0;
+                    top: 210px;
+                    left: 30px;
 
                     video {
                         border-radius: 18px;

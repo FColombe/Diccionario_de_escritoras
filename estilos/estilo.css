@@ -598,11 +598,11 @@ p {
     grid-template-areas: "vacio2" "vacio4" "centro" "vacio5" "travesaño1";
     margin-top: 20px;
     margin-bottom: -100px;
-    margin-left: 2%;
+    margin-left: 4%;
   }
   .grilla1 .section2 .caja2C {
     width: fit-content;
-    top: 55%;
+    top: 57%;
     left: 45%;
     z-index: 2;
   }
@@ -611,7 +611,7 @@ p {
     height: 60%;
   }
   .grilla1 .section2 .contenido .cajaArticle {
-    width: 93%;
+    width: 96%;
     border-radius: 18px;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -619,7 +619,7 @@ p {
     padding-right: 50px;
     position: relative;
     top: 90px;
-    left: 0;
+    left: 10px;
   }
   .grilla1 .section2 .contenido .cajaArticle h1 {
     font-family: "Happy Monkey", cursive;
@@ -646,8 +646,8 @@ p {
   .grilla1 .section2 .contenido .video {
     width: 95%;
     position: relative;
-    top: 240px;
-    left: 0;
+    top: 210px;
+    left: 30px;
   }
   .grilla1 .section2 .contenido .video video {
     border-radius: 18px;
@@ -1748,7 +1748,7 @@ p {
   position: relative;
   z-index: 2;
   left: 60%;
-  top: -320px;
+  top: -300px;
 }
 .cajaModalidad p {
   font-size: 25px;
@@ -1856,7 +1856,7 @@ p {
   .cajaModalidad {
     width: 75%;
     z-index: 0;
-    top: -120px;
+    top: -100px;
     left: 15%;
     margin-top: 0;
     margin-left: 0;
