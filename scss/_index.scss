@@ -17,7 +17,7 @@
         .barra {
             @include barraVertical;
             position: absolute;
-            top: 5%;
+            top: 7%;
             left: 20px;
         }
 
@@ -27,7 +27,7 @@
             background-color: $amarilloOscuro;
             border-radius: 18px;
             position: absolute;
-            top: 12%;
+            top: 15%;
             left: 120px;
         }
 
@@ -42,10 +42,10 @@
 
         .cajaSeccion1 {
             @include flexColCenter;
-            margin-top: 70px;
 
             .imagenP {
                 @include flexRowCenter;
+                margin-top: 100px;
                 margin-bottom: 50px;
 
                 .borde {
@@ -234,7 +234,7 @@
     .grilla1 {
         grid-template-rows: 1fr 1.5fr;
         .section1 {
-            width: 100%;
+            width: 94.5%;
 
             .barra {
                 width: 0;
@@ -254,18 +254,24 @@
 
             .cajaCRosa {
                 display: inline-flex;
-                top: 4.8%;
+                top: 5%;
                 left: 38px;
             }
 
             .cajaSeccion1 {
-                margin-top: 0;
-                margin-bottom: 30px;
+                width: 100%;
+                margin-bottom: 0px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
 
                 .imagenP {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    margin-top: 100px;
+                    margin-left: 0px;
 
                     .borde {
                         @include bordeVerde;
@@ -276,22 +282,23 @@
 
                     img {
                         width: 256px;
+                        margin-left: 3%;
                     }
                 }
-
+                
                 div {
-                    width: 95%;
-                    margin-left: 0;
+                    width: 90%;
+                    margin-left: 10px;
 
                     .corchete {
                         width: fit-content;
-                        font-size: 90px;
-                        margin-right: 0px;
+                        font-size: 85px;
+                        margin-right: -5px;
                         margin-bottom: 0px;
                     }
 
                     p {
-                        width: 210px;
+                        width: 100%;
                         line-height: 25px;
                         letter-spacing: 1.5px;
                         font-size: 16px;
@@ -303,7 +310,7 @@
         }
 
         .section2 {
-            width:100%;
+            width:92%;
             max-height: fit-content;
             grid-template-columns: 1fr;
             grid-template-rows: 0.2fr 0.2fr 0.4fr 0.2fr;
@@ -313,9 +320,9 @@
                 "centro"
                 "vacio5"
                 "travesaño1";
-            margin-top: 0;
-            margin-left: 0;
+            margin-top: 20px;
             margin-bottom: -100px;
+            margin-left: 2%;
 
             .caja2C {
                 width: fit-content;
@@ -325,7 +332,7 @@
             }
 
             .contenido {
-                width: 100%;
+                width: 90%;
                 height: 60%;
 
                 .cajaArticle {
@@ -336,7 +343,7 @@
                     padding-left: 50px;
                     padding-right: 50px;
                     position: relative;
-                    top: 70px;
+                    top: 90px;
                     left: 0;
 
                     h1 {
@@ -384,7 +391,6 @@
             }
         }
     }
-
 
 
 }

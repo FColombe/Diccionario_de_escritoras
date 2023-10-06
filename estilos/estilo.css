@@ -310,7 +310,7 @@ p {
   background-color: rgb(252, 235, 161);
   border-radius: 18px;
   position: absolute;
-  top: 5%;
+  top: 7%;
   left: 20px;
 }
 .grilla1 .section1 .barra2 {
@@ -319,7 +319,7 @@ p {
   background-color: rgb(243, 226, 93);
   border-radius: 18px;
   position: absolute;
-  top: 12%;
+  top: 15%;
   left: 120px;
 }
 .grilla1 .section1 .cajaCRosa {
@@ -335,13 +335,13 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
 }
 .grilla1 .section1 .cajaSeccion1 .imagenP {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
   margin-bottom: 50px;
 }
 .grilla1 .section1 .cajaSeccion1 .imagenP .borde {
@@ -521,7 +521,7 @@ p {
     grid-template-rows: 1fr 1.5fr;
   }
   .grilla1 .section1 {
-    width: 100%;
+    width: 94.5%;
   }
   .grilla1 .section1 .barra {
     width: 0;
@@ -539,17 +539,22 @@ p {
   }
   .grilla1 .section1 .cajaCRosa {
     display: inline-flex;
-    top: 4.8%;
+    top: 5%;
     left: 38px;
   }
   .grilla1 .section1 .cajaSeccion1 {
-    margin-top: 0;
-    margin-bottom: 30px;
+    width: 100%;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .grilla1 .section1 .cajaSeccion1 .imagenP {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+    margin-left: 0px;
   }
   .grilla1 .section1 .cajaSeccion1 .imagenP .borde {
     background-color: transparent;
@@ -565,19 +570,20 @@ p {
   }
   .grilla1 .section1 .cajaSeccion1 .imagenP img {
     width: 256px;
+    margin-left: 3%;
   }
   .grilla1 .section1 .cajaSeccion1 div {
-    width: 95%;
-    margin-left: 0;
+    width: 90%;
+    margin-left: 10px;
   }
   .grilla1 .section1 .cajaSeccion1 div .corchete {
     width: fit-content;
-    font-size: 90px;
-    margin-right: 0px;
+    font-size: 85px;
+    margin-right: -5px;
     margin-bottom: 0px;
   }
   .grilla1 .section1 .cajaSeccion1 div p {
-    width: 210px;
+    width: 100%;
     line-height: 25px;
     letter-spacing: 1.5px;
     font-size: 16px;
@@ -585,14 +591,14 @@ p {
     text-align: start;
   }
   .grilla1 .section2 {
-    width: 100%;
+    width: 92%;
     max-height: fit-content;
     grid-template-columns: 1fr;
     grid-template-rows: 0.2fr 0.2fr 0.4fr 0.2fr;
     grid-template-areas: "vacio2" "vacio4" "centro" "vacio5" "travesaño1";
-    margin-top: 0;
-    margin-left: 0;
+    margin-top: 20px;
     margin-bottom: -100px;
+    margin-left: 2%;
   }
   .grilla1 .section2 .caja2C {
     width: fit-content;
@@ -601,7 +607,7 @@ p {
     z-index: 2;
   }
   .grilla1 .section2 .contenido {
-    width: 100%;
+    width: 90%;
     height: 60%;
   }
   .grilla1 .section2 .contenido .cajaArticle {
@@ -612,7 +618,7 @@ p {
     padding-left: 50px;
     padding-right: 50px;
     position: relative;
-    top: 70px;
+    top: 90px;
     left: 0;
   }
   .grilla1 .section2 .contenido .cajaArticle h1 {
@@ -657,7 +663,7 @@ p {
   }
 }
 .cuerpo {
-  height: 355vh;
+  height: 370vh;
 }
 .cuerpo .cajaCitaQ {
   width: 520px;
@@ -906,7 +912,7 @@ p {
   width: 50%;
   height: 90px;
   position: absolute;
-  top: 3100px;
+  top: 3250px;
   left: 50%;
 }
 .aside .estiloAside {
@@ -1015,7 +1021,7 @@ p {
   }
   .cuerpo .ubCA0 {
     width: fit-content;
-    top: 1760px;
+    top: 1790px;
     left: 30%;
   }
   .cuerpo .cajaLectoras {
@@ -1076,12 +1082,13 @@ p {
     width: fit-content;
     position: absolute;
     top: 12%;
-    left: 25%;
+    left: 33%;
   }
   .cuerpo .cajaAmigxs h2 {
     font-size: 24px;
     padding-top: 50px;
     padding-left: 20px;
+    padding-bottom: 60px;
   }
   .cuerpo .cajaAmigxs .cajaPuerta {
     background-color: rgb(236, 190, 219);
@@ -1145,7 +1152,7 @@ p {
     border-radius: 16px;
     padding-top: 5px;
     position: absolute;
-    top: 4600px;
+    top: 4650px;
     left: 9%;
     margin-top: 50px;
     margin-bottom: 120px;
@@ -1276,7 +1283,7 @@ p {
 .ubCF1 {
   width: 480px;
   position: absolute;
-  top: 2040px;
+  top: 2100px;
   left: 15%;
 }
 
@@ -1385,7 +1392,7 @@ p {
 .ubCF2 {
   width: 480px;
   position: relative;
-  top: -650px;
+  top: -630px;
   left: 53%;
   margin-bottom: -100px;
 }
@@ -1725,14 +1732,14 @@ p {
   width: 30%;
   position: relative;
   z-index: 2;
-  top: 20px;
+  top: 40px;
 }
 
 .barraHorizontal6 {
   background-color: rgb(252, 235, 161);
   height: 320px;
   position: relative;
-  top: -260px;
+  top: -230px;
   margin-bottom: -120px;
 }
 
@@ -1888,7 +1895,7 @@ p {
   width: 130px;
   height: 1000px;
   position: absolute;
-  top: 36%;
+  top: 43%;
   left: 30px;
 }
 
