@@ -1,5 +1,5 @@
 .cuerpo {
-    max-height: 355vh;
+    height: 355vh;
 
     .cajaCitaQ {
         width: 520px;
@@ -245,7 +245,8 @@
 
 @media screen and (max-width: 500px) {
     .cuerpo {
-        max-height: 4300px;
+        height: fit-content;
+       
 
         .cajaCitaQ {
             width: fit-content;
@@ -303,8 +304,14 @@
         .cajaVig {
             position: relative;
             top: -10px;
-            width: 120%;
-            height: 550px;
+            
+            width:fit-content;
+            height: auto;
+
+            video{
+                width: 90%;
+                margin-left: 5%;
+            }
         }
 
         .ubCA0 {
@@ -316,17 +323,26 @@
         .cajaLectoras {
             @include flexColCenter;
             flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
             position: relative;
             z-index: 2;
             top: -150px;
 
             .imgL {
-                width: 80%;
-                margin-bottom: 40px;
-                margin-left: 0;
-                transform: rotate(-6deg);
+                width: 85%;
+                margin-bottom: 0px;
+                margin-right: 0;
+                transform: rotate(0deg);
+                
                 position: relative;
-                left: 35px;
+                left: 0px;
+
+                img{
+                    width: 90%;
+                    margin-left: 5%;
+                    transform: rotate(-2deg);
+                }
             }
 
             .lectoras {
@@ -350,16 +366,16 @@
 
         .cajaAmigxs {
             width: 90%;
-            height: 1050px;
+            height: fit-content;
             position: relative;
-            top: -380px;
+            top:  -350px;
             left: 5%;
-
+            
             .ubCF {
                 width: fit-content;
                 position: absolute;
                 top: 12%;
-                left: 48%;
+                left: 25%;
             }
 
             h2 {
@@ -375,10 +391,10 @@
                 padding-left: 60px;
                 padding-right: 60px;
                 width: 100%;
-                height: 430px;
+                height: fit-content;
                 margin-left: -0px;
                 margin-top: 30px;
-                margin-bottom: 0;
+                margin-bottom: 30px;
 
                 .amigxs {
                     font-size: 23px;
@@ -399,10 +415,11 @@
                 padding-left: 60px;
                 padding-right: 60px;
                 width: 100%;
-                height: 350px;
+                height: fit-content;
                 position: relative;
                 left: 0%;
                 top: 0px;
+                margin-bottom: 20px;
 
                 .amigxs {
                     font-size: 23px;
@@ -423,11 +440,11 @@
         height: 50px;
         border-radius: 16px;
         padding-top: 5px;
-        position: relative;
-        top: 0px;
-        left: 30%;
-        margin-top: 120px;
-        margin-bottom: 80px;
+        position: absolute;
+        top: 4600px;
+        left: 9%;
+        margin-top: 50px;
+        margin-bottom: 120px;
 
         .estiloAside {
             width: 220px;
