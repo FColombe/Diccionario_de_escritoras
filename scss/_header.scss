@@ -55,7 +55,7 @@
             text-align: start;
             position: relative;
             top: 25px;
-            left: 16px;
+            left: 12px;
             margin-top: 0;
             margin-bottom: -20px;
         }
@@ -65,10 +65,9 @@
                     width: fit-content;
                     background-color: $rosaClaro;
                     border-color: $colorTexto;
-                    position: relative;
+                    @include z;
                     right: -80%;
-                    bottom: 35px;
-                    z-index: 3;
+                    bottom: 13px;
                     &:focus,
                     &:active,
                     &-icon:focus {
@@ -96,15 +95,3 @@
     }
 }
 
-@media screen and (max-width: 410px) {
-    .cajaHeader {
-        .titHeader {
-            left: 10px;
-        }
-        .nave {
-            .bordeMenu {
-                    bottom: 13px;
-            }  
-        }
-    }
-}

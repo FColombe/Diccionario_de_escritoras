@@ -32,8 +32,7 @@
     margin-left: 5.5%;
     margin-right: 10%;
     margin-bottom: 8%;
-    position: relative;
-    z-index: 2;
+    @include z;
     h1 {
         @include estiloTitulos;
         font-size: 28px;
@@ -44,8 +43,7 @@
 }
 .cajaFlyerTaller {
     width: 30%;
-    position: relative;
-    z-index: 2;
+    @include z;
     top: 40px;
 }
 .barraHorizontal6 {
@@ -55,8 +53,7 @@
 }
 .cajaModalidad {
     width: fit-content;
-    position: relative;
-    z-index: 2;
+    @include z;
     left: 60%;
     top: -300px;
     p {
@@ -74,8 +71,7 @@
     height: fit-content;
     display: flex;
     justify-content: center;
-    position: relative;
-    z-index: 2;
+    @include z;
     top: -180px;
     a {
         background-color: $rosaClaro;

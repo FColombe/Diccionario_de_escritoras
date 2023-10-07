@@ -12,6 +12,11 @@
     align-items: center;
 }
 
+@mixin z(){
+    position: relative;
+    z-index: 2;
+}
+
 @mixin cajaTextoFucsia() {
     background-color: $fucsia;
     border-radius: 20px;

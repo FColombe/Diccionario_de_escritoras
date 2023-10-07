@@ -32,10 +32,11 @@
         flex-direction: row;
         justify-content: flex-end;
         align-items: flex-end;
-        margin-left: -35px;
+        padding-top: 40px;
+        padding-right: 8%;
         div {
             margin-right: 15px;
-            margin-bottom: 46px;
+            margin-bottom: 42px;
             a {
                 font-size: 18px;
             }
@@ -43,20 +44,20 @@
         div {
             img {
                 width: 85px;
-                margin-bottom: 25px;
+                margin-bottom: 20px;
             }
         }
     }
-
 }
 
 @media screen and (max-width: 500px) {
     .cajaFooter {
+        display: block;
         .cajaIg {
             width: fit-content;
             align-items: center;
             position: relative;
-            top: 18px;
+            top: 25px;
             left: -5px;
             div {
                 img {
@@ -77,42 +78,37 @@
             align-items: flex-start;
             width: fit-content;
             position: relative;
-            top: 38px;
-            left: -235px;
-        }
-        .cajaLog {
-            width: fit-content;
-            height: 50px;
-            flex-direction: column-reverse;
-            margin-left: 0px;
-            position: relative;
-            bottom: 60px;
-            right: -75%;
-            div {
-                a {
-                    font-size: 14px;
-                    margin-right: -25px;
-                }
-            }
-            div {
-                img {
-                    width: 55px;
-                    margin-bottom: 17px;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .cajaFooter {
-        .cajaLugar {
-            top: -35px;
+            top: -25px;
             left: 15px;
         }
-        .cajaLog {
-            bottom: 40px;
-            right: -60px;
+        .ubLog {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            position: relative;
+            bottom: 120px;
+            right: 27px;
+            .cajaLog {
+                width: fit-content;
+                height: 50px;
+                flex-direction: column-reverse;
+                margin-left: 0px;
+                padding-top: 0px;
+                padding-right: 0;
+                div {
+                    margin-bottom: 0px;
+                    a {
+                        font-size: 14px;
+                        margin-right: -25px;
+                    }
+                }
+                div {
+                    img {
+                        width: 55px;
+                        margin-bottom: 17px;
+                    }
+                }
+            }
         }
     }
 }

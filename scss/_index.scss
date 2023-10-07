@@ -9,18 +9,15 @@
         "section2";
     max-width: 100%;
     max-height: fit-content;
-
     .section1 {
         grid-area: section1;
         position: relative;
-
         .barra {
             @include barraVertical;
             position: absolute;
             top: 7%;
             left: 20px;
         }
-
         .barra2 {
             width: 70px;
             height: 400px;
@@ -30,7 +27,6 @@
             top: 15%;
             left: 120px;
         }
-
         .cajaCRosa {
             width: fit-content;
             display: block;
@@ -39,36 +35,29 @@
             right: 120px;
             animation: bounce2 2s ease infinite;
         }
-
         .cajaSeccion1 {
             @include flexColCenter;
-
             .imagenP {
                 @include flexRowCenter;
                 margin-top: 100px;
                 margin-bottom: 50px;
-
                 .borde {
                     @include bordeVerde;
                 }
-
                 img {
                     margin-top: 3%;
                     margin-bottom: 3%;
                     width: 425px;
                 }
             }
-
             div {
                 width: 600px;
-
                 .corchete {
                     @include corchete;
                     font-size: 90px;
                     margin-right: 8px;
                     margin-bottom: 30px;
                 }
-
                 p {
                     @include estiloCita;
                     font-size: 18px;
@@ -78,7 +67,6 @@
             }
         }
     }
-
     .section2 {
         display: grid;
         grid-template-columns: 0.5fr 0.7fr 4.8fr 0.7fr 0.2fr 0.3fr 0.3fr;
@@ -96,35 +84,29 @@
         width: 100%;
         max-height: max-content;
         margin-top: 80px;
-
         .caja2C {
             position: absolute;
             top: 67%;
             left: 12%;
         }
-
         .contenido {
             @include flexColCenter;
             position: absolute;
             width: 100%;
             height: 85%;
-
             .cajaArticle {
                 @include cajaTextoFucsia;
                 width: 820px;
                 position: relative;
                 top: 50px;
                 left: -190px;
-
                 h1 {
                     @include estiloTitulos;
                     font-size: 30px;
                 }
-
                 p {
                     font-size: 27px;
                 }
-
                 .padd {
                     padding-right: 320px;
                     padding-top: 50px;
@@ -135,42 +117,34 @@
                     animation-fill-mode: both;
                     animation-duration: 10s;
                     animation-delay: 1.5s;
-
                     @keyframes negrita {
                         0% {
                             font-weight: normal
                         }
-
                         100% {
                             font-weight: bold;
                         }
                     }
                 }
             }
-
             .video {
                 width: 650px;
                 height: auto;
                 position: relative;
                 top: -130px;
                 left: 275px;
-
-
                 video {
                     width: 100%;
                     border-radius: 20px;
                 }
             }
         }
-
         .vacio2 {
             grid-area: vacio2;
         }
-
         .vacio3 {
             grid-area: vacio3;
         }
-
         .columna2 {
             grid-area: columna2;
             background-color: $rosa;
@@ -178,7 +152,6 @@
             border-bottom-left-radius: 0px;
             border-top-left-radius: 0px;
         }
-
         .columna1 {
             grid-area: columna1;
             background-color: $rosa;
@@ -186,39 +159,31 @@
             border-bottom-right-radius: 0px;
             border-top-right-radius: 0px;
         }
-
         .vacio4 {
             grid-area: vacio4;
             background-color: $amarilloOscuro;
         }
-
         .centro {
             grid-area: centro;
             background-color: $rosa;
         }
-
         .vacio5 {
             grid-area: vacio5;
         }
-
         .travesano1 {
             grid-area: travesaño1;
             background-color: $amarilloClaro;
         }
-
         .vacio6 {
             grid-area: vacio6;
         }
-
         .travesano {
             grid-area: travesaño;
             background-color: $amarilloClaro;
         }
-
         .vacio7 {
             grid-area: vacio7;
         }
-
         .columna3 {
             grid-area: columna3;
             background-color: $amarilloClaro;
@@ -229,13 +194,11 @@
     }
 }
 
-
 @media screen and (max-width: 500px) {
     .grilla1 {
         grid-template-rows: 1fr 1.5fr;
         .section1 {
             width: 94.5%;
-
             .barra {
                 width: 0;
                 height: 0;
@@ -243,7 +206,6 @@
                 top: 0;
                 left: 0;
             }
-
             .barra2 {
                 width: 0;
                 height: 0;
@@ -251,64 +213,52 @@
                 top: 0;
                 left: 0;
             }
-
             .cajaCRosa {
                 display: inline-flex;
                 top: 5%;
                 left: 38px;
             }
-
             .cajaSeccion1 {
                 width: 100%;
                 margin-bottom: 0px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-
-
                 .imagenP {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    margin-top: 100px;
                     margin-left: 0px;
-
                     .borde {
                         @include bordeVerde;
                         width: 270px;
                         height: 270px;
                         border-width: 2px;
                     }
-
                     img {
                         width: 256px;
                         margin-left: 3%;
                     }
                 }
-                
                 div {
                     width: 90%;
                     margin-left: 10px;
-
                     .corchete {
                         width: fit-content;
                         font-size: 85px;
                         margin-right: -5px;
                         margin-bottom: 0px;
                     }
-
                     p {
                         width: 100%;
                         line-height: 25px;
                         letter-spacing: 1.5px;
                         font-size: 16px;
-                        margin-bottom: 0px;
                         text-align: start;
                     }
                 }
             }
         }
-
         .section2 {
             width:92%;
             max-height: fit-content;
@@ -323,18 +273,15 @@
             margin-top: 20px;
             margin-bottom: -100px;
             margin-left: 4%;
-
             .caja2C {
                 width: fit-content;
                 top: 57%;
                 left: 45%;
                 z-index: 2;
             }
-
             .contenido {
                 width: 90%;
                 height: 60%;
-
                 .cajaArticle {
                     width: 96%;
                     border-radius: 18px;
@@ -342,10 +289,8 @@
                     padding-bottom: 25px;
                     padding-left: 50px;
                     padding-right: 50px;
-                    position: relative;
                     top: 90px;
                     left: 10px;
-
                     h1 {
                         @include estiloTitulos;
                         letter-spacing: 2px;
@@ -354,43 +299,33 @@
                         padding-left: 20px;
                         font-size: 25px;
                     }
-
                     p {
                         font-size: 20px;
-
                     }
-
                     .padd {
                         padding-right: 0px;
                         padding-top: 15px;
                         font-size: 21px;
                     }
                 }
-
                 .video {
                     width: 95%;
-                    position: relative;
                     top: 210px;
                     left: 30px;
-
                     video {
                         border-radius: 18px;
                     }
                 }
             }
-
             .vacio2 {
                 background-color: $amarilloClaro;
                 border-top-right-radius: 18px;
                 border-top-left-radius: 18px;
             }
-
             .centro {
                 border-bottom-left-radius: 18px;
                 border-bottom-right-radius: 18px;
             }
         }
     }
-
-
 }

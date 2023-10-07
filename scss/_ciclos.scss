@@ -21,8 +21,7 @@
 }
 .cajaCitaCiclos {
     width: 460px;
-    position: relative;
-    z-index: 2;
+    @include z;
     left: 25%;
     top: -200px;
     p {
@@ -238,8 +237,7 @@
             width: 96%;
             padding-left: 50px;
             padding-right: 50px;
-            position: relative;
-            z-index: 2;
+            @include z;
             top: -470px;
             h2 {
                 @include estiloTitulos;
@@ -316,8 +314,7 @@
         .ubCF3 {
             width: fit-content;
             display: inline-flex;
-            position: relative;
-            z-index: 2;
+            @include z;
             top: -1220px;
             left: 0;
         }

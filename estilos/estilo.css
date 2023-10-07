@@ -139,7 +139,7 @@ p {
     text-align: start;
     position: relative;
     top: 25px;
-    left: 16px;
+    left: 12px;
     margin-top: 0;
     margin-bottom: -20px;
   }
@@ -151,9 +151,9 @@ p {
     background-color: rgba(254, 210, 219, 0.9);
     border-color: rgb(87, 77, 79);
     position: relative;
+    z-index: 2;
     right: -80%;
-    bottom: 35px;
-    z-index: 3;
+    bottom: 13px;
   }
   .cajaHeader .nave .bordeMenu:focus, .cajaHeader .nave .bordeMenu:active, .cajaHeader .nave .bordeMenu-icon:focus {
     outline: none;
@@ -172,14 +172,6 @@ p {
     width: 100%;
     background-color: rgb(229, 129, 190);
     border-radius: 0;
-  }
-}
-@media screen and (max-width: 410px) {
-  .cajaHeader .titHeader {
-    left: 10px;
-  }
-  .cajaHeader .nave .bordeMenu {
-    bottom: 13px;
   }
 }
 .cajaFooter {
@@ -218,26 +210,30 @@ p {
   flex-direction: row;
   justify-content: flex-end;
   align-items: flex-end;
-  margin-left: -35px;
+  padding-top: 40px;
+  padding-right: 8%;
 }
 .cajaFooter .cajaLog div {
   margin-right: 15px;
-  margin-bottom: 46px;
+  margin-bottom: 42px;
 }
 .cajaFooter .cajaLog div a {
   font-size: 18px;
 }
 .cajaFooter .cajaLog div img {
   width: 85px;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 500px) {
+  .cajaFooter {
+    display: block;
+  }
   .cajaFooter .cajaIg {
     width: fit-content;
     align-items: center;
     position: relative;
-    top: 18px;
+    top: 25px;
     left: -5px;
   }
   .cajaFooter .cajaIg div img {
@@ -259,35 +255,35 @@ p {
     align-items: flex-start;
     width: fit-content;
     position: relative;
-    top: 38px;
-    left: -235px;
+    top: -25px;
+    left: 15px;
   }
-  .cajaFooter .cajaLog {
+  .cajaFooter .ubLog {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    bottom: 120px;
+    right: 27px;
+  }
+  .cajaFooter .ubLog .cajaLog {
     width: fit-content;
     height: 50px;
     flex-direction: column-reverse;
     margin-left: 0px;
-    position: relative;
-    bottom: 60px;
-    right: -75%;
+    padding-top: 0px;
+    padding-right: 0;
   }
-  .cajaFooter .cajaLog div a {
+  .cajaFooter .ubLog .cajaLog div {
+    margin-bottom: 0px;
+  }
+  .cajaFooter .ubLog .cajaLog div a {
     font-size: 14px;
     margin-right: -25px;
   }
-  .cajaFooter .cajaLog div img {
+  .cajaFooter .ubLog .cajaLog div img {
     width: 55px;
     margin-bottom: 17px;
-  }
-}
-@media screen and (max-width: 410px) {
-  .cajaFooter .cajaLugar {
-    top: -35px;
-    left: 15px;
-  }
-  .cajaFooter .cajaLog {
-    bottom: 40px;
-    right: -60px;
   }
 }
 .grilla1 {
@@ -553,7 +549,6 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
     margin-left: 0px;
   }
   .grilla1 .section1 .cajaSeccion1 .imagenP .borde {
@@ -587,7 +582,6 @@ p {
     line-height: 25px;
     letter-spacing: 1.5px;
     font-size: 16px;
-    margin-bottom: 0px;
     text-align: start;
   }
   .grilla1 .section2 {
@@ -617,7 +611,6 @@ p {
     padding-bottom: 25px;
     padding-left: 50px;
     padding-right: 50px;
-    position: relative;
     top: 90px;
     left: 10px;
   }
@@ -645,7 +638,6 @@ p {
   }
   .grilla1 .section2 .contenido .video {
     width: 95%;
-    position: relative;
     top: 210px;
     left: 30px;
   }
@@ -964,12 +956,10 @@ p {
   }
   .cuerpo .cajaCitaQ .corchete {
     width: fit-content;
-    font-size: 90px;
     margin-right: 0px;
   }
   .cuerpo .cajaCitaQ p {
     font-size: 16px;
-    margin-bottom: -5px;
     margin-left: 50px;
     text-align: end;
   }
@@ -992,7 +982,6 @@ p {
     padding-top: 30px;
     padding-left: 50px;
     padding-right: 50px;
-    padding-bottom: 40px;
     width: 96%;
     top: -150px;
     margin-left: 2%;
@@ -1004,15 +993,12 @@ p {
   }
   .cuerpo .cajaManifiesto h2 {
     font-size: 24px;
-    padding-top: 15px;
   }
   .cuerpo .cajaManifiesto p {
     font-size: 20px;
   }
   .cuerpo .cajaVig {
-    position: relative;
     top: -10px;
-    width: fit-content;
     height: auto;
   }
   .cuerpo .cajaVig video {
@@ -1032,7 +1018,6 @@ p {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    position: relative;
     z-index: 2;
     top: -150px;
   }
@@ -1061,26 +1046,21 @@ p {
     width: 96%;
     padding-left: 45px;
     padding-right: 50px;
-    margin-top: -50px;
   }
   .cuerpo .cajaLectoras .lectoras h2 {
     font-size: 24px;
-    padding-top: 15px;
   }
   .cuerpo .cajaLectoras .lectoras p {
     font-size: 20px;
-    text-align: end;
   }
   .cuerpo .cajaAmigxs {
     width: 90%;
     height: fit-content;
-    position: relative;
     top: -350px;
     left: 5%;
   }
   .cuerpo .cajaAmigxs .ubCF {
     width: fit-content;
-    position: absolute;
     top: 12%;
     left: 33%;
   }
@@ -1151,8 +1131,7 @@ p {
     height: 50px;
     border-radius: 16px;
     padding-top: 5px;
-    position: absolute;
-    top: 4650px;
+    top: 4530px;
     left: 9%;
     margin-top: 50px;
     margin-bottom: 120px;
@@ -1908,8 +1887,8 @@ p {
   margin-top: 110px;
   margin-bottom: 90px;
   position: relative;
-  left: 60%;
   z-index: 2;
+  left: 60%;
 }
 .imagenC .borde {
   background-color: transparent;
