@@ -30,7 +30,7 @@
     width: 43%;
     height: 70%;
     margin-left: 5.5%;
-    margin-right: 10%;
+    margin-right: 8%;
     margin-bottom: 8%;
     @include z;
     h1 {
@@ -42,9 +42,9 @@
     }
 }
 .cajaFlyerTaller {
-    width: 30%;
+    width: 550px;
     @include z;
-    top: 40px;
+    top: 50px;
 }
 .barraHorizontal6 {
     @include barraH;

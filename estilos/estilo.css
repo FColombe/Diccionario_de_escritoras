@@ -1007,7 +1007,7 @@ p {
   }
   .cuerpo .ubCA0 {
     width: fit-content;
-    top: 1790px;
+    top: 1760px;
     left: 30%;
   }
   .cuerpo .cajaLectoras {
@@ -1688,7 +1688,7 @@ p {
   width: 43%;
   height: 70%;
   margin-left: 5.5%;
-  margin-right: 10%;
+  margin-right: 8%;
   margin-bottom: 8%;
   position: relative;
   z-index: 2;
@@ -1708,10 +1708,10 @@ p {
 }
 
 .cajaFlyerTaller {
-  width: 30%;
+  width: 550px;
   position: relative;
   z-index: 2;
-  top: 40px;
+  top: 50px;
 }
 
 .barraHorizontal6 {
