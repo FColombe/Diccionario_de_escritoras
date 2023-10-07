@@ -1895,7 +1895,7 @@ p {
   width: 130px;
   height: 1000px;
   position: absolute;
-  top: 43%;
+  top: 36%;
   left: 30px;
 }
 
@@ -1951,7 +1951,7 @@ p {
   position: relative;
   z-index: 2;
   top: -85px;
-  left: 200px;
+  left: -120px;
 }
 .cajaCitaC p {
   font-family: "Give You Glory", cursive;
@@ -2007,8 +2007,14 @@ p {
 .estiloForm .anchoCentrar {
   width: 200px;
 }
+.estiloForm .anchoCentrar .form-control:active, .estiloForm .anchoCentrar .form-control:focus {
+  border-color: rgb(87, 77, 79);
+}
 .estiloForm .tamano {
   font-size: 17px;
+}
+.estiloForm .form-control:active, .estiloForm .form-control:focus {
+  border-color: rgb(87, 77, 79);
 }
 .estiloForm textarea {
   width: 500px;
@@ -2046,14 +2052,18 @@ p {
     position: relative;
     top: 6%;
   }
-  .cuerpoCo .imagenC {
+  .cuerpoCo .cajaIm {
+    display: flex;
+    justify-content: center;
+  }
+  .cuerpoCo .cajaIm .imagenC {
     width: fit-content;
     margin-top: 0;
     margin-bottom: 0;
     top: -120px;
-    left: 20%;
+    left: 0;
   }
-  .cuerpoCo .imagenC .borde {
+  .cuerpoCo .cajaIm .imagenC .borde {
     background-color: transparent;
     width: 460px;
     height: 460px;
@@ -2065,11 +2075,11 @@ p {
     height: 270px;
     border-width: 2px;
   }
-  .cuerpoCo .imagenC img {
+  .cuerpoCo .cajaIm .imagenC img {
     width: 256px;
   }
   .cuerpoCo .cajaTe {
-    width: 350px;
+    width: 315px;
     font-size: 26px;
     padding-left: 80px;
     top: 120px;
@@ -2077,17 +2087,18 @@ p {
   .cuerpoCo .cajaCitaC {
     width: fit-content;
     top: -80px;
-    left: -20px;
+    left: -30px;
   }
   .cuerpoCo .cajaCitaC p {
     text-align: end;
     font-size: 16px;
-    width: 300px;
+    width: 290px;
   }
   .cuerpoCo .cajaCitaC .corchete {
+    width: fit-content;
     font-size: 70px;
     margin-bottom: 65px;
-    margin-right: -20px;
+    margin-right: -50px;
   }
   .cuerpoCo .ubCAC {
     width: fit-content;
@@ -2096,66 +2107,29 @@ p {
   }
   .cuerpoCo .estiloForm {
     font-size: 20px;
+    width: 85%;
     height: 750px;
     margin-top: 0px;
     top: -330px;
-    left: 5%;
+    left: 8%;
   }
   .cuerpoCo .estiloForm .ubInput {
-    padding-left: 40px;
+    padding: 0px;
+    padding-left: 18%;
   }
   .cuerpoCo .estiloForm .ubInput .form-label {
     margin-top: 30px;
   }
-  .cuerpoCo .estiloForm .ubInput .form-control {
-    width: 300px;
-  }
-  .cuerpoCo .estiloForm .ubInput .form-control:active, .cuerpoCo .estiloForm .ubInput .form-control:focus {
-    border-color: rgb(87, 77, 79);
-  }
   .cuerpoCo .estiloForm .ubInput .tamano {
     font-size: 14px;
-    width: 250px;
+    width: 233px;
     margin-bottom: -50px;
-  }
-  .cuerpoCo .estiloForm .ubInput textarea {
-    width: 300px;
   }
   .ubCFC {
     width: fit-content;
     top: -90px;
     left: 35%;
     margin-bottom: 0px;
-  }
-}
-@media screen and (max-width: 410px) {
-  .cuerpoCo .imagenC {
-    left: 10%;
-  }
-  .cuerpoCo .cajaTe {
-    width: 300px;
-    padding-left: 60px;
-  }
-  .cuerpoCo .cajaCitaC {
-    left: -10px;
-  }
-  .cuerpoCo .cajaCitaC p {
-    width: 240px;
-  }
-  .cuerpoCo .cajaCitaC .corchete {
-    margin-right: -20px;
-  }
-  .cuerpoCo .ubCAC {
-    left: 48%;
-  }
-  .cuerpoCo .estiloForm .ubInput .form-control {
-    width: 220px;
-  }
-  .cuerpoCo .estiloForm .ubInput .tamano {
-    width: 200px;
-  }
-  .ubCFC {
-    left: 25%;
   }
 }
 

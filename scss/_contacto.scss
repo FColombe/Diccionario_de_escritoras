@@ -3,7 +3,7 @@
     width: 130px;
     height: 1000px;
     position: absolute;
-    top: 43%;
+    top: 36%;
     left: 30px;
 }
 .imagenC {
@@ -41,7 +41,7 @@
     position: relative;
     z-index: 2;
     top: -85px;
-    left: 200px;
+    left: -120px;
     p {
         @include estiloCita;
         text-align: start;
@@ -76,11 +76,25 @@
     position: relative;
     top: -310px;
     left: 5%;
-    .anchoCentrar{
+    .anchoCentrar {
         width: 200px;
+
+        .form-control {
+
+            &:active,
+            &:focus {
+                border-color: $colorTexto;
+            }
+        }
     }
     .tamano {
         font-size: 17px;
+    }
+    .form-control {
+        &:active,
+        &:focus {
+            border-color: $colorTexto;
+        }
     }
     textarea {
         width: 500px;
@@ -90,7 +104,6 @@
         @include boton;
         width: 100px;
         height: 40px;
-
         &:hover {
             background-color: $rosa;
             font-weight: bold;
@@ -114,24 +127,28 @@
             position: relative;
             top: 6%;
         }
-        .imagenC {
-            width: fit-content;
-            margin-top: 0;
-            margin-bottom: 0;
-            top: -120px;
-            left: 20%;
-            .borde {
-                @include bordeVerde;
-                width: 270px;
-                height: 270px;
-                border-width: 2px;
-            }
-            img {
-                width: 256px;
+        .cajaIm {
+            display: flex;
+            justify-content: center;
+            .imagenC {
+                width: fit-content;
+                margin-top: 0;
+                margin-bottom: 0;
+                top: -120px;
+                left: 0;
+                .borde {
+                    @include bordeVerde;
+                    width: 270px;
+                    height: 270px;
+                    border-width: 2px;
+                }
+                img {
+                    width: 256px;
+                }
             }
         }
         .cajaTe {
-            width: 350px;
+            width: 315px;
             font-size: 26px;
             padding-left: 80px;
             top: 120px;
@@ -139,16 +156,17 @@
         .cajaCitaC {
             width: fit-content;
             top: -80px;
-            left: -20px;
+            left: -30px;
             p {
                 text-align: end;
                 font-size: 16px;
-                width: 300px;
+                width: 290px;
             }
             .corchete {
+                width: fit-content;
                 font-size: 70px;
                 margin-bottom: 65px;
-                margin-right: -20px;
+                margin-right: -50px;
             }
         }
         .ubCAC {
@@ -158,29 +176,21 @@
         }
         .estiloForm {
             font-size: 20px;
+            width: 85%;
             height: 750px;
             margin-top: 0px;
             top: -330px;
-            left: 5%;
+            left: 8%;
             .ubInput {
-                padding-left: 40px;
+                padding: 0px;
+                padding-left: 18%;
                 .form-label {
                     margin-top: 30px;
                 }
-                .form-control {
-                    width: 300px;
-                    &:active,
-                    &:focus {
-                        border-color: $colorTexto;
-                    }
-                }
                 .tamano {
                     font-size: 14px;
-                    width: 250px;
+                    width: 233px;
                     margin-bottom: -50px;
-                }
-                textarea {
-                    width: 300px;
                 }
             }
         }
@@ -190,42 +200,5 @@
         top: -90px;
         left: 35%;
         margin-bottom: 0px;
-    }
-}
-
-@media screen and (max-width: 410px) {
-    .cuerpoCo {
-        .imagenC {
-            left: 10%;
-        }
-        .cajaTe {
-            width: 300px;
-            padding-left: 60px;
-        }
-        .cajaCitaC {
-            left: -10px;
-            p {
-                width: 240px;
-            }
-            .corchete {
-                margin-right: -20px;
-            }
-        }
-        .ubCAC {
-            left: 48%;
-        }
-        .estiloForm {
-            .ubInput {
-                .form-control {
-                    width: 220px;
-                }
-                .tamano {
-                    width: 200px;
-                }
-            }
-        }
-    }
-    .ubCFC {
-        left: 25%;
     }
 }
