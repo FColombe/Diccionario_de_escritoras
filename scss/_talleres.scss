@@ -2,16 +2,19 @@
     @include barraH;
     top: 75px;
 }
+
 .ubCA2 {
     position: absolute;
     top: 340px;
     left: 13%;
 }
+
 .cajaCitaT {
     width: 600px;
     position: absolute;
     top: 45%;
     left: 50%;
+
     p {
         @include estiloCita;
         font-size: 18px;
@@ -20,11 +23,13 @@
         padding-bottom: 0px;
         margin-bottom: 0px;
     }
+
     .corchete {
         @include corchete;
         font-size: 95px;
     }
 }
+
 .cajaTaller {
     @include cajaTextoFucsia;
     width: 43%;
@@ -33,37 +38,45 @@
     margin-right: 8%;
     margin-bottom: 8%;
     @include z;
+
     h1 {
         @include estiloTitulos;
         font-size: 28px;
     }
+
     p {
         font-size: 25px;
     }
 }
+
 .cajaFlyerTaller {
     width: 550px;
     @include z;
     top: 50px;
 }
+
 .barraHorizontal6 {
     @include barraH;
     top: -230px;
     margin-bottom: -120px;
 }
+
 .cajaModalidad {
     width: fit-content;
     @include z;
     left: 60%;
     top: -300px;
+
     p {
         font-size: 25px;
     }
+
     a {
         text-shadow: 1px 1px 2px $colorTexto;
         font-size: 25px;
     }
 }
+
 .botonT {
     @include estiloParrafo;
     @include boton;
@@ -73,6 +86,7 @@
     justify-content: center;
     @include z;
     top: -180px;
+
     a {
         background-color: $rosaClaro;
         border-radius: 10px;
@@ -81,11 +95,13 @@
         padding-right: 8px;
         margin-top: 8px;
         margin-bottom: 8px;
+
         &:hover {
             font-weight: bold;
         }
     }
 }
+
 .ubCF4 {
     position: absolute;
     top: 1290px;
@@ -97,21 +113,25 @@
         @include barraH;
         top: 50px;
     }
+
     .ubCA2 {
         width: fit-content;
         position: relative;
         top: -250px;
         left: 13%;
     }
+
     .cajaCitaT {
         position: relative;
         top: -200px;
         left: 0px;
         width: 90%;
+
         p {
             font-size: 16px;
             width: 100%;
         }
+
         .corchete {
             font-size: 70px;
             margin-left: 0px;
@@ -119,6 +139,7 @@
             width: fit-content;
         }
     }
+
     .cajaTaller {
         width: 96%;
         padding-left: 50px;
@@ -128,20 +149,24 @@
         margin-right: 0;
         margin-bottom: 80px;
         margin-top: -100px;
+
         h1 {
             @include estiloTitulos;
             font-size: 24px;
             margin-bottom: -5px;
         }
+
         p {
             font-size: 20px;
         }
     }
+
     .cajaFlyerTaller {
         width: 96%;
         margin-left: 2%;
         top: 0px;
     }
+
     .cajaModalidad {
         width: 75%;
         z-index: 0;
@@ -150,23 +175,28 @@
         margin-top: 0;
         margin-left: 0;
         margin-bottom: 0;
+
         p {
             font-size: 20px;
         }
+
         a {
             font-size: 20px;
         }
     }
+
     .botonT {
         width: 200px;
         height: 50px;
         position: relative;
         left: 0px;
         top: -50px;
+
         a {
             border-radius: 14px;
         }
     }
+
     .ubCF4 {
         width: fit-content;
         position: relative;

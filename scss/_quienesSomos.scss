@@ -1,15 +1,18 @@
 .cuerpo {
     height: 370vh;
+
     .cajaCitaQ {
         width: 520px;
         @include z;
         left: 58%;
         top: 160px;
+
         .corchete {
             @include corchete;
             font-size: 90px;
             margin-right: 15px;
         }
+
         p {
             @include estiloCita;
             font-size: 18px;
@@ -17,16 +20,19 @@
             margin-bottom: -5px;
         }
     }
+
     .barraHorizontal1 {
         @include barraH;
         top: -20px;
     }
+
     .ubCA {
         position: absolute;
         top: 350px;
         left: 15%;
         animation: bounce2 2s ease infinite;
     }
+
     .cajaManifiesto {
         @include cajaTextoRosa;
         padding-bottom: 40px;
@@ -35,69 +41,83 @@
         top: -150px;
         margin-left: 6%;
         margin-right: 5%;
+
         h1 {
             @include estiloTitulos;
             font-size: 28px;
             padding-bottom: 0px;
         }
+
         h2 {
             @include estiloTitulos;
             font-size: 28px;
             padding-top: 15px;
         }
+
         p {
             font-size: 24px;
             text-align: justify;
         }
     }
+
     .cajaVig {
         @include z;
         width: fit-content;
         top: -70px;
+
         video {
             width: 550px;
             border-radius: 20px;
         }
     }
+
     .ubCA0 {
         position: absolute;
         z-index: 2;
         top: 1690px;
         left: 60%;
     }
+
     .barraHorizontal2 {
         @include barraH;
         top: -250px;
     }
+
     .cajaLectoras {
         @include flexRowCenter;
         position: relative;
-        top: -320px;
+        top: -280px;
+
         .imgL {
             width: 33%;
             margin-bottom: 40px;
             margin-right: 70px;
             transform: rotate(-6deg);
         }
+
         .lectoras {
             @include cajaTextoFucsia;
             margin-top: -50px;
+
             h2 {
                 @include estiloTitulos;
                 font-size: 28px;
                 padding-top: 15px;
                 text-align: end;
             }
+
             p {
                 font-size: 24px;
                 text-align: end;
             }
         }
     }
+
     .barraHorizontal3 {
         @include barraH;
         top: -250px;
     }
+
     .cajaAmigxs {
         background-color: transparent;
         border-radius: 20px;
@@ -106,6 +126,7 @@
         position: relative;
         top: -500px;
         left: 10%;
+
         .ubCF {
             width: 40%;
             position: absolute;
@@ -113,18 +134,21 @@
             left: 48%;
             animation: bounce2 2s ease infinite;
         }
+
         h2 {
             @include estiloTitulos;
             font-size: 28px;
             padding-top: 60px;
             padding-left: 80px;
         }
+
         .cajaPuerta {
             @include cajaTextoRosa;
             width: 49%;
             margin-left: -35px;
             margin-top: 60px;
             margin-bottom: 70px;
+
             .amigxs {
                 @include estiloTitulos;
                 font-size: 25px;
@@ -132,17 +156,20 @@
                 text-shadow: 0.5px 0.5px 1px $colorTexto;
                 font-weight: normal;
             }
+
             p {
                 font-size: 22px;
                 text-align: justify;
             }
         }
+
         .cajaBruma {
             @include cajaTextoRosaClaro;
             width: 40%;
             position: absolute;
             left: 54%;
             top: 238px;
+
             .amigxs {
                 @include estiloTitulos;
                 font-size: 25px;
@@ -150,6 +177,7 @@
                 text-shadow: 0.5px 0.5px 1px $colorTexto;
                 font-weight: normal;
             }
+
             p {
                 font-size: 22px;
                 text-align: justify;
@@ -157,6 +185,7 @@
         }
     }
 }
+
 .aside {
     background-color: $fucsia;
     border-radius: 0;
@@ -167,6 +196,7 @@
     position: absolute;
     top: 3250px;
     left: 50%;
+
     .estiloAside {
         width: 80%;
         background-color: $rosa;
@@ -186,19 +216,23 @@
         animation-duration: 3s;
         animation-name: aparecer;
         animation-iteration-count: infinite;
+
         &:hover {
             font-weight: bold;
         }
     }
 }
+
 @keyframes aparecer {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
+
 .ubCA {
     position: absolute;
     top: 3110px;
@@ -208,26 +242,31 @@
 @media screen and (max-width: 500px) {
     .cuerpo {
         height: fit-content;
+
         .cajaCitaQ {
             width: fit-content;
             left: -10px;
             top: 150px;
+
             .corchete {
                 width: fit-content;
                 margin-right: 0px;
             }
+
             p {
                 font-size: 16px;
                 margin-left: 50px;
                 text-align: end;
             }
         }
+
         .ubCA {
             width: fit-content;
             @include z;
             top: -370px;
             left: 45px;
         }
+
         .cajaManifiesto {
             @include cajaTextoRosa;
             padding-top: 30px;
@@ -237,30 +276,38 @@
             top: -150px;
             margin-left: 2%;
             margin-right: 0%;
+
             h1 {
                 font-size: 25px;
                 margin-left: -25px;
             }
+
             h2 {
                 font-size: 24px;
             }
+
             p {
                 font-size: 20px;
             }
         }
+
         .cajaVig {
-            top: -10px;
+            top: -40px;
             height: auto;
+
             video {
                 width: 90%;
                 margin-left: 5%;
             }
         }
+
         .ubCA0 {
             width: fit-content;
-            top: 1760px;
+            position: relative;
+            top: 30px;
             left: 30%;
         }
+
         .cajaLectoras {
             @include flexColCenter;
             flex-direction: column-reverse;
@@ -268,6 +315,7 @@
             align-items: center;
             z-index: 2;
             top: -150px;
+
             .imgL {
                 width: 85%;
                 margin-bottom: 0px;
@@ -275,41 +323,49 @@
                 transform: rotate(0deg);
                 position: relative;
                 left: 0px;
+
                 img {
                     width: 90%;
                     margin-left: 5%;
                     transform: rotate(-2deg);
                 }
             }
+
             .lectoras {
                 @include cajaTextoFucsia;
                 width: 96%;
                 padding-left: 45px;
                 padding-right: 50px;
+
                 h2 {
                     font-size: 24px;
                 }
+
                 p {
                     font-size: 20px;
                 }
             }
         }
+
         .cajaAmigxs {
             width: 90%;
             height: fit-content;
             top: -350px;
             left: 5%;
+
             .ubCF {
                 width: fit-content;
                 top: 12%;
                 left: 33%;
             }
+
             h2 {
                 font-size: 24px;
                 padding-top: 50px;
                 padding-left: 20px;
                 padding-bottom: 60px;
             }
+
             .cajaPuerta {
                 @include cajaTextoRosa;
                 padding-top: 30px;
@@ -321,15 +377,18 @@
                 margin-left: -0px;
                 margin-top: 30px;
                 margin-bottom: 30px;
+
                 .amigxs {
                     font-size: 23px;
                     padding-top: 10px;
                 }
+
                 p {
                     font-size: 20px;
                     text-align: start;
                 }
             }
+
             .cajaBruma {
                 @include cajaTextoRosaClaro;
                 padding-top: 30px;
@@ -342,11 +401,13 @@
                 left: 0%;
                 top: 0px;
                 margin-bottom: 20px;
+
                 .amigxs {
                     font-size: 23px;
                     padding-top: 10px;
                     text-align: end;
                 }
+
                 p {
                     font-size: 20px;
                     text-align: end;
@@ -354,26 +415,34 @@
             }
         }
     }
-    .aside {
-        width: 280px;
-        height: 50px;
-        border-radius: 16px;
-        padding-top: 5px;
-        top: 4530px;
-        left: 9%;
-        margin-top: 50px;
-        margin-bottom: 120px;
-        .estiloAside {
-            width: 220px;
-            height: 40px;
-            border-radius: 14px;
-            font-size: 25px;
-            line-height: 40px;
-            letter-spacing: 2.4px;
-            margin-top: 0px;
-            margin-left: 27px;
+
+    .ubAside {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -200px;
+        padding-right: 30px;
+
+        .aside {
+            width: 280px;
+            height: 50px;
+            border-radius: 16px;
+            padding-top: 5px;
+            position: static;
+            margin-bottom: 120px;
+
+            .estiloAside {
+                width: 220px;
+                height: 40px;
+                border-radius: 14px;
+                font-size: 25px;
+                line-height: 40px;
+                letter-spacing: 2.4px;
+                margin-top: 0px;
+                margin-left: 27px;
+            }
         }
     }
+
     .ubCA {
         width: fit-content;
         @include z;

@@ -764,7 +764,7 @@ p {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: -320px;
+  top: -280px;
 }
 .cuerpo .cajaLectoras .imgL {
   width: 33%;
@@ -998,7 +998,7 @@ p {
     font-size: 20px;
   }
   .cuerpo .cajaVig {
-    top: -10px;
+    top: -40px;
     height: auto;
   }
   .cuerpo .cajaVig video {
@@ -1007,7 +1007,8 @@ p {
   }
   .cuerpo .ubCA0 {
     width: fit-content;
-    top: 1760px;
+    position: relative;
+    top: 30px;
     left: 30%;
   }
   .cuerpo .cajaLectoras {
@@ -1126,17 +1127,21 @@ p {
     font-size: 20px;
     text-align: end;
   }
-  .aside {
+  .ubAside {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -200px;
+    padding-right: 30px;
+  }
+  .ubAside .aside {
     width: 280px;
     height: 50px;
     border-radius: 16px;
     padding-top: 5px;
-    top: 4530px;
-    left: 9%;
-    margin-top: 50px;
+    position: static;
     margin-bottom: 120px;
   }
-  .aside .estiloAside {
+  .ubAside .aside .estiloAside {
     width: 220px;
     height: 40px;
     border-radius: 14px;

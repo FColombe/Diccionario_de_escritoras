@@ -3,18 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: rgb(247, 240, 170);
     max-height: 100vh;
     max-width: 100%;
 }
+
 a {
     text-decoration: none;
     color: $colorTexto;
 }
+
 li {
     list-style-type: none;
 }
+
 p {
     @include estiloParrafo;
 }
@@ -23,16 +27,19 @@ p {
     background-color: $amarilloOscuro;
     @include dimensionC;
 }
+
 .circuloFucsia {
     background-color: $fucsia;
     @include dimensionC;
 }
+
 .circuloRosa {
     background-color: $rosaClaro;
     @include dimensionC;
 }
 
 @keyframes bounce2 {
+
     0%,
     20%,
     50%,
@@ -40,9 +47,11 @@ p {
     100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-30px);
     }
+
     60% {
         transform: translateY(-15px);
     }
@@ -54,11 +63,13 @@ p {
         width: 35px;
         height: 35px;
     }
+
     .circuloFucsia {
         @include dimensionC;
         width: 35px;
         height: 35px;
     }
+
     .circuloRosa {
         @include dimensionC;
         width: 35px;
